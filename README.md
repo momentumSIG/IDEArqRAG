@@ -1,5 +1,9 @@
-# RAG-IDEArq — Sistema de Evaluación v3
+# RAG-IDEArq — Sistema de Evaluación 
 
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![LLMs](https://img.shields.io/badge/LLMs-3%20models-purple)](ontologies_generated/README.md)
+---
 Retrieval-Augmented Generation sobre documentación arqueológica de IDEArq
 (http://www.idearqueologia.org). Evalúa modelos pequeños (Phi-3.5-mini,
 Qwen3-4B, Llama-3.2-3B) con embeddings pequeños (MiniLM-L6-v2,
