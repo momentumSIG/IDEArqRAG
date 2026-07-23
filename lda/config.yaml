@@ -1,0 +1,54 @@
+paths:
+  ingesta: /home/raglinux/RAG_graph/ingesta
+  lda_root: /home/raglinux/RAG_graph/lda
+  data: /home/raglinux/RAG_graph/lda/data
+  models: /home/raglinux/RAG_graph/lda/models
+  outputs: /home/raglinux/RAG_graph/lda/outputs
+  logs: /home/raglinux/RAG_graph/lda/logs
+
+ram:
+  cap_gb: 16
+  warning_gb: 14
+
+parsing:
+  tool: pymupdf4llm
+  min_text_length: 500
+
+languages:
+  supported: [en, es, fr, pt, ca]
+  spaCy_models:
+    en: en_core_web_sm
+    es: es_core_news_sm
+    fr: fr_core_news_sm
+    pt: pt_core_news_sm
+    ca: ca_core_news_sm
+
+lda:
+  topic_range: [5, 10, 15, 20, 25, 30]
+  passes: 20
+  iterations: 200
+  chunksize: 2000
+  random_state: 42
+  dictionary:
+    no_below: 10
+    no_above: 0.4
+    keep_n: 50000
+  evaluation:
+    coherence: c_v
+
+export:
+  csv_fields:
+    - filename
+    - author
+    - title
+    - doi
+    - language
+    - topic_dominant
+    - topic_dominant_weight
+    - topic_distribution
+  top_n_papers_per_topic: 15
+
+alignment:
+  translator: deep_translator
+  target_lang: en
+  similarity_threshold: 0.65

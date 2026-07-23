@@ -1,0 +1,59 @@
+prefixes:
+  bibo: http://purl.org/ontology/bibo/
+  dc: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
+  skos: http://www.w3.org/2004/02/skos/core#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  idearq: http://idearq.org/resource/
+sources:
+  docs:
+    access: /home/raglinux/RAG/data/biblio-graph/_derived/docs.csv
+    referenceForm: csv
+  authors:
+    access: /home/raglinux/RAG/data/biblio-graph/_derived/authors.csv
+    referenceForm: csv
+  journals:
+    access: /home/raglinux/RAG/data/biblio-graph/_derived/journals.csv
+    referenceForm: csv
+  subjects:
+    access: /home/raglinux/RAG/data/biblio-graph/_derived/subjects.csv
+    referenceForm: csv
+mappings:
+  documents:
+    sources: docs
+    s: http://idearq.org/resource/$(uri_base)/$(doc_id)
+    po:
+      - [a, $(rdf_type)~iri]
+      - [dc:title, $(title)]
+      - [dc:issued, $(year_str), xsd:gYear]
+      - [bibo:doi, $(doi_clean)]
+      - [bibo:issn, $(issn_clean)]
+      - [bibo:abstract, $(abstract)]
+      - [bibo:uri, $(url_publicacion)]
+      - [dc:identifier, $(doc_id)]
+      - [dc:isPartOf, $(journal_iri)~iri]
+      - [dc:subject, $(subject_iri)~iri]
+  article_authors:
+    sources: authors
+    s: $(article_uri)
+    po:
+      - [dc:creator, http://idearq.org/resource/author/$(author_slug)~iri]
+  persons:
+    sources: authors
+    s: http://idearq.org/resource/author/$(author_slug)
+    po:
+      - [a, foaf:Person]
+      - [foaf:name, $(author_name)]
+  journals:
+    sources: journals
+    s: http://idearq.org/resource/journal/$(issn)
+    po:
+      - [a, bibo:Journal]
+      - [dc:title, $(fuente)]
+      - [bibo:issn, $(issn)]
+  subjects:
+    sources: subjects
+    s: http://idearq.org/resource/subject/$(sjr_slug)
+    po:
+      - [a, skos:Concept]
+      - [skos:prefLabel, $(sjr_materia)]

@@ -1,0 +1,3986 @@
+[
+  {
+    "id": "BTv4_00",
+    "topic_id": 0,
+    "name": "BERTopic_v4_0",
+    "keywords": [
+      "de",
+      "la",
+      "en",
+      "el",
+      "del",
+      "los",
+      "of",
+      "the",
+      "ted",
+      "se"
+    ],
+    "num_papers": 44,
+    "papers": [
+      {
+        "filename": "1020_RedilesyPastores_2017.pdf",
+        "title": "Homenaje Lydia Zapata PR5.pdf",
+        "author": "lgzsaalj",
+        "doi": "10.1016/S0305-4403(02)00031-6",
+        "language": "en",
+        "weight": 0.8780948755325635
+      },
+      {
+        "filename": "1034_CampaniformeNortePortugal_2018.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/329809762",
+        "author": "https://www.researchgate.net/publication/329809762",
+        "doi": "10.21747/09714290/port39a2",
+        "language": "en",
+        "weight": 0.9315479174951599
+      },
+      {
+        "filename": "1053_Mirandoalamuerte_2018.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/321359898",
+        "author": "https://www.researchgate.net/publication/321359898",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9536008203250387
+      },
+      {
+        "filename": "1055_Fases ocupacion Morredon_2018.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/326829663",
+        "author": "https://www.researchgate.net/publication/326829663",
+        "doi": "10.2458/azu_js_rc.55.16947",
+        "language": "en",
+        "weight": 0.9142454938168302
+      },
+      {
+        "filename": "1057_complutum_pradosetal_2018.pdf",
+        "title": "Metalurgia fenicia en el sureste ibérico: el taller del Cabezo Pequeño del Estaño (Guardamar, Alicante)",
+        "author": "Fernando Prados Martínez",
+        "doi": "10.5209/CMPL.62396",
+        "language": "es",
+        "weight": 0.7847529393104482
+      },
+      {
+        "filename": "1109_Mederos-JimenezAvila2020-cronologa-Cancho-Roano-CPAUAM-Anejo4_2020.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/347297357",
+        "author": "https://www.researchgate.net/publication/347297357",
+        "doi": "10.15366/ane4.ochoa2020.007",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1116_Novos trabalhos_2020.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/346085481",
+        "author": "https://www.researchgate.net/publication/346085481",
+        "doi": "10.21747/978-989-8970-25-1/arqa60",
+        "language": "en",
+        "weight": 0.6728091452998598
+      },
+      {
+        "filename": "1135_Poblado_2021.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/357155729",
+        "author": "https://www.researchgate.net/publication/357155729",
+        "doi": "10.30827/cpag.v31i0.18024",
+        "language": "es",
+        "weight": 0.901690370676747
+      },
+      {
+        "filename": "1139_Panoplia_2021.pdf",
+        "title": "La panoplia de finales de la IIª Edad del Hierro de la sima de La Cerrosa-Lagaña (Suarías, Peñamellera Baja, Asturias). ¿Un conjunto asociado a las Guerras Cántabras?",
+        "author": "Susana de Luis Mariño",
+        "doi": "10.5209/cmpl.76452",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1168_The mesolithic of atlantic coastal spain_2022.pdf",
+        "title": "The Mesolithic of Atlantic Coastal Spain",
+        "author": "Geoffrey A. CLARK",
+        "doi": "10.5852/cr-palevol2022v21a3",
+        "language": "fr",
+        "weight": 0.6014659147112196
+      },
+      {
+        "filename": "1174_Aproximaciones bayesianas_2023.pdf",
+        "title": "Aproximación bayesiana a las dinámicas secuenciales de los campos de hoyos. El caso de Camí de Missena (La Pobla del Duc, València) = Sequential Dynamics Linked with Negative Structures through a Bayesian Approximation. The Case of Camí de Missena (La Pobla del Duc, València)",
+        "author": "María Pilar Escribá Ruiz",
+        "doi": "10.14201/zephyrus2023913756",
+        "language": "en",
+        "weight": 0.8603865061701707
+      },
+      {
+        "filename": "1179_La_Balma_del_Barranc_de_La_Fontanella_Vilafranca_C_2023.pdf",
+        "title": "La Balma del Barranc de la Fontanella (Vilafranca, Castelló) y sus implicaciones en el conocimiento del Mesolítico Geométrico del Mediterráneo ibérico y el Valle del Ebro",
+        "author": "Dídac Román",
+        "doi": "10.5209/cmpl.88937",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1180_Aguilella_et_al2023CovachaBarrancoFrailes.pdf",
+        "title": "La Covacha del barranco de los Frailes (Mosqueruela, Teruel): una pequeña cavidad sepulcral de la Edad del Bronce",
+        "author": "Aguilella",
+        "doi": "10.1344/Pyrenae2023.vol54num2.1",
+        "language": "ca",
+        "weight": 1.0
+      },
+      {
+        "filename": "435_2000.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/367392209",
+        "author": "https://www.researchgate.net/publication/367392209",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.8802629112757797
+      },
+      {
+        "filename": "439_2000.pdf",
+        "title": "Presentación de PowerPoint",
+        "author": "ANGEL",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.8187508306241141
+      },
+      {
+        "filename": "443_2000.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/367395820",
+        "author": "https://www.researchgate.net/publication/367395820",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.6132767231489152
+      },
+      {
+        "filename": "456_2000.pdf",
+        "title": "Presentación de PowerPoint",
+        "author": "ANGEL",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9431853790060539
+      },
+      {
+        "filename": "473_2001.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/373294921",
+        "author": "https://www.researchgate.net/publication/373294921",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.6837054374804004
+      },
+      {
+        "filename": "476_2001.pdf",
+        "title": "00-primeras",
+        "author": "Q3",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "483_2001_error.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/270338105",
+        "author": "https://www.researchgate.net/publication/270338105",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "575_JuanCabanillesetal_2005.pdf",
+        "title": "untitled",
+        "author": "https://www.researchgate.net/publication/279058176",
+        "doi": "10.13140/RG.2.1.2578.9600",
+        "language": "es",
+        "weight": 0.8649844581991045
+      },
+      {
+        "filename": "600_2005.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/291024488",
+        "author": "https://www.researchgate.net/publication/291024488",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.682277086925771
+      },
+      {
+        "filename": "611_2005.pdf",
+        "title": "**See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/28148518**",
+        "author": "https://www.researchgate.net/publication/28148518**",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "671_2008.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/236175985",
+        "author": "https://www.researchgate.net/publication/236175985",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.841395062931777
+      },
+      {
+        "filename": "686_2009.pdf",
+        "title": "Libro 1.indb",
+        "author": "https://www.researchgate.net/publication/257934661",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.8913699385988774
+      },
+      {
+        "filename": "692_2009.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/262882224",
+        "author": "https://www.researchgate.net/publication/262882224",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.8763008660649395
+      },
+      {
+        "filename": "698_2009.pdf",
+        "title": "untitled",
+        "author": "https://www.researchgate.net/publication/267097226",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.8173772421856618
+      },
+      {
+        "filename": "744_2010_Llorente2010-TheharesfromCovaFosca-.pdf",
+        "title": "ARCHAEOFAUNA",
+        "author": "https://www.researchgate.net/publication/258831682",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.8478453084568687
+      },
+      {
+        "filename": "772_2011.pdf",
+        "title": "ISBN: 84-922344-4-X Depósito Legal: M-19367/2011",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9112521364928512
+      },
+      {
+        "filename": "788_2012.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/285680733",
+        "author": "https://www.researchgate.net/publication/285680733",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "797_2012.pdf",
+        "title": "La Loma",
+        "author": "EDICION1",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9143117459045617
+      },
+      {
+        "filename": "820_2013.pdf",
+        "title": "Diapositiva 1",
+        "author": "Propietario",
+        "doi": "10.30861/9781407311845",
+        "language": "en",
+        "weight": 0.9820820874029187
+      },
+      {
+        "filename": "833_2013.pdf",
+        "title": "Microsoft Word - TEXTO FINAL DEF pruebas 2.doc",
+        "author": "Marmot",
+        "doi": "10.30861/9781407311180",
+        "language": "en",
+        "weight": 0.7282341620265881
+      },
+      {
+        "filename": "868_2014.pdf",
+        "title": "Cova dels Diablets (Alcalà de Xivert, Castelló): Prehistòria a la Serra d'Irta",
+        "author": "G. Aguilella, D. Roman, P. García Borja (editors)",
+        "doi": "10.1155/2006/61607",
+        "language": "ca",
+        "weight": 1.0
+      },
+      {
+        "filename": "888_2015.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/293877558",
+        "author": "https://www.researchgate.net/publication/293877558",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9057127961241264
+      },
+      {
+        "filename": "909_Lopez-Doriga_2015.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/290436869",
+        "author": "https://www.researchgate.net/publication/290436869",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.7612080491401081
+      },
+      {
+        "filename": "913_Aguileraetal_2015.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/293464861",
+        "author": "https://www.researchgate.net/publication/293464861",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.8484441819865084
+      },
+      {
+        "filename": "914_GonalveseSousa-CasasNovas_2015.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/288653310",
+        "author": "https://www.researchgate.net/publication/288653310",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.6982169510299977
+      },
+      {
+        "filename": "921_CelisSanchezMuozVillarejo-2015-Veinteaosdeinvestigaciones.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/283082360",
+        "author": "https://www.researchgate.net/publication/283082360",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9567821985736009
+      },
+      {
+        "filename": "923_Zooarqueologia_Almeida_N._Saladie_P._Oosterbeek_L._2015.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/329145142",
+        "author": "https://www.researchgate.net/publication/329145142",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.6088429572012868
+      },
+      {
+        "filename": "934_AbrigoEsplugon_2016.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/304012677",
+        "author": "https://www.researchgate.net/publication/304012677",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.7057320088804215
+      },
+      {
+        "filename": "947_Baylissetal2016Montelirio.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/312198527",
+        "author": "https://www.researchgate.net/publication/312198527",
+        "doi": "10.1371/journal.pone.0087436",
+        "language": "es",
+        "weight": 0.65558685934418
+      },
+      {
+        "filename": "968_Liesau2016UISPPivories_2016.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/299455859",
+        "author": "Elisa Guerra Doce and Corina Liesau von Lettow-Vorbeck (editors)",
+        "doi": "10.1016/j.quaint.2013.01",
+        "language": "en",
+        "weight": 0.9501840859590432
+      },
+      {
+        "filename": "981_LpezCastroMartnezMoyayPardoCortijoRiquelmeAlicante_2017.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/316095301",
+        "author": "https://www.researchgate.net/publication/316095301",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "id": "BTv4_01",
+    "topic_id": 1,
+    "name": "BERTopic_v4_1",
+    "keywords": [
+      "de",
+      "the",
+      "la",
+      "of",
+      "en",
+      "el",
+      "del",
+      "and",
+      "in",
+      "que"
+    ],
+    "num_papers": 449,
+    "papers": [
+      {
+        "filename": "1000_oms_2017.pdf",
+        "title": "First Evidence of Collective Human Inhumation from the Cardial Neolithic (Cova Bonica, Barcelona, NE Iberian Peninsula)",
+        "author": "F. Xavier Oms",
+        "doi": "10.1080/00934690.2016.1260407",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1001_HierrosAntiguos_2017.pdf",
+        "title": "01_ok.qxd",
+        "author": NaN,
+        "doi": "10.15366/cupauam2017.43.003",
+        "language": "es",
+        "weight": 0.9563037376250191
+      },
+      {
+        "filename": "1002_gibaja2016.pdf",
+        "title": "12520_2015_311_Article 1..11",
+        "author": NaN,
+        "doi": "10.1007/s12520-015-0311-y",
+        "language": "en",
+        "weight": 0.9125397610195902
+      },
+      {
+        "filename": "1003_La_cronologia_radiocarbonica_de_las_primeras_manif_2017.pdf",
+        "title": "La cronología radiocarbónica de las primeras manifestaciones megalíticas en el sureste de la Península Ibérica: las necrópolis de Las Churuletas, La Atalaya y Llano del Jautón (Purchena, Almería); The radiocarbon chronology of the oldest megalithic monuments in southeastern Iberia: the necropolises of Las Churuletas, La Atalaya and Llano del Jautón (Purchena, Almería)",
+        "author": "Gonzalo Aranda Jiménez, Águeda Lozano Medina, María Dolores Camalich Massieu, Dimas Martín Socas, Francisco Javier Rodríguez Santos, Aioze Trujillo Mederos, Jonathan Santana Cabrera, Angelique Nonza-Micaelli, Xavier Clop García",
+        "doi": "10.3989/tp.2017.12194",
+        "language": "es",
+        "weight": 0.8613012195302635
+      },
+      {
+        "filename": "1004_AsMamelasIberCrono_2017.pdf",
+        "title": "La cronología en As Mamelas (Sanxenxo, Pontevedra) como ejemplo de yacimiento al aire libre de la Prehistoria Reciente gallega",
+        "author": "Igor Bogdanovic",
+        "doi": "10.3989/tp.2005.v62.i2.74",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1007_Peñon_IberCrono_2017.pdf",
+        "title": "# **La secuencia crono-cultural del yacimiento de Peñón de la Zorra (Villena, Alicante)**",
+        "author": "Gabriel",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9210549455667265
+      },
+      {
+        "filename": "1008_TafonomiaMarcoMetodologico_2017.pdf",
+        "title": "La tafonomía como marco metodológico para interpretar depósitos funerarios superficiales: estudio de la cueva sepulcral de El Espinoso (Ribadedeva, Asturias); Taphonomy as a methodological framework for understanding surface funerary deposits: the human burial at the cave of El Espinoso (Ribadedeva, Asturias)",
+        "author": "Borja González-Rabanal, Manuel Ramón González-Morales, Ana B. Marín-Arroyo",
+        "doi": "10.3989/tp.2017.12195",
+        "language": "es",
+        "weight": 0.9290572112151699
+      },
+      {
+        "filename": "1009_KOBIE_Paleoantropologia_2017.pdf",
+        "title": "LOS ENTERRAMIENTOS EN CISTA EN EL PIRINEO OCCIDENTAL: ARQUITECTURA, CRONOLOGÍA, RITUAL Y CARACTERIZACIÓN DE LOS INHUMADOS EN LA SIERRA DE ARALAR (GIPUZKOA) 57",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1010_IberCrono_2017.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/321826096",
+        "author": "Igor Bogdanovic",
+        "doi": "10.3989/tp.2014.12128",
+        "language": "es",
+        "weight": 0.9035239461928953
+      },
+      {
+        "filename": "1011_Neolothic ditched_2017.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/322147317",
+        "author": "Bóris",
+        "doi": "10.1002/oa.2502",
+        "language": "en",
+        "weight": 0.8801137958405411
+      },
+      {
+        "filename": "1013_Objetos de oro_2017.pdf",
+        "title": "Objetos de oro y epicampaniforme en la Cova del Gegant. Relaciones en la costa mediterránea de la Península Ibérica durante la Edad del Bronce ; Gold artifacts and Late Bell Beaker from Cova del Gegant: Interaction along the Mediterranean coastline of the Iberian Peninsula during Bronze Age",
+        "author": "Joan Daura",
+        "doi": "10.3989/tp.2017.12188",
+        "language": "es",
+        "weight": 0.9469364598362828
+      },
+      {
+        "filename": "1015_Dataciones_2017.pdf",
+        "title": "Primeras determinaciones radiocarbónicas de la necrópolis de Setefilla (Lora del Río) y el inicio del periodo orientalizante en Andalucía occidental; First radiocarbon determinations from the Setefilla necropolis (Lora del Río) and the beginning of the Orientalizing period in western Andalusia",
+        "author": "Dirk Brandherm, Michał Krueger",
+        "doi": "10.3989/tp.2017.12196",
+        "language": "es",
+        "weight": 0.8917408459832274
+      },
+      {
+        "filename": "1016_Cova_Guineu_2017.pdf",
+        "title": "Coberta_tribuna_arqueologia",
+        "author": NaN,
+        "doi": NaN,
+        "language": "ca",
+        "weight": 0.968356028224579
+      },
+      {
+        "filename": "1017_Ceramica_campaniforme_2017.pdf",
+        "title": "**==> picture [86 x 74] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.8489890989785271
+      },
+      {
+        "filename": "1018_Practicas_funerarias_IberCrono_2017.pdf",
+        "title": "# **Prácticas funerarias y cronometría entre 3.500-1.500 Cal ANE en el noreste de la Península Ibérica**",
+        "author": "Xavier Clop García",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9368928597293378
+      },
+      {
+        "filename": "1019_Reconstructing_2017.pdf",
+        "title": "Type your Frontispiece or Quote Page here (if any)",
+        "author": "Courtney",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9278413501964581
+      },
+      {
+        "filename": "1021_Resilience_2017.pdf",
+        "title": "Resilience, replacement and acculturation in the Mesolithic/Neolithic transition: The case of Muge, central Portugal",
+        "author": "Nuno Bicho",
+        "doi": "10.1016/j.quaint.2016.09.049",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1022_Monteroetal4AiE_2017.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/322721651",
+        "author": "https://www.researchgate.net/publication/322721651",
+        "doi": NaN,
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1023_Socio_ecology_2017.pdf",
+        "title": "Socio-ecology of Early and Middle Bronze Age communities in the northwest Atlantic region of Iberia: Wood resources procurement and forest management",
+        "author": "María Martín-Seijo",
+        "doi": "10.1016/j.quaint.2015.08.026",
+        "language": "en",
+        "weight": 0.9645081013781841
+      },
+      {
+        "filename": "1024_IberCrono_2017.pdf",
+        "title": "## **The absolute chronology of Argaric halberds**",
+        "author": "Rodriguez Muñoz, Maria Luisa",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9411813540664432
+      },
+      {
+        "filename": "1025_The_Beginning_of_High_Mountain_Occupations_in_the_2017.pdf",
+        "title": "419297_1_En_4_Chapter 75..105",
+        "author": NaN,
+        "doi": "10.1007/978-3-319-55982-7_4",
+        "language": "en",
+        "weight": 0.9054071164639533
+      },
+      {
+        "filename": "1026_Material genetic_2017.pdf",
+        "title": "The maternal genetic make-up of the Iberian Peninsula between the Neolithic and the Early Bronze Age",
+        "author": "Anna Szamp#x000E9;csamp#x000E9;nyi-Nagy",
+        "doi": "10.1038/s41598-017-15480-9",
+        "language": "es",
+        "weight": 0.9297540493846855
+      },
+      {
+        "filename": "1027_Panoria_2017.pdf",
+        "title": "The megalithic necropolis of Panoria, Granada, Spain: Geoarchaeological characterization and provenance studies",
+        "author": NaN,
+        "doi": "10.1002/gea.21643",
+        "language": "en",
+        "weight": 0.9288039861062661
+      },
+      {
+        "filename": "1028_IberCrono_2017.pdf",
+        "title": "# **Towards the periodization of the uses of Can Sadurní Cave (Begues, Catalonia) during the Middle Neolithic I. The contribution of Bayesian modelling to radiocarbon dating sequences**",
+        "author": "Igor Bogdanovic",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9060368527225731
+      },
+      {
+        "filename": "1029_Enterramiento_colectivo_2017.pdf",
+        "title": "Un enterramiento colectivo en cueva del III milenio AC en el centro de la Península Ibérica: el Rebollosillo (Torrelaguna, Madrid) ; A mid-third millennium BC collective burial cave in central Iberia: El Rebollosillo",
+        "author": "Pedro Díaz-del-Río, Susana Consuegra, Julia Audije, Susana Zapata, Óscar Cambra, Armando González, Anna Waterman, Jonathan Thomas, David Peate, Carlos Odriozola, Rodrigo Villalobos, Primitiva Bueno, Robert H. Tykot",
+        "doi": "10.3989/tp.2017.12184",
+        "language": "es",
+        "weight": 0.9413379495473377
+      },
+      {
+        "filename": "1030_Fondos de cabaña_2017.pdf",
+        "title": "¿Fondos de cabaña o depósitos rituales? Sobre un tipo de contextos materiales del Bronce Final y comienzos de la Edad del Hierro en el sur de la Península Ibérica. El depósito de Cortijo Riquelme (Almería) = Pithouses or ritual dumps? On Late Bronze and Early Iron Age’s material context type in the South of the Iberian Peninsula. The dump of Cortijo Riquelme (Almería)",
+        "author": "José Luis LÓPEZ CASTRO",
+        "doi": "10.14201/zephyrus2017806991",
+        "language": "es",
+        "weight": 0.9548819771459818
+      },
+      {
+        "filename": "1031_Ceramicas pintadas_2018.pdf",
+        "title": "Cerâmicas pintadas de ‘tipo carambolo’ na Beira interior (centro de Portugal)",
+        "author": "Vilaça",
+        "doi": "10.12795/spal.2018i27.16",
+        "language": "es",
+        "weight": 0.9362452826923521
+      },
+      {
+        "filename": "1032_A Tecnologia Lítica do Fim do Tardiglaciar no Centro de Portugal_2018.pdf",
+        "title": "**==> picture [247 x 66] intentionally omitted <==**",
+        "author": NaN,
+        "doi": "10.2218/jls",
+        "language": "pt",
+        "weight": 0.869952624837283
+      },
+      {
+        "filename": "1033_Assembling_2018.pdf",
+        "title": "Assembling the Dead, Gathering the Living: Radiocarbon Dating and Bayesian Modelling for Copper Age Valencina de la Concepción (Seville, Spain)",
+        "author": "Leonardo García Sanjuán",
+        "doi": "10.1007/s10963-018-9114-2",
+        "language": "en",
+        "weight": 0.8299413595654684
+      },
+      {
+        "filename": "1035_Chronological reassessment of the middle to upper paleolithic_2018.pdf",
+        "title": "Chronological reassessment of the Middle to Upper Paleolithic transition and Early Upper Paleolithic cultures in Cantabrian Spain",
+        "author": "Ana B. Mar#_#x00ED;n-Arroyo, Joseba Rios-Garaizar, Lawrence G. Straus, Jennifer R. Jones, Marco de la Rasilla, Manuel R. Gonz#_#x00E1;lez Morales, Michael Richards, Jes#_#x00FA;s Altuna, Koro Mariezkurrena, David Ocio",
+        "doi": "10.1371/journal.pone.0194708",
+        "language": "en",
+        "weight": 0.9670526008600661
+      },
+      {
+        "filename": "1036_chronology_2018.pdf",
+        "title": "Chronology of the Neolithic Necropolis at Camí de Can Grau (NE-Iberian Peninsula). Funerary pattern changes and long-distance raw material exchanges",
+        "author": "Berta Morell",
+        "doi": "10.1016/j.crpv.2017.10.002",
+        "language": "ca",
+        "weight": 1.0
+      },
+      {
+        "filename": "1037_Hachas_2018.pdf",
+        "title": "RAP 28 digital.indb",
+        "author": NaN,
+        "doi": "10.21001/rap.2018.28.14",
+        "language": "es",
+        "weight": 0.9060600857930833
+      },
+      {
+        "filename": "1038_Damaged_Burials_or_Reliquiae_Cogotenses_On_the_Acc_2018.pdf",
+        "title": "Damaged Burials or Reliquiae Cogotenses? On the Accompanying Human Bones in Burial Pits Belonging to the Iberian Bronze Age",
+        "author": "Ángel Esparza-Arroyo",
+        "doi": "10.1007/s11759-018-9351-0",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1039_Egiptian mongoose_2018.pdf",
+        "title": "Did the Romans introduce the Egyptian mongoose (Herpestes ichneumon) into the Iberian Peninsula?",
+        "author": "Cleia Detry",
+        "doi": "10.1007/s00114-018-1586-5",
+        "language": "en",
+        "weight": 0.9137897135283771
+      },
+      {
+        "filename": "1040_El Castru_2018.pdf",
+        "title": "**MUNIBE** Antropologia-Arkeologia nº 69 211-237 DONOSTIA 2018 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2018.69.14",
+        "language": "es",
+        "weight": 0.9333802857025578
+      },
+      {
+        "filename": "1041_Conjunto circulos pirenaicos_2018.pdf",
+        "title": "**MUNIBE** Antropologia-Arkeologia nº 69 191-210 DONOSTIA 2018 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2018.69.18",
+        "language": "es",
+        "weight": 0.9400769944363199
+      },
+      {
+        "filename": "1042_Pico de la mora_2018.pdf",
+        "title": "El Pico de la Mora (Peñafiel, Valladolid). Un nuevo asentamiento amurallado del Calcolítico Inicial normeseteño ; El Pico de la Mora (Peñafiel, Valladolid). A new Early Copper Age walled settlement in the Spanish Northern Meseta",
+        "author": "Rodrigo Villalobos García",
+        "doi": "10.3989/tp.2018.12209",
+        "language": "es",
+        "weight": 0.9251685717123148
+      },
+      {
+        "filename": "1043_ambar_2018.pdf",
+        "title": "El ámbar de la Cueva de los Cuarenta (Priego de Córdoba, Córdoba) ; Amber from Cueva de los Cuarenta (Priego de Córdoba, Southern Iberia)",
+        "author": "Mercedes Murillo-Barroso",
+        "doi": "10.3989/tp.2018.12219",
+        "language": "es",
+        "weight": 0.9336673160024788
+      },
+      {
+        "filename": "1044_Menéndez Blanco et al_2018_Escavación d'una estructura de combustión del cambeo d'Era n'Almoñu (Ayande)_2018.pdf",
+        "title": "**==> picture [596 x 378] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1046_Inhumaciones_2018.pdf",
+        "title": "## **INHUMACIONES EN URNA CERÁMICA DE LA EDAD DEL BRONCE EN LA CUENCA MEDIA Y ALTA DEL TAJO: UNA PERSPECTIVA COMPARATIVA**",
+        "author": NaN,
+        "doi": "10.12795/spal.2018i27.01",
+        "language": "es",
+        "weight": 0.8821031536700262
+      },
+      {
+        "filename": "1047_excavaciones_ arqueológicas_2018.pdf",
+        "title": "**==> picture [596 x 378] intentionally omitted <==**",
+        "author": NaN,
+        "doi": "10.1126/science",
+        "language": "es",
+        "weight": 0.984859030485412
+      },
+      {
+        "filename": "1048_Isotopic_evidence_mobility_large_scale_DIAZZORITA_Marta_2018.pdf",
+        "title": "untitled",
+        "author": NaN,
+        "doi": "10.15184/aqy.2018.33",
+        "language": "en",
+        "weight": 0.9298975862170985
+      },
+      {
+        "filename": "1049_La_cosecha_de_El_Garcel_Antas_Almeria_estructuras_2018.pdf",
+        "title": "La cosecha de El Garcel (Antas, Almería): estructuras de almacenamiento en el sureste de la península ibérica ; The harvest of El Garcel: storage pits in the Southeast of Spain",
+        "author": "María de la Paz Román Díaz",
+        "doi": "10.3989/tp.2018.12204",
+        "language": "es",
+        "weight": 0.9481747367328319
+      },
+      {
+        "filename": "1051_La cueva de El Cierro (Frusnu, Ribadesella). Campañas de excavación e investigación_2018.pdf",
+        "title": "excavaciones_ arqueológicas_2013_2016.pdf",
+        "author": "gestiondocumental",
+        "doi": "10.1007/s12520016-0353-9",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1054_Landscapes_2018.pdf",
+        "title": "Landscapes, climate change ampamp; forager mobility in the Upper Paleolithic of northern Spain",
+        "author": "G.A. Clark",
+        "doi": "10.1016/j.quaint.2018.04.037",
+        "language": "en",
+        "weight": 0.9600143791147437
+      },
+      {
+        "filename": "1056_Inicios Neolitico_2018.pdf",
+        "title": "**MUNIBE** Antropologia-Arkeologia",
+        "author": NaN,
+        "doi": "10.21630/maa.2018.69.08",
+        "language": "es",
+        "weight": 0.9460772083450554
+      },
+      {
+        "filename": "1058_Nuevos datos cronologicos cueva sepulcral neolotica_2018.pdf",
+        "title": "**MUNIBE** Antropologia-Arkeologia nº 69 145-155 DONOSTIA 2018 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2018.69.01",
+        "language": "es",
+        "weight": 0.8814151916110969
+      },
+      {
+        "filename": "1059_Archaeometry - Higham - Radiocarbon Dates from the Oxford AMS System  Archaeometry Datelist 36_2018.pdf",
+        "title": "Radiocarbon Dates from the Oxford AMS System: Archaeometry Datelist 36",
+        "author": "T. F. G. Higham, C. Bronk Ramsey, D. Chivall, J. Graystone, D. Baker, E. Henderson, P. Ditchfield",
+        "doi": "10.1111/arcm.12372",
+        "language": "en",
+        "weight": 0.9795786171441355
+      },
+      {
+        "filename": "1060_Shipping amphorae_2018.pdf",
+        "title": "Shipping amphorae and shipping sheep? Livestock mobility in the north-east Iberian peninsula during the Iron Age based on strontium isotopic analyses of sheep and goat tooth enamel",
+        "author": "Silvia Valenzuela-Lamas, Hector A. Orengo, Delphine Bosch, Maura Pellegrini, Paul Halstead, Ariadna Nieto-Espinet, Angela Trentacoste, Sergio Jim#_#x00E9;nez-Manch#_#x00F3;n, Dani L#_#x00F3;pez-Reyes, Rafel Jornet-Niella",
+        "doi": "10.1371/journal.pone.0205283",
+        "language": "en",
+        "weight": 0.9171019322556961
+      },
+      {
+        "filename": "1061_Taphonomic_2018.pdf",
+        "title": "Taphonomic processes inconsistent with indigenous Mesolithic acculturation during the transition to the Neolithic in the Western Mediterranean",
+        "author": "Salvador Pardo-Gordó",
+        "doi": "10.1016/j.quaint.2018.05.008",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1062_The beaker phenomenon_2018.pdf",
+        "title": "The Beaker phenomenon and the genomic transformation of northwest Europe",
+        "author": "Iñigo Olalde",
+        "doi": "10.1038/nature25738",
+        "language": "en",
+        "weight": 0.9879041335169293
+      },
+      {
+        "filename": "1063_Tracing the chronology_2018.pdf",
+        "title": "Tracing the chronology of neolithic pit and stone box burials in North-eastern Iberia",
+        "author": "Berta Morell Rovira",
+        "doi": "10.1016/j.jasrep.2018.03.024",
+        "language": "en",
+        "weight": 0.9723895677806033
+      },
+      {
+        "filename": "1064_Dialnet-TexteisArqueologicosPrehistoricosDoTerritorioPortu_2018.pdf",
+        "title": "* Centro de Ciências e Tecnologias Nucleares (C2TN), Instituto Superior Técnico, Universidade de Lisboa, Campus Tecnológico e Nuclear, Estrada Nacional 10 (km 139, 7), 2695-066 Bobadela LRS, Portugal. amsoares@ctn.tecnico. ulisboa.pt pvalerio@ctn.tecnico. ulisboa.pt",
+        "author": NaN,
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.8726104306289432
+      },
+      {
+        "filename": "1065_Gassiot-Clemente-2018-Pirineus catalans.pdf",
+        "title": "Ermengol Gassiot Ballbè, Ignacio Clemente Conte Unes muntanyes amb gent, ramats i camps. Els Pirineus catalans al neolític Monografies del MAC 2, Barcelona 2018, ISBN: 978-84-393-9811-0 (PÀG. 63-75)",
+        "author": NaN,
+        "doi": "10.1016/j.jas.2010.01.007",
+        "language": "ca",
+        "weight": 0.8821270397086407
+      },
+      {
+        "filename": "1067_Animal mobility_2019.pdf",
+        "title": "Animal mobility in Chalcolithic Portugal_ Isotopic analyses of cattle from the sites of Zambujal and Leceia",
+        "author": "Elizabeth Wright",
+        "doi": "10.1016/j.jasrep.2019.02.005",
+        "language": "en",
+        "weight": 0.9206241663483035
+      },
+      {
+        "filename": "1068_Analisis estadistico dataciones_2019.pdf",
+        "title": "## **ANÁLISIS ESTADÍSTICO DE LAS DATACIONES RADIOCARBÓNICAS DE LA MOTILLA DEL AZUER (DAIMIEL, CIUDAD REAL)**",
+        "author": NaN,
+        "doi": "10.30827/CPAG.v29i0.9780",
+        "language": "es",
+        "weight": 0.9804131259651749
+      },
+      {
+        "filename": "1070_Deciphering Neolithic_2019.pdf",
+        "title": "Deciphering Neolithic activities from a Cardial burial site (Cova Bonica) on the western Mediterranean coast",
+        "author": "Joan Daura",
+        "doi": "10.1016/j.jasrep.2018.10.036",
+        "language": "ca",
+        "weight": 1.0
+      },
+      {
+        "filename": "1071_Dobles exequias_2019.pdf",
+        "title": "01_ok.qxd",
+        "author": NaN,
+        "doi": "10.15366/cupauam2019.45.002",
+        "language": "es",
+        "weight": 0.944926656848401
+      },
+      {
+        "filename": "1072_El_Cerro_Bilanero_primeros_resultados_de_las_excav_2019.pdf",
+        "title": "_Aportaciones a la investigación, gestión..._ 2019, pp. 47-85",
+        "author": NaN,
+        "doi": "10.30823/recm.02019117",
+        "language": "es",
+        "weight": 0.9701758618091085
+      },
+      {
+        "filename": "1073_mesolitico en Cantabria_2019.pdf",
+        "title": "## **El Mesolítico en Cantabria centro-oriental**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.5355899758096954
+      },
+      {
+        "filename": "1077_Cerro Bilanero_2019.pdf",
+        "title": "**==> picture [99 x 842] intentionally omitted <==**",
+        "author": "ALFONSO MONSALVE ROMERA",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1079_Edoetal_neocardial_2019.pdf",
+        "title": "La cueva de Can Sadurní (Begues, Barcelona): El episodio funerario del neolítico antiguo cardial pleno. Estado actual de la cuestión",
+        "author": "Manuel Edo, Ferran Antolín, Pablo Martinez, Maria Josefa Villalba, Josep Maria Fullola, Maria Mercè Bergadá, Maria Saña, Esther Verdun, Eva Fernandez Dominguez, Cristina Gamba, Eduardo Arroyo-Pardo, Mireia Ache, Juan Gibaja, Antoni Palomo, Xavier Clop, Claire Manen, Fabien Convertini",
+        "doi": "10.1038/sj.ejhg.5201156",
+        "language": "es",
+        "weight": 0.9481826786504123
+      },
+      {
+        "filename": "1088_Ana Catarina Sousa - Victor Gonçalves baja_2019.pdf",
+        "title": "## **¡Un brindis por el príncipe!**",
+        "author": NaN,
+        "doi": "10.1002/xrs.2764",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1089_Vista de Secuencia de ocupación y desarrollo constructivo del asentamiento de Caramoro I (Elche, Alicante)_ aportaciones a la arquitectura argárica _ Arqueología de la Arquitectura_2019.pdf",
+        "title": "Secuencia de ocupación y desarrollo constructivo del asentamiento de Caramoro I (Elche, Alicante): aportaciones a la arquitectura argárica ; Occupation sequence and building development in the settlement of Caramoro I (Elche, Alicante): contributions to Argaric architecture",
+        "author": "Francisco Javier Jover Maestre",
+        "doi": "10.3989/arq.arqt.2019.005",
+        "language": "es",
+        "weight": 0.8610492966616606
+      },
+      {
+        "filename": "1090_Case Asturias_2019.pdf",
+        "title": "Fernandez text copy.pdf",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.896736800342578
+      },
+      {
+        "filename": "1091_Vaso decoracion_2019.pdf",
+        "title": "Vaso con decoración cardial de Cova Eirós (Triacastela, Lugo) ; \tA cardial decorated vessel from Cova Eirós (Triacastela, Lugo)",
+        "author": "Ramón Fábregas Valcarce",
+        "doi": "10.3989/tp.2019.12231",
+        "language": "es",
+        "weight": 0.8871673383497264
+      },
+      {
+        "filename": "1092_Radiocarbon dating_2020.pdf",
+        "title": "A RADIOCARBON DATING APPROACH TO THE DEPOSITION AND REMOVAL OF HUMAN BONE REMAINS IN MEGALITHIC MONUMENTS",
+        "author": NaN,
+        "doi": "10.1017/RDC.2020.67",
+        "language": "en",
+        "weight": 0.9608376777618783
+      },
+      {
+        "filename": "1093_adressing_2020.pdf",
+        "title": "Addressing human mobility in Iberian Neolithic and Chalcolithic ditched enclosures_ The case of Perdigões (South Portugal)",
+        "author": "A.C. Valera",
+        "doi": "10.1016/j.jasrep.2020.102264",
+        "language": "en",
+        "weight": 0.9548788700585935
+      },
+      {
+        "filename": "1094_Pleistocene_2020.pdf",
+        "title": "Archaeology of the Pleistocene-Holocene transition in Portugal_ Synthesis and prospects",
+        "author": "Cristina Gameiro",
+        "doi": "10.1016/j.quaint.2020.03.018",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1095_Sobrarbe_2020.pdf",
+        "title": "**SOBRARBE** Revista del Centro de Estudios de Sobrarbe n.º 18, marzo 2020",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9591217250861275
+      },
+      {
+        "filename": "1096_Builders_2020.pdf",
+        "title": "Builders of Megaliths_ Society, monumentality and environment in 4th millennium cal BC Antequera",
+        "author": "Leonardo García Sanjuán",
+        "doi": "10.1016/j.jasrep.2020.102555",
+        "language": "es",
+        "weight": 0.9724066101157446
+      },
+      {
+        "filename": "1097_Cingle del mas nou_2020.pdf",
+        "title": "MONOGRAFIES DE PREHISTÒRIA I ARQUEOLOGIA CASTELLONENQUES 14",
+        "author": "MacPro",
+        "doi": "10.1371/journal.pone.0115505",
+        "language": "ca",
+        "weight": 0.9221713645109315
+      },
+      {
+        "filename": "1098_Destroyed by fire_2020.pdf",
+        "title": "Destroyed by fire, preserved through time: crops and wood from a Late Bronze Age/Early Iron Age structure at Vila do Touro (Sabugal, Portugal)",
+        "author": "João Pedro Tereso, Raquel Vilaça, Marcos Osório, Leonardo da Fonte, Luís Seabra",
+        "doi": "10.5209/cmpl.72484",
+        "language": "en",
+        "weight": 0.9589682124326196
+      },
+      {
+        "filename": "1099_Asentamiento neolitico_2020.pdf",
+        "title": "El asentamiento neolítico de Limoneros (Elche, Alicante)",
+        "author": "Gabriel García Atiénzar, Virginia Barciela González, Silvia Martínez Amorós, Francisco Javier Jover Maestre, Francisco Javier Molina Hernández",
+        "doi": "10.5209/cmpl.71648",
+        "language": "es",
+        "weight": 0.403280619233663
+      },
+      {
+        "filename": "1100_Cerro alarcos_2020.pdf",
+        "title": "El cerro de Alarcos (Ciudad Real): Formación y desarrollo de un oppidum ibérico",
+        "author": "Mª del Rosario García Huerta",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9642172524366767
+      },
+      {
+        "filename": "1101_poblado calcolitito Vilches_2020.pdf",
+        "title": "CPAG 31, 2021, 445-447. ISSN: 2174-8063",
+        "author": NaN,
+        "doi": "10.30827/CPAG.v31i0.21292",
+        "language": "es",
+        "weight": 0.8686993818355095
+      },
+      {
+        "filename": "1102_Cerro de los vientos_2020.pdf",
+        "title": "El recinto de fosos calcolítico del Cerro de los Vientos (Puente del Obispo, Jaén)",
+        "author": "Milesi García",
+        "doi": "10.12795/spal.2020.i29.15",
+        "language": "es",
+        "weight": 0.9927209905215718
+      },
+      {
+        "filename": "1103_Area 11_2020.pdf",
+        "title": "El Área 11 de Giribaile. Estructura arquitectónica y materiales de construcción de un almacén ibérico de los siglos IV-II a. C. ; The Area 11 of Giribaile. Architectural structure and building materials of an Iberian warehouse on IV-II BC",
+        "author": "Antonio Jesús Ortiz Villarejo",
+        "doi": "10.3989/aespa.093.020.004",
+        "language": "es",
+        "weight": 0.9007655470832221
+      },
+      {
+        "filename": "1104_Fauna e industria_2020.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/347520668",
+        "author": "https://www.researchgate.net/publication/347520668",
+        "doi": "10.15366/cupauam2020.46.002",
+        "language": "es",
+        "weight": 0.8061976310524412
+      },
+      {
+        "filename": "1105_Hacia una nueva definicion_2020.pdf",
+        "title": "Hacia una nueva definición del Neolítico Medio en el sur de la península ibérica: Grañena Baja, Jaén ; Towards a new definition of the Middle Neolithic in the southern Iberian peninsula: Grañena Baja, Jaén",
+        "author": "Elisabet Conlin Hayesa, Rafael M. Martínez Sánchez, Antonio Morgado",
+        "doi": "10.3989/tp.2020.12245",
+        "language": "es",
+        "weight": 0.9491742499624187
+      },
+      {
+        "filename": "1106_Estratagias agropecuarias_2020.pdf",
+        "title": "**==> picture [46 x 33] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9506870554144032
+      },
+      {
+        "filename": "1107_Construccion secular_2020.pdf",
+        "title": "ISSN: 0213-2338 | ISSN-e: 1989-9904 DOI: 10.14198/LVCENTVM2020.39.03",
+        "author": NaN,
+        "doi": "10.14198/LVCENTVM2020.39.03",
+        "language": "es",
+        "weight": 0.6481929942080749
+      },
+      {
+        "filename": "1108_Cronologia fundacional Malaka fenicia_2020.pdf",
+        "title": "La cronología fundacional de la Malaka Fenicia: Investigaciones en el solar del Rectorado de la Universidad de Málaga",
+        "author": "Suárez Padilla",
+        "doi": "10.12795/spal.2020.i29.02",
+        "language": "es",
+        "weight": 0.8724768084609829
+      },
+      {
+        "filename": "1110_la vida en la frontera argárica_2020.pdf",
+        "title": "SERVICIO DE INVESTIGACIÓN PREHISTÓRICA DEL MUSEO DE PREHISTORIA DE VALENCIA",
+        "author": NaN,
+        "doi": "10.3989/tp.2005.v62.i1.61",
+        "language": "es",
+        "weight": 0.917395092064096
+      },
+      {
+        "filename": "1112_Manipulacion de restos humanos en el Bronce medio_2020.pdf",
+        "title": "Manipulación de restos humanos en el Bronce Medio meseteño: el fragmento fronto-facial hallado en el yacimiento de La Huelga (Dueñas, Palencia)",
+        "author": "Ángel Esparza Arroyo",
+        "doi": "10.5209/cmpl.71649",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1113_mobility across the pre pyrenean_2020.pdf",
+        "title": "Mobility across the pre-Pyrenean mountain ranges during the Chalcolithic through strontium isotopes in human enamel_ La Cueva de los Cristales (Sarsa de Surta, Huesca, Spain)",
+        "author": "Vanessa Villalba-Mouco",
+        "doi": "10.1016/j.jasrep.2020.102343",
+        "language": "en",
+        "weight": 0.936455780443681
+      },
+      {
+        "filename": "1114_Multi isotope_2020.pdf",
+        "title": "Multi-isotope evidence for the emergence of cultural alterity in Late Neolithic Europe",
+        "author": NaN,
+        "doi": "10.1126/sciadv.aay2169",
+        "language": "en",
+        "weight": 0.988050446726056
+      },
+      {
+        "filename": "1115_New archaelogical_2020.pdf",
+        "title": "**MUNIBE** Antropologia-Arkeologia nº 71 41-57 DONOSTIA 2020 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2020.71.07",
+        "language": "en",
+        "weight": 0.9246671048219594
+      },
+      {
+        "filename": "1117_nueva serie de dataciones_2020.pdf",
+        "title": "Nueva serie de dataciones radiocarbónicas sobre hueso humano para el dolmen de Los Zumacales (Simancas, Valladolid). Reflexiones sobre la temporalidad del fenómeno megalítico en la Meseta Norte ; New series of radiocarbon data on human bone for Zumacales dolmen (Simancas, Valladolid). Thinking about the temporality of the megalithic phenomenon in the Spanish Northern Meseta",
+        "author": "Angélica Santa Cruz del Barrio",
+        "doi": "10.3989/tp.2020.12250",
+        "language": "es",
+        "weight": 0.8477954715633093
+      },
+      {
+        "filename": "1118_Nuevas dataciones_2020.pdf",
+        "title": "**MUNIBE** Antropologia-Arkeologia",
+        "author": NaN,
+        "doi": "10.21630/maa.2020.71.05",
+        "language": "es",
+        "weight": 0.9214100162154483
+      },
+      {
+        "filename": "1119_Prehistoric dogs_2020.pdf",
+        "title": "Origins and genetic legacy of prehistoric dogs",
+        "author": NaN,
+        "doi": "10.1126/science.aba9572",
+        "language": "en",
+        "weight": 0.9233439878411069
+      },
+      {
+        "filename": "1120_Prospecciones arqueologicas_2020.pdf",
+        "title": "# **ACTAS 14 y 15 NOVIEMBRE 2019**",
+        "author": NaN,
+        "doi": "10.1016/j.quaint.2019.07.025",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1122_The deposition_2021.pdf",
+        "title": "S1461957120000042jra 330..355",
+        "author": NaN,
+        "doi": "10.1017/eaa.2020.4",
+        "language": "en",
+        "weight": 0.5914615478951538
+      },
+      {
+        "filename": "1124_The human remains_2020.pdf",
+        "title": "The human remains from the Lumentxa cave (Lekeitio, Biscay, Northern Iberian Peninsula): Paleobiology, Taphonomy and Chronology",
+        "author": "Andrea García-Sagastibelza",
+        "doi": "10.1016/j.quaint.2020.06.043",
+        "language": "en",
+        "weight": 0.9645010131796904
+      },
+      {
+        "filename": "1125_life story_2020.pdf",
+        "title": "The life-history of a late Mesolithic woman in Iberia_ A sequential multi-isotope approach",
+        "author": "T. Fernández-Crespo",
+        "doi": "10.1016/j.quaint.2020.06.016",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1126_Radiocarbon_2020.pdf",
+        "title": "The radiocarbon chronology and temporality of the megalithic cemetery of Los Millares (Almería, Spain)",
+        "author": "Gonzalo Aranda Jiménez",
+        "doi": "10.1007/s12520-020-01057-7",
+        "language": "en",
+        "weight": 0.9108085985670982
+      },
+      {
+        "filename": "1127_Wooden technology_2020.pdf",
+        "title": "WOODEN TECHNOLOGY DURING THE IRON AGE: THE ASPIO CAVE (RUESGA, NORTH SPAIN)",
+        "author": "Rafael Bolado Castillo, Oriol López‐Bultó, Miriam Cubas",
+        "doi": "10.1111/ojoa.12183",
+        "language": "en",
+        "weight": 0.9721705316668219
+      },
+      {
+        "filename": "1128_AlmeidaValeraalta_2021.pdf",
+        "title": "**==> picture [434 x 93] intentionally omitted <==**",
+        "author": NaN,
+        "doi": "10.15366/archaeofauna2021.30",
+        "language": "es",
+        "weight": 0.8215656220682793
+      },
+      {
+        "filename": "1130_Aportaciones_2021.pdf",
+        "title": "TRABAJOS DE PREHISTORIA 78, N.º 2, julio-diciembre 2021, pp. 344-355, ISSN: 0082-5638 https://doi.org/10.3989/tp.2021.12280",
+        "author": NaN,
+        "doi": "10.3989/tp.2021.12280",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1131_Assessing_2021.pdf",
+        "title": "ASSESSING THE CHRONOSTRATIGRAPHY OF EL MIRO¨N CAVE, CANTABRIAN SPAIN",
+        "author": NaN,
+        "doi": "10.1017/RDC.2020.121",
+        "language": "en",
+        "weight": 0.9621164475198881
+      },
+      {
+        "filename": "1132_Caprine mobility_2021.pdf",
+        "title": "Caprine Mobility on the Balearic Islands During the Middle and Late Bronze Age (ca. 1600–850 BC): Fi",
+        "author": NaN,
+        "doi": "10.1080/14614103.2021.1921675",
+        "language": "en",
+        "weight": 0.9359335147550369
+      },
+      {
+        "filename": "1133_Casas de Don Pedro_2021.pdf",
+        "title": "SAGVNTVM (P.L.A.V.) 53, 2021: 239 - 244 ISSN: 0210-3729 ISSN _online_ : 2174-517X DOI: 10.7203/SAGVNTVM.53.20969",
+        "author": NaN,
+        "doi": "10.7203/SAGVNTVM.53.20969",
+        "language": "en",
+        "weight": 0.8906055669514332
+      },
+      {
+        "filename": "1134_Child burials_2021.pdf",
+        "title": "nº 72 123-140 DONOSTIA",
+        "author": NaN,
+        "doi": "10.21630/maa.2021.72.10",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1136_Revestimiento_2021.pdf",
+        "title": "**MUNIBE** Antropologia-Arkeologia",
+        "author": NaN,
+        "doi": "10.21630/maa.2021.72.02",
+        "language": "es",
+        "weight": 0.9283569209644883
+      },
+      {
+        "filename": "1137_Emblems_2021.pdf",
+        "title": "S0003598X21000089jra 329..348",
+        "author": "✉ robert.risch@uab.cat",
+        "doi": "10.15184/aqy.2021.8",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1138_Insight_2021.pdf",
+        "title": "Insight into the introduction of domestic cattle and the process of Neolithization to the Spanish region Galicia by genetic evidence",
+        "author": "Marie Gurke, Amalia Vidal-Gorosquieta, Johanna L. A. Pajimans, Karolina Wȩcek, Axel Barlow, Gloria González-Fortes, Stefanie Hartmann, Aurora Grandal-d’Anglade, Michael Hofreiter",
+        "doi": "10.1371/journal.pone.0249537",
+        "language": "en",
+        "weight": 0.8893068307314402
+      },
+      {
+        "filename": "1140_Multidisciplinary investigation_2021.pdf",
+        "title": "Multidisciplinary investigation reveals the earliest textiles and cinnabar-coloured cloth in Iberian Peninsula",
+        "author": "Margarita Gleba",
+        "doi": "10.1038/s41598-021-01349-5",
+        "language": "en",
+        "weight": 0.9270056216921365
+      },
+      {
+        "filename": "1141_Neolithic networking_2021.pdf",
+        "title": "Neolithic networking and mobility during the 5th and 4th millennia BC in north-eastern Iberia",
+        "author": "M. Díaz-Zorita Bonilla",
+        "doi": "10.1016/j.jas.2020.105272",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1142_Nuevas evidencias_2021.pdf",
+        "title": "RAP 31 Montero.indd",
+        "author": NaN,
+        "doi": "10.21001/rap.2021.31.2",
+        "language": "es",
+        "weight": 0.9626470375897592
+      },
+      {
+        "filename": "1143_Ritualidad_2021.pdf",
+        "title": "Ritualidad en el área de servicio de la cueva santuario del oppidum de Giribaile",
+        "author": "Alejo Armijo",
+        "doi": "10.12795/spal.2021.i30.18",
+        "language": "es",
+        "weight": 0.9406453823385373
+      },
+      {
+        "filename": "1144_Secuencias cronologicas_2021.pdf",
+        "title": "**MUNIBE** Antropologia-Arkeologia nº 72 97-110 DONOSTIA 2021 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2021.72.09",
+        "language": "es",
+        "weight": 0.8536030949417733
+      },
+      {
+        "filename": "1145_Simbolismo_2021.pdf",
+        "title": "**MUNIBE** Antropologia-Arkeologia nº 72 111-122 DONOSTIA 2021 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2021.72.13",
+        "language": "es",
+        "weight": 0.9542839239259109
+      },
+      {
+        "filename": "1146_Subsistence.pdf",
+        "title": "Subsistence shift and socio-economic response to cultural and climate changes among north-central Iberian megalithic groups",
+        "author": "T. Fernández-Crespo",
+        "doi": "10.1016/j.jas.2021.105451",
+        "language": "en",
+        "weight": 0.9629551667948354
+      },
+      {
+        "filename": "1147_Enclave singular_2021.pdf",
+        "title": "**MUNIBE** Antropologia-Arkeologia nº 72 57-69 DONOSTIA",
+        "author": NaN,
+        "doi": "10.21630/maa.2021.72.03",
+        "language": "es",
+        "weight": 0.8747087494387707
+      },
+      {
+        "filename": "1148_Fortificacion_2021.pdf",
+        "title": "¿La fortificación ibérica de Giribaile? Caracterización formal e interpretación arquitectónica de la muralla de cajones",
+        "author": "Gutiérrez Soler, Luis María",
+        "doi": "10.1344/Pyrenae2021.vol52num2.2",
+        "language": "es",
+        "weight": 0.9415613414599165
+      },
+      {
+        "filename": "1149_Aportaciones al uso del espacio_2022.pdf",
+        "title": "Gorgociles del Escabezado II (Jumilla, Murcia). Aportaciones al uso del espacio y a la arquitectura de la Edad del Bronce del sudeste de la península ibérica",
+        "author": "María Pastor Quiles",
+        "doi": "10.3989/arq.arqt.2022.001",
+        "language": "es",
+        "weight": 0.9292927842942146
+      },
+      {
+        "filename": "1150_At the begginings_2022.pdf",
+        "title": "At the beginnings of the funerary Megalithism in Iberia at Campo de Hockey necropolis",
+        "author": "Eduardo Vijande-Vila",
+        "doi": "10.1038/s41598-022-13014-6",
+        "language": "en",
+        "weight": 0.9483231236158678
+      },
+      {
+        "filename": "1151_Cerámica roja_2022.pdf",
+        "title": "cupauam 48|2| (2022) - Páginas 11-43 Recibido: 24-01-2022 - Aceptado: 14-09-2022",
+        "author": NaN,
+        "doi": "10.15366/cupauam2022.48.2.001",
+        "language": "es",
+        "weight": 0.939920246403283
+      },
+      {
+        "filename": "1153_Cueva de la dehesilla_2022.pdf",
+        "title": "Cueva de la Dehesilla: nuevos datos estratigráficos, materiales y radiocarbónicos (corte c006) y revisión de su secuencia neolítica",
+        "author": "García Rivero",
+        "doi": "10.12795/spal.2022.i31.03",
+        "language": "es",
+        "weight": 0.7952758678225784
+      },
+      {
+        "filename": "1154_Deposito ritual_2022.pdf",
+        "title": "El depósito ritual de la Edad del Hierro de la cueva del Aspio (Ruesga, Cantabria)",
+        "author": "Rafael Bolado del Castillo",
+        "doi": "10.5209/cmpl.84159",
+        "language": "es",
+        "weight": 0.40344177258952424
+      },
+      {
+        "filename": "1155_El estudio de las tradiciones tecnicas_2022.pdf",
+        "title": "nº 73 47-64 DONOSTIA 2022 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2022.73.09",
+        "language": "es",
+        "weight": 0.9342539267852183
+      },
+      {
+        "filename": "1156_Monumento fundacional_2022.pdf",
+        "title": "El monumento fundacional de la plataforma inferior de Giribaile (Jaén). Espacio ideológico de arquitectura social y representativa ; The foundational monument of the lower platform of Giribaile (Jaén). An ideological space of social and representative architecture",
+        "author": "María Alejo Armijo, Luis María Gutiérrez Soler, Fernando Prados Martínez, Antonio Jesús Ortiz Villarejo, José Antonio Alejo Sáez",
+        "doi": "10.3989/tp.2022.12293",
+        "language": "es",
+        "weight": 0.6074164502029878
+      },
+      {
+        "filename": "1157_Oppidum_2022.pdf",
+        "title": "**MUNIBE** Antropologia-Arkeologia nº 73 149-165 DONOSTIA 2022 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2022.73.05",
+        "language": "es",
+        "weight": 0.7777920989200287
+      },
+      {
+        "filename": "1158_Gorgociles_2022.pdf",
+        "title": "Gorgociles del Escabezado II (Jumilla, Murcia). Aportaciones al uso del espacio y a la arquitectura de la Edad del Bronce del sudeste de la península ibérica",
+        "author": "María Pastor Quiles",
+        "doi": "10.3989/arq.arqt.2022.001",
+        "language": "es",
+        "weight": 0.9357891448708087
+      },
+      {
+        "filename": "1159_Cronologia temporalidad_2022.pdf",
+        "title": "Investigaciones en el Sector L1 del Complexo arqueológico dos Perdigões (Reguengos de Monsaraz, Portugal): cronología y temporalidad de dos recintos de fosos calcolíticos (F1 y F2) = Researchs in Sector l1 of the Complexo Arqueológico dos Perdigões (Reguengos de Monsaraz, Portugal): Chronology and Temporality of two Chalcolithic Pit Enclosures (f1 and f2)",
+        "author": "José E. Márquez-Romero",
+        "doi": "10.14201/zephyrus2022895783",
+        "language": "es",
+        "weight": 0.9264994143909231
+      },
+      {
+        "filename": "1160_La ceramica del neolitico antiguo_2022.pdf",
+        "title": "La cerámica del Neolítico antiguo de la Cueva de los Murciélagos de Zuheros",
+        "author": "Daniel García Rivero",
+        "doi": "10.5209/cmpl.84154",
+        "language": "es",
+        "weight": 0.3778166851475237
+      },
+      {
+        "filename": "1161_La comunidad prehistorica_2022.pdf",
+        "title": "Microsoft Word - Recensiones.docx",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1162_La sima del ciervo_2022.pdf",
+        "title": "Microsoft Word - MAQUETADO Laborda.docx",
+        "author": NaN,
+        "doi": "10.26754/ojs_salduie/sald.2022227339",
+        "language": "es",
+        "weight": 0.9817422960792543
+      },
+      {
+        "filename": "1163_Nuevas dataciones_2022.pdf",
+        "title": "cupauam 48|1| (2022) - Páginas 11-29 Recibido: 21-08-2021 - Aceptado: 04-05-2022",
+        "author": NaN,
+        "doi": "10.15366/cupauam2022.48.1.001",
+        "language": "es",
+        "weight": 0.8665089079178347
+      },
+      {
+        "filename": "1164_Nuevo tipo enterrador_2022.pdf",
+        "title": "Bocapucheros (Almagro, Ciudad Real): nuevo tipo de enterramiento tumular en la Cultura de las Motillas",
+        "author": "Benítez de Lugo Enrich",
+        "doi": "10.12795/spal.2022.i31.19",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1165_O cocheiro_2022.pdf",
+        "title": "O concheiro do Lisandro (Mafra, Lisboa, Portugal): novos dados sobre a exploração de recursos aquáticos no Neolítico da Península de Lisboa",
+        "author": "Sousa",
+        "doi": "10.12795/spal.2022.i31.02",
+        "language": "pt",
+        "weight": 0.8968563880849116
+      },
+      {
+        "filename": "1166_Produccion y consumo de marfil_2022.pdf",
+        "title": "cupauam 48|2| (2022) - Páginas 79-106 Recibido: 01-12-2022 - Aceptado: 14-12-2022",
+        "author": NaN,
+        "doi": "10.15366/cupauam2022.48.2.003",
+        "language": "es",
+        "weight": 0.9459051438337168
+      },
+      {
+        "filename": "1167_The chronology_2022.pdf",
+        "title": "The chronology of archaeological assemblages based on an automatic Bayesian procedure: Eastern Iberia as study case",
+        "author": "Salvador Pardo-Gordó",
+        "doi": "10.1016/j.jas.2022.105555",
+        "language": "en",
+        "weight": 0.9652398143950865
+      },
+      {
+        "filename": "1169_The tempo of the iberian megalithic_2022.pdf",
+        "title": "The tempo of the Iberian megalithic rituals in the European context: The cemetery of Panoría",
+        "author": "Gonzalo Aranda Jiménez",
+        "doi": "10.1016/j.jas.2022.105579",
+        "language": "en",
+        "weight": 0.8912284501199541
+      },
+      {
+        "filename": "1170_Alabarda argarica_2022.pdf",
+        "title": "Una alabarda argárica en la motilla de El Retamar (Argamasilla de Alba, Ciudad Real): contexto, datación, procedencia e interpretación",
+        "author": "Luis Benítez de Lugo Enrich",
+        "doi": "10.5209/cmpl.80887",
+        "language": "es",
+        "weight": 0.9491711298885478
+      },
+      {
+        "filename": "1171_Practicas funerarias_2023.pdf",
+        "title": "Actas del VII Congreso",
+        "author": "Daniel García Rivero",
+        "doi": "10.12795/9788447224234",
+        "language": "es",
+        "weight": 0.6030446087727387
+      },
+      {
+        "filename": "1172_A multi-stage bayesian modelling_2023.pdf",
+        "title": "A multi-stage Bayesian modelling for building the chronocultural sequence of the Late Mesolithic at Cueva de la Cocina (Valencia, Eastern Iberia)",
+        "author": "Oreto García-Puchol",
+        "doi": "10.1016/j.quaint.2023.05.015",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "1173_Animal exploitation_2023.pdf",
+        "title": "Animal exploitation in Southwestern Iberia at the end of the second millennium BCE: insights from the Late Bronze Age of Outeiro do Circo (Beja, Portugal)",
+        "author": "Nelson J. Almeida, Miguel Serra, Eduardo Porfírio, Sofia Silva",
+        "doi": "10.5209/cmpl.88939",
+        "language": "en",
+        "weight": 0.8930254437378682
+      },
+      {
+        "filename": "1175_Cronologia minas neoliticas Can Tintorer_2023.pdf",
+        "title": "nº 74 Online First DONOSTIA",
+        "author": NaN,
+        "doi": "10.21630/maa.2023.74.02",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "1176_betilos_2023.pdf",
+        "title": "El Edificio de los Betilos (Castro de Elviña, A Coruña): religiosidad e interacciones culturales en la Edad del Hierro del NoroesteEl Edificio de los Betilos (Castro de Elviña, A Coruña): religiosidad e interacciones culturales en la Edad del Hierro del Noroeste",
+        "author": "Nión-Álvarez",
+        "doi": "10.12795/spal.2023.i32.14",
+        "language": "es",
+        "weight": 0.9624883613366834
+      },
+      {
+        "filename": "1177_Funerary practices in megalithic tombs_2023.pdf",
+        "title": "Funerary practices in megalithic tombs during the Argaric Bronze Age in South-Eastern Iberia: The cemetery of Los Eriales",
+        "author": "Lara Milesi García",
+        "doi": "10.1016/j.jasrep.2023.103972",
+        "language": "en",
+        "weight": 0.8988435982485352
+      },
+      {
+        "filename": "1178_NewMegalithicMonumentAntequeraWorldHeritageSite-Antiquity_2023.pdf",
+        "title": "S0003598X23000352jra 1..20",
+        "author": NaN,
+        "doi": "10.15184/aqy.2023.35",
+        "language": "en",
+        "weight": 0.9388708366892127
+      },
+      {
+        "filename": "1181_CuestaRomero2023metalurgia.pdf",
+        "title": "La minería y metalurgia del hierro como actividad especializada en el castro de La Cabeza (Huerta Abajo, Burgos)",
+        "author": "Julián Cuesta Romero, Ignacio Ruiz Vélez, Marta Francés Negro, Eduardo Bartolomé Monzón, María Victoria Palacios Palacios, Desiderio Marina González, Doroteo Gonzalo Mozo, Miguel Arribas Alonso",
+        "doi": "10.5209/cmpl.88942",
+        "language": "es",
+        "weight": 0.9543004190947455
+      },
+      {
+        "filename": "1182_The earliest basketry in southern Europe_2023.pdf",
+        "title": "The earliest basketry in southern Europe: Hunter-gatherer and farmer plant-based technology in Cueva de los Murciélagos (Albuñol)",
+        "author": "Francisco Martínez-Sevilla, Maria Herrero-Otal, María Martín-Seijo, Jonathan Santana, José A. Lozano Rodríguez, Ruth Maicas Ramos, Miriam Cubas, Anna Homs, Rafael M. Martínez Sánchez, Ingrid Bertin, Rosa Barroso Bermejo, Primitiva Bueno Ramírez, Rodrigo de Balbín Behrmann, Antoni Palomo Pérez, Antonio M. Álvarez-Valero, Leonor Peña-Chocarro, Mercedes Murillo-Barroso, Eva Fernández-Domínguez, Manuel Altamirano García, Rubén Pardo Martínez, Mercedes Iriarte Cela, Javier L. Carrasco Rus, Carmen Alfaro Giner, Raquel Piqué Huerta",
+        "doi": "10.1126/sciadv.adi3055",
+        "language": "en",
+        "weight": 0.9463931163378178
+      },
+      {
+        "filename": "1183_Necrópolis+de+Alcaide+Capítulo+4_2024.pdf",
+        "title": "**Cronología** Lara Milesi García Víctor Jiménez-Jáimez Alfonso Palomo Laburu",
+        "author": NaN,
+        "doi": "10.12795/spal.2021.i30.02._",
+        "language": "es",
+        "weight": 0.9589372760812824
+      },
+      {
+        "filename": "1184_Necropolis prehistorica de sepulcros excavados en el cortijo de Alcaide_2024.pdf",
+        "title": "Necrópolis prehistórica de sepulcros excavados en roca en el cortijo de Alcaide **(Antequera, Málaga)**",
+        "author": NaN,
+        "doi": "10.1002/oa.719_",
+        "language": "es",
+        "weight": 0.9376063989423111
+      },
+      {
+        "filename": "1185_Huet-NeoNet Atlantic-2024.pdf",
+        "title": "NeoNet Atlantic. Radiocarbon Dates for the Late Mesolithic/Early Neolithic Transition in the Southern European Atlantic Coast",
+        "author": "Thomas Huet",
+        "doi": "10.5334/joad.120",
+        "language": "en",
+        "weight": 0.9605707262937396
+      },
+      {
+        "filename": "1187_DiazDelRio_strontium_mobility_Iberia_2022.pdf",
+        "title": "Paleomobility in Iberia: 12 years of strontium isotope research",
+        "author": "Pedro Díaz-del-Río",
+        "doi": "10.1016/j.jasrep.2022.103653",
+        "language": "en",
+        "weight": 0.922193830599402
+      },
+      {
+        "filename": "446_2000.pdf",
+        "title": "## **EXPRESIONES FUNERARIAS DE LA PREHISTORIA RECIENTE DE CARMONA (SEVILLA) EXPRESIONES FUNERARIAS DE LA PREHISTORIA RECIENTE DE CARMONA FUNERARY EXPRESIONS FROM THE RECENT PREHISTORY OF CARMONA (SEVILLA) (SEVILLA)**",
+        "author": NaN,
+        "doi": "10.12795/spal.2000.i9.21",
+        "language": "es",
+        "weight": 0.9393645901523725
+      },
+      {
+        "filename": "454_2000.pdf",
+        "title": NaN,
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "455_2000.pdf",
+        "title": "**MUNIBE** (Antropologia-Arkeologia) Supl. Nº 12 11-211 SAN SEBASTIAN 2000 ISSN 1132-2217",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.6612227314807501
+      },
+      {
+        "filename": "458_2000.pdf",
+        "title": "**==> picture [34 x 13] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.8295764995701566
+      },
+      {
+        "filename": "460_2000.pdf",
+        "title": "_Complutum_ , 11, 2000: 63-85",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9164946965299628
+      },
+      {
+        "filename": "462_2000.pdf",
+        "title": "_Complutum_ , 11, 2000: 191-208",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9255402560236421
+      },
+      {
+        "filename": "466_2001.pdf",
+        "title": "A Anta 2 da Herdade de Santa Margarida (Reguengos de Monsaraz)",
+        "author": NaN,
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.9550386093415001
+      },
+      {
+        "filename": "472_2001.pdf",
+        "title": "Microsoft Word - Cueva Oscura de Ania.doc",
+        "author": NaN,
+        "doi": NaN,
+        "language": "unknown",
+        "weight": 0.8455263257794515
+      },
+      {
+        "filename": "480_2001.pdf",
+        "title": "El megalitismo mallorquín en el contexto del Mediterráneo Occidental",
+        "author": "Víctor Manuel Guerrero Ayuso",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "482_2001.pdf",
+        "title": "00-primeras",
+        "author": "Q3",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8790092206098546
+      },
+      {
+        "filename": "484_2001.pdf",
+        "title": "## II ACTIVIDADES SISTEMÁTICAS Y PUNTUALES",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8543305987141391
+      },
+      {
+        "filename": "485_2001.pdf",
+        "title": "_**La campaña de excavación de 2001 en Biniparratx Petit (Menorca). Avance de los primeros análisis radiocarbónicos**_",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "486_2001.pdf",
+        "title": NaN,
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.8157759608257583
+      },
+      {
+        "filename": "489_2001.pdf",
+        "title": "Radiocarbon evidence for maritime pioneer colonization at the origins of farming in west Mediterranean Europe",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9413613058927786
+      },
+      {
+        "filename": "490_2001.pdf",
+        "title": "## III ACTIVIDADES DE URGENCIA",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.850013778988608
+      },
+      {
+        "filename": "491_2001.pdf",
+        "title": "Revisiting",
+        "author": "Administrador",
+        "doi": "10.1017/S0079497X00001687",
+        "language": "en",
+        "weight": 0.9795888712367272
+      },
+      {
+        "filename": "577_yacimiento_Calcolitico_Santa_Lucia_2005.pdf",
+        "title": "ESTUDIOS DE ARQUEOLOGIA ALAVESA. TOMO 22",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "580_2005.pdf",
+        "title": "**==> picture [105 x 13] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.8441832018507011
+      },
+      {
+        "filename": "583_2005.pdf",
+        "title": "**EL CAMPAMENTO PREHISTÓRICO DE MENDANDIA: Ocupaciones mesolíticas y neolíticas entre el 8500 y el 6400 b.P.**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9570774829229911
+      },
+      {
+        "filename": "586_2005.pdf",
+        "title": "1841711543",
+        "author": "mdn Hübner GmbH",
+        "doi": "10.30861/9781841711546",
+        "language": "en",
+        "weight": 0.4344587335317753
+      },
+      {
+        "filename": "591_2005.pdf",
+        "title": "**==> picture [431 x 614] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9485017974812279
+      },
+      {
+        "filename": "593_2005.pdf",
+        "title": "Microsoft Word - Elpedroso.doc",
+        "author": "lasmthwm",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9249876268783013
+      },
+      {
+        "filename": "594_2005.pdf",
+        "title": "RAP 1.indd",
+        "author": "g5",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9835248621550184
+      },
+      {
+        "filename": "595_2005.pdf",
+        "title": "|l.|PLANTEAMIENTOS GENERALES......... .......... .............. .... . . ...... . ....., . . .|7|",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.7963259392181394
+      },
+      {
+        "filename": "596_2005.pdf",
+        "title": "_Encuentro de Jóvenes Investigadores sobre Bronce Final y Edad del Hierro en la Península Ibérica_",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "598_2005.pdf",
+        "title": "TVSIP105_Mesado",
+        "author": "Norberto Mesado Oliver",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "599_2005.pdf",
+        "title": "Anejos de _AEspA_ XXXV, 2005, pág. 305",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9690257398523149
+      },
+      {
+        "filename": "601_2005.pdf",
+        "title": "Planimetría general del proyecto de musealización de Toralla.",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.94176674045462
+      },
+      {
+        "filename": "604_2005.pdf",
+        "title": "## **LOS฀POYOS฀DEL฀MOLINILLO฀(FRIGILIANA).฀ NUEVO฀YACIMIENTO฀DE฀LA฀EDAD฀DEL฀BRONCE฀EN฀LA฀ AXARQUÍA฀ORIENTAL฀(MÁLAGA,฀ANDALUCÍA)***",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "605_2005.pdf",
+        "title": "Microsoft Word - Pages from 1 to 44.doc",
+        "author": "Enrique",
+        "doi": "10.30861/9781841718316",
+        "language": "en",
+        "weight": 0.4572153236585675
+      },
+      {
+        "filename": "606_2005.pdf",
+        "title": "2002-2003_3",
+        "author": "cltbecssti",
+        "doi": NaN,
+        "language": "ca",
+        "weight": 1.0
+      },
+      {
+        "filename": "610_2005.pdf",
+        "title": "01 article.qxp",
+        "author": "Quim",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9246736082337597
+      },
+      {
+        "filename": "614_2005.pdf",
+        "title": "001",
+        "author": "Ignacio1",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9344019679187793
+      },
+      {
+        "filename": "615__2006.pdf",
+        "title": "Soares.fm",
+        "author": "Administrator",
+        "doi": "10.1017/S0033822200035384",
+        "language": "en",
+        "weight": 0.992483351301833
+      },
+      {
+        "filename": "616_2006.pdf",
+        "title": "capitol 1-bo",
+        "author": "Maria Pilar",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.6068424159520397
+      },
+      {
+        "filename": "617_2006.pdf",
+        "title": "**EL ABRIC DE LA FALGUERA (Alcoi, Alacant). 8.000 años de ocupación humana en la cabecera del río de Alcoi**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.5493446962654683
+      },
+      {
+        "filename": "619_2006.pdf",
+        "title": "Saldvie_6(Montes Martinez).qxp",
+        "author": "Usuario",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8985175304889378
+      },
+      {
+        "filename": "620_2006.pdf",
+        "title": "**==> picture [41 x 155] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9618194653509569
+      },
+      {
+        "filename": "621_2006.pdf",
+        "title": "# **LA NECRÓPOLIS DE MEDELLÍN I. LA EXCAVACIÓN Y SUS HALLAZGOS**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.897064437780972
+      },
+      {
+        "filename": "622_2006.pdf",
+        "title": "Ocupación prehistórica Illeta",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9347632012398384
+      },
+      {
+        "filename": "623_2006.pdf",
+        "title": "01 Yolanda Alvarez",
+        "author": "JUAN",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9234708222724872
+      },
+      {
+        "filename": "624_2007.pdf",
+        "title": "## **A datação pelo radiocarbono das fases de ocupação do Porto das Carretas: algumas relexões sobre a cronologia do Campaniforme**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "626_2007.pdf",
+        "title": "09. Gema ElviraÉ, Eduardo É",
+        "author": "Arrabal",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9142696252192237
+      },
+      {
+        "filename": "627_2007.pdf",
+        "title": "## CAMPO DE HOYOS CON CERÁMICAS PROTOCOGOTAS EN LA CUENCA MEDIA DEL GUADIANA: EL CARRASCALEJO, BADAJOZ",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9413000471648574
+      },
+      {
+        "filename": "630_2007.pdf",
+        "title": "**==> picture [19 x 787] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.623771214625491
+      },
+      {
+        "filename": "647_2008.pdf",
+        "title": "BSSA",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9326882512540025
+      },
+      {
+        "filename": "648_2008.pdf",
+        "title": "NUEvOS DATOS SOBRE LA CRONOLOGÍA DEL SEPULCRO MEGALÍTICO DEL «TESORILLO DE LA LLANÁ» (ALOzAINA, MÁLAGA)",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.889130831722497
+      },
+      {
+        "filename": "649_2008.pdf",
+        "title": "## **O Casarão da Mesquita 3 (S. Manços, Évora): um sítio de fossas “silo” do Bronze Pleno/Final na Encosta do Albardão**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.7813583345246898
+      },
+      {
+        "filename": "651_2008.pdf",
+        "title": "Microsoft Word - S-1-05-SAN_CHUIS.doc",
+        "author": "Usuario",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "652_2008.pdf",
+        "title": "Caracterizació tècnica, tipològica i cronològica de les ceràmiques del Neolític antic de la Cova Colomera (Prepirineu de Lleida)",
+        "author": "F. Xavier Oms Arias",
+        "doi": NaN,
+        "language": "ca",
+        "weight": 1.0
+      },
+      {
+        "filename": "653_2008.pdf",
+        "title": "## DINÁmICA ANTrÓPICA EN El BIErZO (lEÓN) DESDE ÉPOCA rOmANA: ESTUDIO PAlINOlÓGICO DE CASTrO VENTOSA",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9732927505046205
+      },
+      {
+        "filename": "654_2008.pdf",
+        "title": "- IV congreso neolítico tomo II.indb",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.5744770186296412
+      },
+      {
+        "filename": "655_2008.pdf",
+        "title": "- IV congreso neolítico tomo I.indb",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.5716241906301136
+      },
+      {
+        "filename": "656_2008.pdf",
+        "title": "01_01",
+        "author": NaN,
+        "doi": NaN,
+        "language": "ca",
+        "weight": 0.9228602074944445
+      },
+      {
+        "filename": "657_2008.pdf",
+        "title": "- IV congreso neolítico tomo I.indb",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.5371373933268958
+      },
+      {
+        "filename": "659_2008.pdf",
+        "title": "pub_58.pdf",
+        "author": "jesus.jimenez.guijar",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "660_2008.pdf",
+        "title": "## **ENTERRAMIENTO MASCULINO EN FOSA, CUBIERTO DE CANTOS RODADOS, EN EL NEOLÍTICO ANTIGUO DE LA CUEVA DE CHAVES**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9905565663887004
+      },
+      {
+        "filename": "661_2008.pdf",
+        "title": "## **ESTRUCTURA, CONTEXTO Y CRONOLOGÍA DE LA MINA DE SÍLEX DE CASA MONTERO (MADRID)**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9712669067603632
+      },
+      {
+        "filename": "662_2008.pdf",
+        "title": "Palaeolithic engravings and sedimentary environments in the COa River Valley (Portugal): implications for the detection, interpretation and dating of open-air rock art",
+        "author": "Thierry Aubry",
+        "doi": "10.1016/j.jas.2010.07.033",
+        "language": "en",
+        "weight": 0.9664668959812799
+      },
+      {
+        "filename": "663_2008.pdf",
+        "title": "- IV congreso neolítico tomo II.indb",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "664_2008.pdf",
+        "title": "**==> picture [158 x 78] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "unknown",
+        "weight": 0.8422522661473834
+      },
+      {
+        "filename": "665_2008.pdf",
+        "title": "untitled",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9332417593809905
+      },
+      {
+        "filename": "666_2008.pdf",
+        "title": "- IV congreso neolítico tomo I.indb",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9701925007001714
+      },
+      {
+        "filename": "667_2008.pdf",
+        "title": "Geo45 (2).PMD",
+        "author": "Usuario",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.7818175277403926
+      },
+      {
+        "filename": "669_2008.pdf",
+        "title": "- IV congreso neolítico tomo I.indb",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "670_2008.pdf",
+        "title": "Vilalba, Lugo (ESP) ISSN: 1134-6787",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "672_2008.pdf",
+        "title": "00-PRIMERAS.indd",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "673_2008.pdf",
+        "title": "- IV congreso neolítico tomo I.indb",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9760171646259436
+      },
+      {
+        "filename": "675_2008.pdf",
+        "title": "- IV congreso neolítico tomo II.indb",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.5662976463171314
+      },
+      {
+        "filename": "676_2009.pdf",
+        "title": "El depósito de armas del bronce final de «Los Cascajos», Grañón (La Rioja)",
+        "author": "Carmen Alonso Fernández",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8770187015890587
+      },
+      {
+        "filename": "677_2009.pdf",
+        "title": "## 46. A view from the edges: the Mesolithic settlement of the interior areas of the Iberian Peninsula reconsidered",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9431244713398994
+      },
+      {
+        "filename": "678_2009.pdf",
+        "title": "Rui Boaventura",
+        "author": "Rui",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.9227074999426821
+      },
+      {
+        "filename": "678_2009_1.pdf",
+        "title": "## UNIVERSIDADE DE LISBOA",
+        "author": "Rui",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.915835866210948
+      },
+      {
+        "filename": "678_2009_2.pdf",
+        "title": "Rui Boaventura",
+        "author": "Rui",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.9216030869798141
+      },
+      {
+        "filename": "679_2009.pdf",
+        "title": "Balma Guilanyà (Prepirineo de Lleida) y el Aziliense en el noreste de la Península Ibérica",
+        "author": "Jorge Martínez-Moreno",
+        "doi": "10.3989/tp.2009.09021",
+        "language": "es",
+        "weight": 0.883892678062944
+      },
+      {
+        "filename": "680_2009.pdf",
+        "title": "UDK 903.2(36)\"633\\634\">551.583>314.18",
+        "author": NaN,
+        "doi": "10.4312/dp.36.4",
+        "language": "en",
+        "weight": 0.9587085064361294
+      },
+      {
+        "filename": "682_2009.pdf",
+        "title": "TRABAJOS DE PREHISTORIA 66, N.º 1, enero-junio 2009, pp. 145-159, ISSN: 0082-5638 doi: 10.3989/tp.2009.09017",
+        "author": NaN,
+        "doi": "10.3989/tp.2009.09017",
+        "language": "es",
+        "weight": 0.9652461235839783
+      },
+      {
+        "filename": "683_2009.pdf",
+        "title": "TRABAJOS DE PREHISTORIA 66, N.º 1, enero-junio 2009, pp. 145-159, ISSN: 0082-5638 doi: 10.3989/tp.2009.09017",
+        "author": NaN,
+        "doi": "10.3989/tp.2009.09017",
+        "language": "es",
+        "weight": 0.9571734985995132
+      },
+      {
+        "filename": "684_2009.pdf",
+        "title": "**==> picture [437 x 21] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.942090137410423
+      },
+      {
+        "filename": "685_2009.pdf",
+        "title": "El enterramiento múltiple, calcolítico, de Camino del Molino (Caravaca, Murcia). Metodología y primeros resultados de un yacimiento excepcional",
+        "author": "Joaquín Lomba Maurandi et. al.",
+        "doi": "10.3989/tp.2009.09025",
+        "language": "es",
+        "weight": 0.9547582881755187
+      },
+      {
+        "filename": "689_2009.pdf",
+        "title": "## **Entre vivos e mortos**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.7853905226695349
+      },
+      {
+        "filename": "690_2009.pdf",
+        "title": "catalogo el argar.1-33.ps, page 1-33 @ Normalize ( catalogo el argar.indd )",
+        "author": "juandiaz",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "693_2009.pdf",
+        "title": "Holocene vegetational landscapes of NE Iberia: charcoal analysis from Cova de la Guineu, Barcelona, Spain",
+        "author": NaN,
+        "doi": "10.1177/0959683609105301",
+        "language": "en",
+        "weight": 0.9014989487769837
+      },
+      {
+        "filename": "694_2009.pdf",
+        "title": "Saldvie_9(Maria Victoria Pastor).qxp:MaquetaciÉn 1",
+        "author": "Libreria General",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9129308172151213
+      },
+      {
+        "filename": "695_2009.pdf",
+        "title": "La Cova de les Cendres",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9627535740285785
+      },
+      {
+        "filename": "697_2009.pdf",
+        "title": "Saldvie_9(Fernanda Blasco).qxp:MaquetaciÛn 1",
+        "author": "Libreria General",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9578321097921431
+      },
+      {
+        "filename": "699_2009.pdf",
+        "title": "On the Edge: Early Holocene Adaptations in Southwestern Iberia",
+        "author": "Nuno Ferreira Bicho",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.8357419503619133
+      },
+      {
+        "filename": "700_2009.pdf",
+        "title": "Palimpsestos y cambios culturales en el límite Pleistoceno-Holoceno: el conjunto lítico de Picamoixons (Alt Camp, Tarragona)",
+        "author": "Sergio García Catalán",
+        "doi": "10.3989/tp.2009.0919",
+        "language": "es",
+        "weight": 0.9468419814735466
+      },
+      {
+        "filename": "701_2009.pdf",
+        "title": "Patterns of human occupation during the early Holocene in the Central Ebro Basin (NE Spain) in response to the 8.2 ka climatic event",
+        "author": "P. González-Sampériz; P. Utrilla; C. Mazo; B. Valero-Garcés; MC. Sopena; M. Morellón; M. Sebastián; A. Moreno; M. Martínez-Bea",
+        "doi": "10.1016/j.yqres.2008.10.006",
+        "language": "en",
+        "weight": 0.9304928238412874
+      },
+      {
+        "filename": "702_2009.pdf",
+        "title": "Microsoft Word - pag. en blanco.doc",
+        "author": "Beatriz",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9471720245249299
+      },
+      {
+        "filename": "703_2009.pdf",
+        "title": "RADIOCARBON DATES FROM THE OXFORD AMS SYSTEM: ARCHAEOMETRY DATELIST 33",
+        "author": "zhou rong",
+        "doi": "10.1111/j.1475-4754.2008.00457.x",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "704_2009.pdf",
+        "title": "THE AMINOCHRONOLOGY OF MAN‐INDUCED SHELL MIDDENS IN CAVES IN NORTHERN SPAIN*",
+        "author": NaN,
+        "doi": "10.1111/j.1475-4754.2008.00383.x",
+        "language": "en",
+        "weight": 0.933276569055927
+      },
+      {
+        "filename": "705_2009.pdf",
+        "title": "bar.indb",
+        "author": "78920308V",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9584060557499683
+      },
+      {
+        "filename": "706_2009.pdf",
+        "title": "ARCHAEOFAUNA",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9005581721524683
+      },
+      {
+        "filename": "707_2009.pdf",
+        "title": "QUAD. PREH. ARQ. CAST. 27, 2009",
+        "author": NaN,
+        "doi": NaN,
+        "language": "ca",
+        "weight": 0.9590110110178819
+      },
+      {
+        "filename": "708_2009.pdf",
+        "title": "TRABAJOS DE PREHISTORIA 66, N.º 1, enero-junio 2009, pp. 115-122, ISSN: 0082-5638 doi: 10.3989/tp.2009.09015",
+        "author": NaN,
+        "doi": "10.3989/tp.2009.09015",
+        "language": "es",
+        "weight": 0.8885016428927841
+      },
+      {
+        "filename": "710_2010_ams-dating-of-human-bone-from-cova-de-la-pastora-new-evidence-of-ritual-continuity-in-the-prehistory-of-eastern-spain.pdf",
+        "title": "McClure.fm",
+        "author": "Mark McClure",
+        "doi": "10.1017/S0033822200045008",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "713_2010_alopezm,+Documento.pdf",
+        "title": "Maquetación 1",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9719444071698905
+      },
+      {
+        "filename": "714_2010_BlancoRotea_2010_CarballeiraEspirituSto_TAPA41.pdf",
+        "title": "01_TAPA41.qxd:TAPA 41.qxd",
+        "author": "Rosa Costas",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "715_2010_cavidades_funerario_neolitico.pdf",
+        "title": "untitled",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.92769383501154
+      },
+      {
+        "filename": "717_2010_Bettencourt 2010 Pré-História do Leça.pdf",
+        "title": "Book_RMemoria_PreHist",
+        "author": "endovelicus",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.8582967957859657
+      },
+      {
+        "filename": "718_2010_2010-4-Carvalho et  al data barley Promontoria.pdf",
+        "title": "# **Datación directa de cebada (** _**Hordeum vulgare**_ **L.) de la Cueva de Los Mármoles (Córdoba, España)**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8944110427876831
+      },
+      {
+        "filename": "721_2010_El_Poblado_de_El_Castanuelo_Aracena_y_el.pdf",
+        "title": "Microsoft Word - 1",
+        "author": "Manolo",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9084506642421033
+      },
+      {
+        "filename": "723_2010_344-Texto del artículo-349-1-10-20110112.pdf",
+        "title": "Gestión del combustible leñoso e impacto medioambiental asociados a la metalurgia protohistórica de Punta de los Gavilanes (Mazarrón, Murcia)",
+        "author": "María Soledad García Martínez",
+        "doi": "10.3989/tp.2010.10055",
+        "language": "es",
+        "weight": 0.9676502583200247
+      },
+      {
+        "filename": "725_2010_Hipogeus funerarios_2011.pdf",
+        "title": "Hipogeos funerarios del Bronce Pleno en Torre Velha 3 (Serpa, Portugal)",
+        "author": "Catarina ALVES",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.891401626852806
+      },
+      {
+        "filename": "727_2010_TIT_Velasquez.pdf",
+        "title": "**==> picture [65 x 49] intentionally omitted <==**",
+        "author": "Don Wajari",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9672047473529938
+      },
+      {
+        "filename": "728_2010_1-s2.0-S0003552110000749-main.pdf",
+        "title": "doi:10.1016/j.anthro.2010.07.004",
+        "author": NaN,
+        "doi": "10.1016/j.anthro.2010.07.004",
+        "language": "fr",
+        "weight": 0.9366272049393715
+      },
+      {
+        "filename": "730_2010_Dialnet-LaCuevaDeLasOrcillas1-3367462.pdf",
+        "title": "**La cueva de Las Orcillas 1: una estación de los últimos cazadores-recolectores en La Berrueza (Mendaza-Acedo, Navarra)**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9593932090268341
+      },
+      {
+        "filename": "731_2010_187-Texto del artículo-191-1-10-20100719.pdf",
+        "title": "La Edad del Bronce en el Noroeste de la Península Ibérica: un análisis a partir de las prácticas funerarias",
+        "author": "Ana M. S. Bettencourt",
+        "doi": "10.3989/tp.2010.10034",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "736_2010_Texto del artículo-188-1-10-20100719.pdf",
+        "title": "La necrópolis de Can Gambús-1 (Sabadell, Barcelona). Nuevos conocimientos sobre las prácticas funerarias durante el Neolítico medio en el Noreste de la Península Ibérica",
+        "author": "Jordi Roig",
+        "doi": "10.3989/tp.2010.10031",
+        "language": "es",
+        "weight": 0.9181559703921706
+      },
+      {
+        "filename": "737_2010_Texto del artículo-187-1-10-20100719.pdf",
+        "title": "Las comarcas centromeridionales valencianas en el contexto de la Neolitización de la fachada noroccidental del Mediterráneo",
+        "author": "Gabriel García Atiénzar",
+        "doi": "10.3989/tp.2010.10030",
+        "language": "en",
+        "weight": 0.9689439012984178
+      },
+      {
+        "filename": "738_2010_Texto del artículo-192-1-10-20100719.pdf",
+        "title": "Las Lunas, Yuncler (Toledo). Un depósito de materiales metálicos del Bronce Final en la Submeseta Sur de la Península Ibérica",
+        "author": "Dionisio Urbina Martínez",
+        "doi": "10.3989/tp.2010.10035",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "740_2010_1-s2.0-S0305440310001974-main.pdf",
+        "title": "On some remains of dog (Canis familiaris) from the Mesolithic shell-middens of Muge, Portugal",
+        "author": "Cleia Detry",
+        "doi": "10.1016/j.jas.2010.06.011",
+        "language": "en",
+        "weight": 0.9359690433936912
+      },
+      {
+        "filename": "741_2010_Gibaja-2010-Prácticas funerarias durante el neolítico...pdf",
+        "title": "Prácticas funerarias durante el neolítico.Los enterramientos infantiles en el norestede la Península Ibérica",
+        "author": "Juan Francisco Gibaja",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "742_2010_Texto del artículo-189-1-10-20100719.pdf",
+        "title": "The Copper Age Settlement of Valencina de la Concepción (Seville, Spain): Demography, Metallurgy and Spatial Organization",
+        "author": "Manuel Eleazar Costa Caramé",
+        "doi": "10.3989/tp.2010.10032",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "743_2010_The Emergence of Muge Mesolithic Shell Middens in Central Portugal and the 8200 cal yr BP Cold Event.pdf",
+        "title": "The Emergence of Muge Mesolithic Shell Middens in Central Portugal and the 8200 cal yr BP Cold Event",
+        "author": NaN,
+        "doi": "10.1080/15564891003638184",
+        "language": "en",
+        "weight": 0.9720400957710812
+      },
+      {
+        "filename": "745_2010_The_Neolithic_Early_Bronze_Age_Mortuary.pdf",
+        "title": "## The Neolithic-Early Bronze Age Mortuary Rockshelter of Bolores, Torres Vedras, Portugal",
+        "author": NaN,
+        "doi": "10.1179/009346910X12707320296630",
+        "language": "en",
+        "weight": 0.9155762358210183
+      },
+      {
+        "filename": "746_2010_the-radiocarbon-chronology-of-el-miron-cave-cantabria-spain-new-dates-for-the-initial-magdalenian-occupations.pdf",
+        "title": "Straus.fm",
+        "author": "Mark McClure",
+        "doi": "10.1017/S003382220004501X",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "747_2010_25859977.pdf",
+        "title": "arqueo61(primeras).qxd:Maquetación 1",
+        "author": "MacPro",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "748_2010_Salduie10_Arenal_Domingo.pdf",
+        "title": "Saldvie_10(Pilar Utrilla).qxp:MaquetaciÛn 1",
+        "author": "Libreria General",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8779151760011671
+      },
+      {
+        "filename": "749_2010_s2.0-S0305440310002566-main.pdf",
+        "title": "Variscite source and source analysis: testing assumptions at Pico Centeno (Encinasola, Spain)",
+        "author": "Carlos P. Odriozola",
+        "doi": "10.1016/j.jas.2010.07.016",
+        "language": "en",
+        "weight": 0.9529510548868703
+      },
+      {
+        "filename": "750_2011.pdf",
+        "title": "El “campo de hoyos” calcolítico de Fuente Celada (Burgos): datos preliminares y perspectivas",
+        "author": "María del Carmen ALAMEDA CUENCA-ROMERO, Eduardo CARMONA BALLESTERO,",
+        "doi": "10.5209/rev_CMPL.2011.v22.n1.3",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "751_2011.pdf",
+        "title": "Estudos Arqueologicos_18_Ficheiro Final para cliente.pdf",
+        "author": "u07011",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.8328175523568532
+      },
+      {
+        "filename": "752_2011.pdf",
+        "title": "Archaeological charcoal: natural or human impact on the vegetation",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.899673950484112
+      },
+      {
+        "filename": "753_2011.pdf",
+        "title": "Arquitectura defensiva en el Castro de Castromaior (Lugo). Análisis de las técnicas constructivas en el acceso al recinto central del poblado - Defensive architecture in the fort of Castromaior (Lugo). The analysis of the building techniques of the access to the main enclosure of the village",
+        "author": "Miguel Ángel López Marcos",
+        "doi": "10.3989/arqarqt.2011.10017",
+        "language": "es",
+        "weight": 0.8066023858378009
+      },
+      {
+        "filename": "755_2011.pdf",
+        "title": "Microsoft Word - Bueno_0.docx",
+        "author": "Admin",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9221575787802184
+      },
+      {
+        "filename": "757_2011.pdf",
+        "title": "Gianotti et al.indd",
+        "author": NaN,
+        "doi": "10.1017/S0959774311000436",
+        "language": "en",
+        "weight": 0.8885414758661142
+      },
+      {
+        "filename": "758_2011.pdf",
+        "title": "**==> picture [114 x 160] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9403096247234664
+      },
+      {
+        "filename": "759_2011.pdf",
+        "title": "La Vital (Gandia, Valencia). Vida y muerte en la desembocadura del Serpis durante el III y el I milenio a.C.",
+        "author": "G. Pérez Jordà",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8897842818630498
+      },
+      {
+        "filename": "760_2011.pdf",
+        "title": "SAGVNTVM PAPELES DEL LABORATORIO DE ARQUEOLOGÍA DE VALENCIA EXTRA-12",
+        "author": NaN,
+        "doi": NaN,
+        "language": "ca",
+        "weight": 1.0
+      },
+      {
+        "filename": "761_2011.pdf",
+        "title": "Pyrenae 42-1_Pyrenae",
+        "author": "Albert",
+        "doi": "10.1029/2008GC002096",
+        "language": "es",
+        "weight": 0.961355711566096
+      },
+      {
+        "filename": "762_2011.pdf",
+        "title": "Holocene paleoenvironment (&sim;7200-4000&nbsp;cal BP) of the Los Castillejos archaeological site (SE Spain) inferred from the stable isotopes of land snail shells",
+        "author": "Yurena Yanes",
+        "doi": "10.1016/j.quaint.2011.04.031",
+        "language": "en",
+        "weight": 0.9529321745976651
+      },
+      {
+        "filename": "763_2011.pdf",
+        "title": "Human responses to Younger Dryas in the Ebro valley and Mediterranean watershed (Eastern Spain)",
+        "author": "J. Emili Aura",
+        "doi": "10.1016/j.quaint.2011.01.023",
+        "language": "en",
+        "weight": 0.9296660179149734
+      },
+      {
+        "filename": "764_2011.pdf",
+        "title": "04 RECERQUES 20.indd",
+        "author": NaN,
+        "doi": NaN,
+        "language": "ca",
+        "weight": 0.903949029325717
+      },
+      {
+        "filename": "765_2011.pdf",
+        "title": "SAGVNTVM PAPELES DEL LABORATORIO DE ARQUEOLOGÍA DE VALENCIA EXTRA-12",
+        "author": NaN,
+        "doi": NaN,
+        "language": "ca",
+        "weight": 1.0
+      },
+      {
+        "filename": "767_2011.pdf",
+        "title": "Balma Guilanyà (Prepirineo de Lleida) y el Aziliense en el noreste de la Península Ibérica",
+        "author": "Jorge Martínez-Moreno",
+        "doi": "10.3989/tp.2009.09021",
+        "language": "en",
+        "weight": 0.886366981763851
+      },
+      {
+        "filename": "768_2011.pdf",
+        "title": "SAGVNTVM PAPELES DEL LABORATORIO DE ARQUEOLOGÍA DE VALENCIA EXTRA-12",
+        "author": NaN,
+        "doi": NaN,
+        "language": "ca",
+        "weight": 1.0
+      },
+      {
+        "filename": "770_2011.pdf",
+        "title": "TESIS DOCTORAL",
+        "author": "nn",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9625959741822581
+      },
+      {
+        "filename": "771_2011.pdf",
+        "title": "TESIS DOCTORAL",
+        "author": "nn",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9647128237802298
+      },
+      {
+        "filename": "774_2011.pdf",
+        "title": "**==> picture [483 x 257] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.9540134423852114
+      },
+      {
+        "filename": "776_2011.pdf",
+        "title": "**==> picture [229 x 42] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "777_2011.pdf",
+        "title": "Las Aguilillas (Ardales, Málaga). Cámara hipogeo-megalítica. Fotografía: Miguel Ángel Blanco de la Rubia // Las Aguilillas (Ardales, Málaga). Hypogeo-megalithic chamber. Photograph: Miguel Ángel Blanco de la Rubia.",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9571257911243204
+      },
+      {
+        "filename": "778_2011.pdf",
+        "title": "Variscita y ámbar en el Neolítico gallego. Análisis arqueométrico del collar del túmulo 1 de Chousa Nova, Silleda (Pontevedra, España); Variscite and amber in the Galician Neolithic. Archaeometric analysis of the necklace from Barrow 1 at Chousa Nova, Silleda (Pontevedra, Spain)",
+        "author": "Salvador Domínguez-Bella",
+        "doi": "10.3989/tp.2011.11075",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "779_2012.pdf",
+        "title": "El uso de trillos durante la Edad del Cobre en la Meseta española. Análisis traceológico de una colección de denticulados de sílex procedentes del ‘recinto de fosos’ de El Casetón de la Era (Villalba de los Alcores, Valladolid) - Evidence of the use of threshing-boards in the spanish Meseta during the Copper Age. Microwear analysis of flint denticulates from ‘the ditched enclosure’ of El Casetón de la Era (Villalba de los Alcores, Valladolid)",
+        "author": "Juan Francisco Gibaja",
+        "doi": "10.3989/tp.2012.12084",
+        "language": "es",
+        "weight": 0.9751723350324697
+      },
+      {
+        "filename": "780_2012.pdf",
+        "title": "Antiquity: Project Gallery",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.942044864072176
+      },
+      {
+        "filename": "781_2012.pdf",
+        "title": "ARQUEOLOGIA DE LA SAL 1-136.indd",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9745987885406194
+      },
+      {
+        "filename": "782_2012.pdf",
+        "title": "Caracterización del yacimiento de Cueva Blanca (Hellín, Albacete). Nuevas aportaciones para el debate en torno a la transición del Mesolítico al Neolítico antiguo en el Sureste peninsular",
+        "author": "Alberto Mingo, Jesús Barba, Martí Mas, Javier López, Alfonso Benito, Paloma Uzquiano, José Yravedra, Miriam Cubas, Bárbara Avezuela, Ignacio Martín, Matteo Bellardi",
+        "doi": "10.5209/rev_Cmpl.2012.v23.n1.39531",
+        "language": "es",
+        "weight": 0.9663969860452971
+      },
+      {
+        "filename": "783_2012.pdf",
+        "title": "1 CAPITULO.indd",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9043933844202409
+      },
+      {
+        "filename": "784_2012.pdf",
+        "title": "Cuatro enterramientos calcolíticos en hoyo del Cerro de la Cabeza (Ávila)",
+        "author": "J. Francisco Fabián García, Antonio Blanco González",
+        "doi": "10.5209/rev_Cmpl.2012.v23.n1.39533",
+        "language": "es",
+        "weight": 0.962174351321821
+      },
+      {
+        "filename": "785_2012.pdf",
+        "title": "02 RECERQUES 21.indd",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "787_2012.pdf",
+        "title": "## **REVISTA ARKEOGAZTE/ARKEOGAZTE ALDIZKARIA**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9092471640378378
+      },
+      {
+        "filename": "789_2012.pdf",
+        "title": "## Funerary Practices in the Iberian Peninsula from the Mesolithic to the Chalcolithic",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9803898639410784
+      },
+      {
+        "filename": "790_2012.pdf",
+        "title": "El abrigo de Martinarri (Obécuri, Treviño): una ocupación del Tardiglaciar en la Cuenca Alta del Ebro ; Martinarri rock shelter (Obécuri, Treviño): a Late Glacial occupation of the Upper Basin of the Ebro",
+        "author": "Alfonso Alday",
+        "doi": "10.3989/tp.2012.12091",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "791_2012.pdf",
+        "title": "**==> picture [332 x 365] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8562430261835513
+      },
+      {
+        "filename": "792_2012.pdf",
+        "title": "# **El Esplugón: un gran abrigo mesolítico en el valle del Guarga (Huesca)**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "793_2012.pdf",
+        "title": "El Mir&#243;n Cave, Cantabrian Spain",
+        "author": "Gonzales Morales, Manuel R., Straus, Lawrence Guy",
+        "doi": "10.1029/2002JB001975",
+        "language": "en",
+        "weight": 0.9162059695807799
+      },
+      {
+        "filename": "794_2012.pdf",
+        "title": "## **INDESINENTER: PERMANENCIA Y CAMBIO**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8885332095616055
+      },
+      {
+        "filename": "796_2012.pdf",
+        "title": "**==> picture [332 x 365] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8617911585988681
+      },
+      {
+        "filename": "798_2012.pdf",
+        "title": "La necrópolis celtibérica del Inchidero (Aguilar de Montuenga, Soria): Estratigrafía, cronotipología y dataciones radiocarbónicas",
+        "author": "Marian Arlegui Sánchez",
+        "doi": "10.5209/rev_Cmpl.2012.v23.n1.39537",
+        "language": "es",
+        "weight": 0.881051231931005
+      },
+      {
+        "filename": "799_2012.pdf",
+        "title": "La tecnología cerámica de los niveles IV y III en el yacimiento de Kobaederra (Cortézubi, Bizkaia). Aprovisionamiento y modificación de las materias primas - Pottery technology of levels IV and III in Kobaederra site (Cortézubi, Bizkaia). Supply and modification of raw materials",
+        "author": "Miriam Cubas",
+        "doi": "10.3989/tp.2012.12079",
+        "language": "es",
+        "weight": 0.872537171763696
+      },
+      {
+        "filename": "800_2012.pdf",
+        "title": "_Estudos do Quaternário, 8, APEQ, Braga, 2012, pp. 22-37_",
+        "author": NaN,
+        "doi": "10.1016/j.jas.2010.07.033",
+        "language": "pt",
+        "weight": 0.9791461919479625
+      },
+      {
+        "filename": "801_2012.pdf",
+        "title": "**==> picture [332 x 365] intentionally omitted <==**",
+        "author": NaN,
+        "doi": "10.1016/j.jas.2007.10.004",
+        "language": "es",
+        "weight": 0.8729911516139895
+      },
+      {
+        "filename": "802_2012.pdf",
+        "title": "Sidereum Ana II pag. 001-416:M",
+        "author": "GF2",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8497808325506243
+      },
+      {
+        "filename": "803_2012.pdf",
+        "title": "Temporal nature and recycling of Upper Paleolithic artifacts: the burned tools from the MolI del Salt site (VimbodI i Poblet, northeastern Spain)",
+        "author": "Manuel Vaquero",
+        "doi": "10.1016/j.jas.2012.04.024",
+        "language": "en",
+        "weight": 0.9866171622606857
+      },
+      {
+        "filename": "804_2012.pdf",
+        "title": "The end of the Upper Palaeolithic in the Mediterranean Basin of the Iberian Peninsula",
+        "author": "ValentIn Villaverde Bonilla; DIdac RomAn; Manuel PErez Ripoll; M. MercE BergadA; Cristina Real",
+        "doi": "10.1016/j.quaint.2012.04.025",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "805_2012.pdf",
+        "title": "The Magdalenian in central and southern Portugal: Human ecology at the end of the Pleistocene",
+        "author": "Nuno Bicho; Jonathan Haws",
+        "doi": "10.1016/j.quaint.2012.02.055",
+        "language": "en",
+        "weight": 0.9712820283521537
+      },
+      {
+        "filename": "806_2012.pdf",
+        "title": "The Mesolithic–Neolithic transition in southern Iberia",
+        "author": "Miguel Cortés Sánchez",
+        "doi": "10.1016/j.yqres.2011.12.003",
+        "language": "es",
+        "weight": 0.9900759987023061
+      },
+      {
+        "filename": "808_2012.pdf",
+        "title": "2013089103AA",
+        "author": "informatika",
+        "doi": NaN,
+        "language": "unknown",
+        "weight": 0.8176760872631551
+      },
+      {
+        "filename": "809_2013.pdf",
+        "title": "2013089103AA",
+        "author": "informatika",
+        "doi": NaN,
+        "language": "unknown",
+        "weight": 0.8109617386692568
+      },
+      {
+        "filename": "810_2013.pdf",
+        "title": "REVISTA DE PREHISTORIA DE ANDALUCÍA JOURNAL OF ANDALUSIAN PREHISTORY",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8417991343235095
+      },
+      {
+        "filename": "812_2013.pdf",
+        "title": "**==> picture [42 x 21] intentionally omitted <==**",
+        "author": "Javier Jiménez",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 1.0
+      },
+      {
+        "filename": "813_2013.pdf",
+        "title": "**==> picture [42 x 21] intentionally omitted <==**",
+        "author": "Javier Jiménez",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.8457463391925216
+      },
+      {
+        "filename": "814_2013.pdf",
+        "title": "Cronología radiocarbónica de Las Lunas (Yuncler, Toledo), un gran poblado de fines de la Prehistoria en la Meseta Sur ; Radiocarbon Chronology of Las Lunas (Yuncler, Toledo), a large settlement of Late Prehistory in the Spanish Southern Meseta",
+        "author": "Dionisio Urbina Martinez",
+        "doi": "10.3989/tp.2013.12118",
+        "language": "es",
+        "weight": 0.904498504954761
+      },
+      {
+        "filename": "815_2013.pdf",
+        "title": "# **DATACIONES ABSOLUTAS PARA EL FOSO 1 DE PERDIGÕES (REGUENGOS DE MONSARAZ, PORTUGAL). REFLEXIONES SOBRE SU CRONOLOGÍA Y TEMPORALIDAD**",
+        "author": NaN,
+        "doi": "10.12795/spal.2013.i22.01",
+        "language": "en",
+        "weight": 0.8907601994135584
+      },
+      {
+        "filename": "817_2013.pdf",
+        "title": "**==> picture [144 x 76] intentionally omitted <==**",
+        "author": NaN,
+        "doi": "10.1016/j.quaint.2012.12.023",
+        "language": "es",
+        "weight": 0.9428820745857628
+      },
+      {
+        "filename": "818_2013.pdf",
+        "title": "El aprovEchamiEnto dE la campiña EntrE tEba y ardalEs (málaga) por los agricultorEs dEl nEolítico: El caso dEl cErro dE la higuEra",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9833731526439065
+      },
+      {
+        "filename": "819_2013.pdf",
+        "title": "**==> picture [122 x 155] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "824_2013.pdf",
+        "title": "SAGPLAV45_CL",
+        "author": "Lluís Molina Balaguer",
+        "doi": "10.7203/SAGVNTVM.45.2007",
+        "language": "unknown",
+        "weight": 0.9120849230519391
+      },
+      {
+        "filename": "825_2013.pdf",
+        "title": "untitled",
+        "author": NaN,
+        "doi": "10.1179/1461957113Y.0000000037",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "826_2013.pdf",
+        "title": "**Paz Balaguer Nadal Paola García Medrano Alba Tenza Ferrer Francesc Antequera Devesa**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "ca",
+        "weight": 0.9394651589807347
+      },
+      {
+        "filename": "827_2013.pdf",
+        "title": "## UNIVERSITAT DE VALÈNCIA FACULTAT DE GEOGRAFIA I HISTÒRIA DEPARTAMENT DE PREHISTÒRIA I ARQUEOLOGIA",
+        "author": NaN,
+        "doi": NaN,
+        "language": "ca",
+        "weight": 0.9462939039570335
+      },
+      {
+        "filename": "828_2013.pdf",
+        "title": "2013069088AA",
+        "author": "informatika",
+        "doi": NaN,
+        "language": "unknown",
+        "weight": 0.8100080504769788
+      },
+      {
+        "filename": "830_2013.pdf",
+        "title": "**==> picture [122 x 155] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9650696159775332
+      },
+      {
+        "filename": "831_2013.pdf",
+        "title": "Las Pozas (Casaseca de las Chanas, Zamora): dos nuevos recintos de fosos calcolíticos en el Valle del Duero ; Las Pozas (Casaseca de las Chanas, Zamora): two new Copper Age causewayed enclosures in the Douro Valley",
+        "author": "Marcos García García",
+        "doi": "10.3989/tp.2013.12108",
+        "language": "es",
+        "weight": 0.9247850388512951
+      },
+      {
+        "filename": "834_2013.pdf",
+        "title": "VI ENCUENTRO DE ARQUEOLOGÍA DEL SUROESTE PENINSULAR ISBN 978 - 84 - 616 - 6306 - 4",
+        "author": "Javier Jiménez",
+        "doi": NaN,
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "835_2013.pdf",
+        "title": "SAGVNTVM (P.L.A.V.) 45, 2013: 79 - 100 ISSN: 0210-3729 ISSN _online_ : 2174-517X DOI: 10.7203/SAGVNTVM.45.2005",
+        "author": NaN,
+        "doi": "10.7203/SAGVNTVM.45.2005",
+        "language": "es",
+        "weight": 0.9678524658335101
+      },
+      {
+        "filename": "836_2013.pdf",
+        "title": "2013105116AA",
+        "author": "informatika",
+        "doi": NaN,
+        "language": "unknown",
+        "weight": 0.7988953960829759
+      },
+      {
+        "filename": "837_2013.pdf",
+        "title": "Microsoft Word - BSAA arqueologia 2013 DEFINITIVO.docx",
+        "author": "us_058_055",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9176902291821112
+      },
+      {
+        "filename": "838_2013.pdf",
+        "title": "SONDEO ARQUEOLÓGICO EN EL ABRIGO DE BARCENILLA (T.M. DE PIÉLAGOS, CANTABRIA).",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8691959839687677
+      },
+      {
+        "filename": "839_2013.pdf",
+        "title": "The Gravettian calvaria from Mollet III cave (SerinyA, Northeastern Iberian Peninsula)",
+        "author": "Joaquim Soler",
+        "doi": "10.1016/j.jhevol.2013.03.005",
+        "language": "en",
+        "weight": 0.9593703117314684
+      },
+      {
+        "filename": "840_2013.pdf",
+        "title": "## ����������������������������������� �����������������������������������",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "841_2013.pdf",
+        "title": "REVISTA DE PREHISTORIA DE ANDALUCÍA JOURNAL OF ANDALUSIAN PREHISTORY",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8436832563304018
+      },
+      {
+        "filename": "842_2013.pdf",
+        "title": "Utilización de instrumentos de concha para la realización de actividades productivas en sociedades tribales comunitarias del sur de la Península Ibérica. El ejemplo de Campo de Hockey (San Fernando, Cádiz) y SET Parralejos (Vejer de la Frontera, Cádiz) = Using shell tools for productive activities in tribal communal societies from southern Iberia. The example of Campo de Hockey (San Fernando, Cádiz) and SET Parralejos (Vejer de la Frontera, Cádiz)",
+        "author": "David CUENCA SOLANA",
+        "doi": "10.14201/zephyrus20137295111",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "843_2013.pdf",
+        "title": "_ANTIQVITAS - 2013 - N.º 25 (pp. 39-48) ISSN: 1139-6609 - M.H.M. Priego de Córdoba_ Villavieja (Algarinejo, Granada), un recinto amurallado de la Edad del Cobre en el Poniente Granadino…",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.900215780890175
+      },
+      {
+        "filename": "844_2013.pdf",
+        "title": "## **Zambujal (Torres Vedras, Lisboa): relatório das escavações de 2002**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.9605552148276592
+      },
+      {
+        "filename": "845_2014.pdf",
+        "title": "Sitios en altura y vasijas rotas: reconsiderando la etapa de ‘plenitud’ de Cogotas I (1450-1150 cal AC) en la Meseta; Hilltop sites and broken vessels: rethinking the later phase of the Cogotas I Culture (1450-1150 cal BC) in the Iberian Meseta",
+        "author": "Antonio Blanco González",
+        "doi": "10.3989/tp.2014.12136",
+        "language": "es",
+        "weight": 0.9069619566515407
+      },
+      {
+        "filename": "846_2014.pdf",
+        "title": "Cronología absoluta del fenómeno campaniforme al Norte del estuario del Tajo: implicaciones demográficas y sociales ;",
+        "author": "Brais X. Currás Refojos",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.8420663739703101
+      },
+      {
+        "filename": "847_2014.pdf",
+        "title": "Aportaciones hidrogeológicas al estudio arqueológico de los orígenes de la Edad del Bronce de La Mancha: la cueva monumentalizada de Castillejo del Bonete (Terrinches, Ciudad Real, España) ; Hydrogeological contributions to the archaeological study of the origins of the Bronze Age of La Mancha: the monumentalised cave of Castillejo del Bonete (Terrinches, Ciudad Real, Spain)",
+        "author": "Luis Benítez de Lugo Enrich",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9510285433332404
+      },
+      {
+        "filename": "848_2014.pdf",
+        "title": "## TRABAJOS de Arqueología Navarra",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8791085563235768
+      },
+      {
+        "filename": "850_2014.pdf",
+        "title": "_Estudos do Quaternário, 10, APEQ, Braga, 2014, pp. 35-43 http://www.apeq.pt/ojs/index.php/apeq._",
+        "author": "Bóris",
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.9455860142312592
+      },
+      {
+        "filename": "851_2014.pdf",
+        "title": "COVA FORADÀ (Oliva",
+        "author": "Laura Egido",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "852_2014.pdf",
+        "title": "La Cova de les Cendres",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9557760972163843
+      },
+      {
+        "filename": "853_2014.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/268521088",
+        "author": "https://www.researchgate.net/publication/268521088",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9050529931605642
+      },
+      {
+        "filename": "854_2014.pdf",
+        "title": "PLEISTOCENE AND HOLOCENE HUNTER-GATHERERS IN IBERIA AND THE GIBRALTAR STRAIT: 426 THE CURRENT ARCHAEOLOGICAL RECORD",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.918849697820284
+      },
+      {
+        "filename": "855_2014.pdf",
+        "title": "# **DATACIONES RADIOCARBÓNICAS DE CONTEXTOS CALCOLÍTICOS AL AIRE LIBRE EN LA CUENCA MEDIA DEL ARLANZÓN (BURGOS, ESPAÑA)**",
+        "author": NaN,
+        "doi": "10.12795/spal.2014.i23.02",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "856_2014.pdf",
+        "title": "Datación absoluta de la mandíbula de Molinos. El final de la polémica sobre los restos humanos más antiguos de Aragón",
+        "author": "José María Rodanés Vicente y José Ignacio Lorenzo Lizalde",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9590561993298642
+      },
+      {
+        "filename": "858_2014.pdf",
+        "title": "El poblado calcolítico “Venta del Rapa” (finales III milenio Cal. BC.), Mancha Real, Jaén. Un recinto de fosos entre las estribaciones de Sierra Mágina y el Alto Guadalquivir; The archaeological site of “Venta del Rapa” (late 3rd millennium Cal. B.C) (Mancha Real, province of Jaen, Spain). A pit area from the Copper Age in the Upper Guadalquivir",
+        "author": "Miguel Ángel Lechuga Chica",
+        "doi": "10.3989/tp.2014.12139",
+        "language": "es",
+        "weight": 0.9300696765882627
+      },
+      {
+        "filename": "860_2014.pdf",
+        "title": "08-arqueo65art17.qxp:Maquetación 1",
+        "author": "MacPro",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9508874196118989
+      },
+      {
+        "filename": "861_2014.pdf",
+        "title": "From Sado Valley to Europe: Mesolithic dietary practices through different geographic distributions",
+        "author": "Maria Fontanals-Coll",
+        "doi": "10.1016/j.jas.2014.07.028",
+        "language": "en",
+        "weight": 0.9615558373786564
+      },
+      {
+        "filename": "862_2014.pdf",
+        "title": "La alta montaña durante la Prehistoria: 10 años de investigación en el Pirineo catalán occidental; The mountains in Prehistory: 10 years of research in western Catalan Pyrenees",
+        "author": "Ermengol Gassiot Ballbè",
+        "doi": "10.3989/tp.2014.12134",
+        "language": "es",
+        "weight": 0.909351193220097
+      },
+      {
+        "filename": "863_2014.pdf",
+        "title": "_ANTIQVITAS - 2014 - N.º 26 (pp. 135-153) ISSN: 1133-6609 - M.H.M. Priego de Córdoba_ La campiña de Córdoba entre el IV y el I milenio ANE. Apuntes sobre la ocupación prehistórica del yacimiento de…",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8944668494424926
+      },
+      {
+        "filename": "864_2014.pdf",
+        "title": "**==> picture [595 x 470] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8847873772817083
+      },
+      {
+        "filename": "865_2014.pdf",
+        "title": "Saldvie(Utrilla-Mazo).qxp:MaquetaciÉn 1",
+        "author": "System Administrator",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9083327625116777
+      },
+      {
+        "filename": "866_2014.pdf",
+        "title": "11-arqueo65art10.qxp:Maquetación 1",
+        "author": "MacPro",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9472242188761604
+      },
+      {
+        "filename": "867_2014.pdf",
+        "title": "Archivo de PrehistoriA LevAntinA Vol. XXX, Valencia, 2014, p. 57-80",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9276567637333187
+      },
+      {
+        "filename": "871_2014.pdf",
+        "title": "Neolithic flint mines of Treviño (Basque-Cantabrian Basin, Western Pyrenees, Spain)",
+        "author": "Antonio Tarriño",
+        "doi": "10.2218/jls.v1i2.1098",
+        "language": "en",
+        "weight": 0.9555230280823754
+      },
+      {
+        "filename": "872_2014.pdf",
+        "title": "Prácticas rituales ibéricas en la Cueva del Sapo (Chiva, Valencia): más allá del Caliciforme = Iberian Ritual Practices in Cueva del Sapo (Chiva, Valencia): Beyond the Calyx-cup",
+        "author": "Sonia MACHAUSE LÓPEZ",
+        "doi": "10.14201/zephyrus201474157179",
+        "language": "es",
+        "weight": 0.8875914215911197
+      },
+      {
+        "filename": "873_2014.pdf",
+        "title": "SAGVNTVM (P.L.A.V.) 46, 2014: 41 - 69 ISSN: 0210-3729 ISSN _online_ : 2174-517X DOI: 10.7203/SAGVNTVM.46.3479",
+        "author": NaN,
+        "doi": "10.7203/SAGVNTVM.46.3479",
+        "language": "es",
+        "weight": 0.7584716209974763
+      },
+      {
+        "filename": "875_2014.pdf",
+        "title": "Shifting occupation dynamics in the Madriu-Perafita-Claror valleys (Andorra) from the early Neolithic to the Chalcolithic: The onset of high mountain cultural landscapes",
+        "author": "Hector A. Orengo",
+        "doi": "10.1016/j.quaint.2014.01.035",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "877_2014.pdf",
+        "title": "## UNIVERSIDAD AUTÓNOMA DE MADRID",
+        "author": "RaQuEL",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9070869273644304
+      },
+      {
+        "filename": "878_2014.pdf",
+        "title": "The chronology of megalithic funerary practices: a Bayesian approach to Grave 11 At El Barranquete necropolis (AlmerIa, Spain)",
+        "author": "Gonzalo Aranda Jiménez",
+        "doi": "10.1016/j.jas.2014.08.005",
+        "language": "en",
+        "weight": 0.92936913869885
+      },
+      {
+        "filename": "879_2014.pdf",
+        "title": "The rock-cut tomb of Bolores (Torres Vedras): an interdisciplinary approach to understanding the social landscape of the Late Neolithic/Copper Age of the Iberian Peninsula; La tumba hipogea de Bolores (Torres Vedras): una aproximación interdisciplinar a la comprensión del paisaje social del Neolítico Final/Edad del Cobre de la Península Ibérica",
+        "author": "Katina T. Lillios",
+        "doi": "10.3989/tp.2014.12135",
+        "language": "en",
+        "weight": 0.9508214084813434
+      },
+      {
+        "filename": "881_2014.pdf",
+        "title": "The megalithic tombs of the Spanish Northern Meseta. Material, political and ideological ties between the Neolithic people and their territory",
+        "author": "Rodrigo Villalobos García",
+        "doi": "10.4000/books.pup",
+        "language": "en",
+        "weight": 0.9094380159850209
+      },
+      {
+        "filename": "882_2014.pdf",
+        "title": "01_ok.qxd",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "884_2015.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/283563619",
+        "author": "https://www.researchgate.net/publication/283563619",
+        "doi": "10.2458/azu_rc.57.18569",
+        "language": "en",
+        "weight": 0.9401549477074148
+      },
+      {
+        "filename": "885_2015.pdf",
+        "title": "\"Orígenes\": un proyecto de investigación del monumento natural \"Cuevas de Fuentes de León\" y su influencia en la economía local",
+        "author": "Hipólito Collado Giraldo, José Ramón Bello Rodrigo, Isabel Domínguez García, Luis F. Nobre da Silva, Lázaro Rodríguez Dorado, José Manuel Torrado Cárdeño, Mónica Villalba de Alvarado, Jairo González Márquez, Ángel Carmelo Domínguez García, Elena García Domínguez, Elena Garrido Fernández, José Enrique Capilla Nicolás, Eulogio Oyola Macías, Marisa Giles Domínguez, Cindy Castaños Ceballos, Rocío Montero González, Samuel Pérez Romero, David M. Duque Espino",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9602233427311839
+      },
+      {
+        "filename": "886_2015.pdf",
+        "title": "**==> picture [61 x 77] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "pt",
+        "weight": 1.0
+      },
+      {
+        "filename": "887_2015.pdf",
+        "title": "OP-MOLB150210 3132..3142",
+        "author": NaN,
+        "doi": "10.1093/molbev/msv181",
+        "language": "ca",
+        "weight": 0.9175948480140108
+      },
+      {
+        "filename": "889_2015.pdf",
+        "title": "Ancient genomes link early farmers from Atapuerca in Spain to modern-day Basques",
+        "author": NaN,
+        "doi": "10.1073/pnas.1509851112",
+        "language": "en",
+        "weight": 0.9059212589333973
+      },
+      {
+        "filename": "890_2015.pdf",
+        "title": "Combining Small-Vertebrate, Marine and Stable-Isotope Data to Reconstruct Past Environments",
+        "author": "Juan Rofes",
+        "doi": "10.1038/srep14219",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "891_Espantalobos_2015.pdf",
+        "title": "06-arqueo66art09.qxp:Maquetación 1",
+        "author": "MacPro",
+        "doi": "10.21630/maa.2015.66.06",
+        "language": "es",
+        "weight": 0.9255800430699604
+      },
+      {
+        "filename": "893_Dating  Iron  Age  goldwork_2015.pdf",
+        "title": "Primeras dataciones directas de 14C AMS para la orfebrería protohistórica del Noroeste de la Península Ibérica; Dating Iron Age goldwork: First direct AMS 14C results from Northwestern Iberia",
+        "author": "Xosé-Lois Armada",
+        "doi": "10.3989/tp.2015.12160",
+        "language": "es",
+        "weight": 0.9059071291259493
+      },
+      {
+        "filename": "895_CerroSanJuan_2015.pdf",
+        "title": "Del Calcolítico al Bronce antiguo en el Guadalquivir inferior. El Cerro de San Juan (Coria del Río, Sevilla) y el ‘modelo de reemplazo’ = From the Copper Age to the Bronze Age in the Lower Guadalquivir Basin. The Cerro de San Juan settlement (Coria del Río, Seville, Spain) and the ‘replacement model’",
+        "author": "Daniel GARCÍA RIVERO",
+        "doi": "10.14201/zephyrus2015761538",
+        "language": "es",
+        "weight": 0.9636403136949058
+      },
+      {
+        "filename": "897_Linares_Mora_DolmenSoto_2015.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/326098729",
+        "author": "https://www.researchgate.net/publication/326098729",
+        "doi": "10.33349/2015.0.3669",
+        "language": "es",
+        "weight": 0.7541190853448996
+      },
+      {
+        "filename": "898_Yacimiento de Santa Comba _2015.pdf",
+        "title": "## El yacimiento de Santa Comba (Covas, Ferrol): investigaciones arqueológicas en un enclave de la ruta marítima atlántica",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9472748762923606
+      },
+      {
+        "filename": "899_CamaraSerrano_MegalitismoAndalucia_2015.pdf",
+        "title": "**==> picture [61 x 77] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "pt",
+        "weight": 1.0
+      },
+      {
+        "filename": "901_CeramicaIncisoImpresa_2015.pdf",
+        "title": "La cerámica inciso-impresa en el tránsito del III al II milenio cal B.C. en la región cantábrica",
+        "author": "M. Cristina Vega Maeso",
+        "doi": "10.5209/rev",
+        "language": "es",
+        "weight": 0.915183299072859
+      },
+      {
+        "filename": "902_Ventosiños_2015.pdf",
+        "title": "La construcción anular y el enclos de Ventosiños (Coeses, Lugo). Estudio preliminar de un conjunto del Bronce final = The ringwork and the Ventosiños enclos (Coeses, Lugo). Preliminary study of an Late Bronze ensemble",
+        "author": "Diego PIAY AUGUSTO",
+        "doi": "10.14201/zephyrus2015765776",
+        "language": "es",
+        "weight": 0.8572238800310332
+      },
+      {
+        "filename": "903_La_cronologia_absoluta_de_la_mineria_2015.pdf",
+        "title": "## La cronología absoluta de la minería de sílex en Casa Montero (Madrid)",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9491868026788506
+      },
+      {
+        "filename": "904_SalvadorPardo_2015.pdf",
+        "title": "## UNIVERSITAT DE VALÈNCIA",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9661405994808997
+      },
+      {
+        "filename": "905_López Quintana_et_al_2015.pdf",
+        "title": "CNP_5.pdf",
+        "author": "gestiondocumental",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8379472478372403
+      },
+      {
+        "filename": "906_PrimeraExplotacionMinera_2015.pdf",
+        "title": "La mina de José Martín Palacios-Doña Eva (Baños de la Encina, Jaén): la primera explotación minera de la Edad del Bronce documentada en el sureste de la Península Ibérica",
+        "author": "Luis Arboledas Martínez, Eva Alarcón García, Francisco Contreras Cortés, Auxilio Moreno Onorato, Juan Jesús Padilla Fernández",
+        "doi": "10.3989/tp.2015.12149",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "907_RAFEL_ROSILLO_ANTONI_PALOMO_JOSEP_TARRUS_2015.pdf",
+        "title": "**==> picture [61 x 77] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.993200471090113
+      },
+      {
+        "filename": "908_AllieseetalBSPF_2015.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/274095554",
+        "author": "https://www.researchgate.net/publication/274095554",
+        "doi": "10.1016/j.anthro.2015.02.003",
+        "language": "fr",
+        "weight": 0.9095896267909511
+      },
+      {
+        "filename": "910_YacimientoBasagin_2015.pdf",
+        "title": "11-arqueo66art17.qxp:Maquetación 1",
+        "author": "MacPro",
+        "doi": "10.21630/maa.2015.66.11",
+        "language": "es",
+        "weight": 0.9326350580293251
+      },
+      {
+        "filename": "911_Mesolitico_neolitico_antigo_2015.pdf",
+        "title": "**==> picture [61 x 77] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.9879813434901445
+      },
+      {
+        "filename": "912_TerrazasManzanares_2015.pdf",
+        "title": "01_ok.qxd",
+        "author": NaN,
+        "doi": "10.15366/cupauam2015.41.003_",
+        "language": "es",
+        "weight": 0.941784069645611
+      },
+      {
+        "filename": "917_LaBastida_2015.pdf",
+        "title": "## a r q u EO LO G Í A **a r g á r i c a** P ROYEC TO BAST I DA",
+        "author": NaN,
+        "doi": "10.5334/bha.18102",
+        "language": "es",
+        "weight": 0.8775848600072996
+      },
+      {
+        "filename": "918_Dialnet-PuntualizacionesSobreElTransitoVIVMilenioCalA_2015.pdf",
+        "title": "_ANTIQVITAS - 2015 - N.º 27 (pp. 31-47) ISSN: 1133-6609 - M.H.M. Priego de Córdoba_ Puntualizaciones sobre el tránsito V-IV milenio cal.AC en la Alta Andalucía. El primer asentamiento en el…",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8919415949813174
+      },
+      {
+        "filename": "919_JuanGibaja_2015.pdf",
+        "title": "The Emergence of Mesolithic Cemeteries in SW Europe: Insights from the El Collado (Oliva, Valencia, Spain) Radiocarbon Record",
+        "author": "Juan F. Gibaja, M. Eulàlia Subirà, Xavier Terradas, F. Javier Santos, Lidia Agulló, Isabel Gómez-Martínez, Florence Allièse, Javier Fernández-López de Pablo",
+        "doi": "10.1371/journal.pone.0115505",
+        "language": "en",
+        "weight": 0.9364985145441912
+      },
+      {
+        "filename": "922_Meadows_Huels_Schneider_2015.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/283563619",
+        "author": "https://www.researchgate.net/publication/283563619",
+        "doi": "10.2458/azu_rc.57.18569",
+        "language": "en",
+        "weight": 0.9222285124837858
+      },
+      {
+        "filename": "924_EbroValley_2016.pdf",
+        "title": "8.2&nbsp;ka BP paleoclimatic event and the Ebro Valley Mesolithic groups: Preliminary data from Artusia rock shelter (UnzuE, Navarra, Spain)",
+        "author": "Iñigo García-Martínez de Lagrán",
+        "doi": "10.1016/j.quaint.2015.06.050",
+        "language": "en",
+        "weight": 0.9666636628861557
+      },
+      {
+        "filename": "925_ComunityinLife_2016.pdf",
+        "title": "A Community in Life and Death: The Late Neolithic Megalithic Tomb at Alto de Reinoso (Burgos, Spain)",
+        "author": "Kurt W. Alt, Stephanie Zesch, Rafael Garrido-Pena, Corina Knipper, Anna Szécsényi-Nagy, Christina Roth, Cristina Tejedor-Rodríguez, Petra Held, Íñigo García-Martínez-de-Lagrán, Denise Navitainuck, Héctor Arcusa Magallón, Manuel A. Rojo-Guerra",
+        "doi": "10.1371/journal",
+        "language": "en",
+        "weight": 0.8968830478649481
+      },
+      {
+        "filename": "926_PedroTereso_2016.pdf",
+        "title": "Agriculture in NW Iberia during the Bronze Age: A review of archaeobotanical data",
+        "author": NaN,
+        "doi": "10.1016/j.jasrep.2016.07.011",
+        "language": "pt",
+        "weight": 0.9668891584089011
+      },
+      {
+        "filename": "927_ValenzuelaLamas_2016.pdf",
+        "title": "Analysis of seasonal mobility of sheep in Iron Age Catalonia (north-eastern Spain) based on strontium and oxygen isotope analysis from tooth enamel: First results",
+        "author": NaN,
+        "doi": "10.1016/j.jasrep.2015.08.042",
+        "language": "en",
+        "weight": 0.9220321793903599
+      },
+      {
+        "filename": "929_Hernandez-Perez_etal_Cabezo-Redondo_2016.pdf",
+        "title": "CR CABEZO REDONDO (VILLENA, ALICANTE)",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.6402685480143764
+      },
+      {
+        "filename": "930_Clemente-et-al_coro-trasito_2016.pdf",
+        "title": "_Sesión 1. Prehistoria y Arte Rupestre_",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9301043287495809
+      },
+      {
+        "filename": "931_PaisajesPastorales_2016.pdf",
+        "title": "nº 67 325-337 DONOSTIA 2016 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2016.67.mis11",
+        "language": "es",
+        "weight": 0.9136310980227612
+      },
+      {
+        "filename": "932_distribution-and-chronological-framework-for-iberian-variscite-mining-and-consumption-at-pico-centeno-encinasola-spain_2016.pdf",
+        "title": "Distribution and chronological framework for Iberian variscite mining and consumption at Pico Centeno, Encinasola, Spain",
+        "author": "Carlos P. Odriozola",
+        "doi": "10.1016/j.yqres.2015.11.010",
+        "language": "en",
+        "weight": 0.9276198476506754
+      },
+      {
+        "filename": "933_earliest-evidence-of-neolithic-collective-burials-from-eastern-iberia-radiocarbon-dating-at-the-archaeological-site-of-les-llometes-alicante-spain_2016.pdf",
+        "title": "untitled",
+        "author": NaN,
+        "doi": "10.1017/RDC.2016.34",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "935_Acequion_2016.pdf",
+        "title": "I Reunión Científica de Arqueología de Albacete",
+        "author": NaN,
+        "doi": "10.1016/j.jas.2010.01.035",
+        "language": "es",
+        "weight": 0.8845875420518156
+      },
+      {
+        "filename": "936_BronceFinal_2016.pdf",
+        "title": "El Bronce Final en el Levante de la península Ibérica: bases arqueológicas y periodización",
+        "author": "Francisco Javier Jover Maestre, Alberto Lorrio Alvarado, María de los Ángeles Díaz Tena",
+        "doi": "10.5209/CMPL.53218",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "937_CromlechTumular_Mujika et al_Munibe_2016.pdf",
+        "title": "**MUNIBE** Antropologia-Arkeologia",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9676236664907194
+      },
+      {
+        "filename": "938_YacimientoDevesa_2016.pdf",
+        "title": "El yacimiento de A Devesa de Abaixo (Pontevedra): muerte y tradición en la prehistoria reciente del Noroeste de la Península Ibérica ; A Devesa de Abaixo archaeological site (Pontevedra): death and tradition in late prehistory in the NW of the Iberian Peninsula",
+        "author": "Pablo Vázquez Liz",
+        "doi": "10.3989/ceg.2016.129.01",
+        "language": "es",
+        "weight": 0.9506764659993937
+      },
+      {
+        "filename": "940_EnterramientosNeolitico_2016.pdf",
+        "title": "_Del neolític a l’edat del bronze en el Mediterrani occidental. Estudis en homenatge a Bernat Martí Oliver._ tv sip 119, València, 2016, p. 181-210.",
+        "author": NaN,
+        "doi": "10.1179/1461957114Y.0000000084",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "941_EnterramientosAltoAragon_2016.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/304020772",
+        "author": "https://www.researchgate.net/publication/304020772",
+        "doi": "10.1111/j.1365-294X.2011.05361.x",
+        "language": "es",
+        "weight": 0.9254219209183338
+      },
+      {
+        "filename": "942_IndustriaLitica_2016.pdf",
+        "title": "2016 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2016.67.mis01",
+        "language": "es",
+        "weight": 0.9129087046844147
+      },
+      {
+        "filename": "943_DolmenHuesera_FernandezEraso_2016.pdf",
+        "title": "Estela decorada en el dolmen del Alto de la Huesera (Laguardia, Álava) = Decorated stela in Alto de la Huesera dolmen (Laguardia, Álava)",
+        "author": "Javier FERNÁNDEZ-ERASO",
+        "doi": "10.14201/zephyrus2016781933",
+        "language": "es",
+        "weight": 0.9105800717344726
+      },
+      {
+        "filename": "944_CermicaElPortalon_2016.pdf",
+        "title": "nº 67 105-126 DONOSTIA",
+        "author": NaN,
+        "doi": "10.21630/maa.2016.67.06",
+        "language": "es",
+        "weight": 0.9442069773463221
+      },
+      {
+        "filename": "945_ColonizacionFenicia_LopezCastro_2016.pdf",
+        "title": "La colonización fenicia inicial en el Mediterráneo Central: nuevas excavaciones arqueológicas en Utica (Túnez) ; The initial Phoenician colonization in Central Mediterranean: new archaeological excavations in Utica (Tunisia)",
+        "author": "José Luis López Castro",
+        "doi": "10.3989/tp.2016.12164",
+        "language": "es",
+        "weight": 0.9466929351993698
+      },
+      {
+        "filename": "946_mupreva194_mupreva153_2016.pdf",
+        "title": "_Del neolític a l’edat del bronze en el Mediterrani occidental. Estudis en homenatge a Bernat Martí Oliver._ tv sIp 119, València, 2016, p. 97-107.",
+        "author": NaN,
+        "doi": NaN,
+        "language": "ca",
+        "weight": 1.0
+      },
+      {
+        "filename": "948_PeterSmith_2016.pdf",
+        "title": "2016 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2016.67.03",
+        "language": "es",
+        "weight": 0.912825750954746
+      },
+      {
+        "filename": "949_DidacRoman_2016.pdf",
+        "title": "La fin du Paléolithique dans la Catalogne méridionale ibérique revisitée : nouvelles réponses pour anciennes questions",
+        "author": "Didac Roman",
+        "doi": "10.1016/j.anthro.2016.10.001",
+        "language": "fr",
+        "weight": 1.0
+      },
+      {
+        "filename": "950_LourdesMontes_2016.pdf",
+        "title": "2016 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2016.67.mis07",
+        "language": "es",
+        "weight": 0.9301053435286748
+      },
+      {
+        "filename": "951_CamaraSerrano_MontefrioAsentamiento_2016.pdf",
+        "title": "LA OCUPACIÓN DE LAS PEÑAS DE LOS GITANOS (MONTEFRÍO, GRANADA) DESDE EL NEOLÍTICO AL MUNDO ROMANO. ASENTAMIENTO Y RITUAL FUNERARIO.",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9633679243727093
+      },
+      {
+        "filename": "953_Landscape_resources_and_people_during_2016.pdf",
+        "title": "Landscape, resources and people during the Mesolithic and Neolithic times in NE Iberia: The Arba de Biel Basin",
+        "author": "Lourdes Montes",
+        "doi": "10.1016/j.quaint.2015.05.041",
+        "language": "en",
+        "weight": 0.9873640293458783
+      },
+      {
+        "filename": "954_marine-radiocarbon-reservoir-effect-in-late-pleistocene-and-early-holocene-coastal-waters-off-northern-iberia_2016.pdf",
+        "title": "untitled",
+        "author": NaN,
+        "doi": "10.1017/RDC.2016.71",
+        "language": "en",
+        "weight": 1.0
+      },
+      {
+        "filename": "955_VelascoVazquz_2016.pdf",
+        "title": "nº 67 75-103 DONOSTIA 2016 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2016.67.04",
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "956_NotasSobreLaFaseSotoFormativoEnElPobladoDeLosCuest_2016.pdf",
+        "title": "## **NOTAS SOBRE LA FASE** _**SOTO FORMATIVO**_ **EN EL POBLADO DE LOS CUESTOS DE LA ESTACIÓN (BENAVENTE, ZAMORA)**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9201544667560062
+      },
+      {
+        "filename": "957_RitaPeyroteo_2016.pdf",
+        "title": "Unknown",
+        "author": NaN,
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9293641638718296
+      },
+      {
+        "filename": "958_VILLALOBOSGARCAyODRIOZOLA2016.OrganizingtheProductionofVariscitePersonalOrnamentsinLaterPrehistoricIberiaTheMinesofAlisteandtheProductionSitesofQuiruelasde.pdf",
+        "title": "European Journal of Archaeology 19 (4) 2016, 631–651",
+        "author": NaN,
+        "doi": "10.1080/14619571.2016.1147316",
+        "language": "en",
+        "weight": 0.9214865801245096
+      },
+      {
+        "filename": "960_OsPrimeirosEnterramentosSidericosConhecidosNaMarge_2016.pdf",
+        "title": "*** Antropóloga, Arqueologia & Património zelimaria@hotmail.com",
+        "author": NaN,
+        "doi": NaN,
+        "language": "pt",
+        "weight": 0.9630037697762269
+      },
+      {
+        "filename": "961_CarlosOdriozola_2016.pdf",
+        "title": "Personal body ornamentation on the Southern Iberian Meseta: An archaeomineralogical study",
+        "author": NaN,
+        "doi": "10.1016/j.jasrep.2015.11.021",
+        "language": "en",
+        "weight": 0.9604028213321157
+      },
+      {
+        "filename": "962_Dialnet-PrimerosDatosSobreElAsentamientoDelHierroAntiguo_2016.pdf",
+        "title": "QUAD. PREH. ARQ. CAST. 34, 2016",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9551481430346237
+      },
+      {
+        "filename": "963_MolinaGonzalez_AltiplanosGranadinosDieta_2016.pdf",
+        "title": "_Del neolític a l’edat del bronze en el Mediterrani occidental. Estudis en homenatge a Bernat Martí Oliver._ tv sIp 119, València, 2016, p. 451-463.",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "964_Rosser_Soler_Propuesta-de-fases-cronologicas-para-el-asentamiento-neolitico-del-Tossal-de-les-Basses_2016.pdf",
+        "title": "Del neolític a l’edat del bronze - Estudis en homenatge a Bernat Martí Oliver",
+        "author": "Varios Autores",
+        "doi": NaN,
+        "language": "es",
+        "weight": 1.0
+      },
+      {
+        "filename": "965_XavierOms_2016.pdf",
+        "title": "Revisión radiocarbónica y cronocultural del Neolítico antiguo de la Balma Margineda (Aixovall, Andorra) ; \tChronocultural and radiocarbon revision of the Early Neolithic in Balma Margineda (Aixovall, Andorra)",
+        "author": "F. Xavier Oms, Juan F. Gibaja, Niccolò Mazzucco, Jean Guilaine",
+        "doi": "10.3989/tp.2016.12162",
+        "language": "en",
+        "weight": 0.9275830959120959
+      },
+      {
+        "filename": "966_JesusTapia_2016.pdf",
+        "title": "2016 ISSN 1132-2217 • eISSN 2172-4555",
+        "author": NaN,
+        "doi": "10.21630/maa.2016.67.mis06",
+        "language": "es",
+        "weight": 0.9685858690059211
+      },
+      {
+        "filename": "967_PrietoMartinez_2016.pdf",
+        "title": "Chapter Title: Settlements and Houses in Galicia in the Middle and Late Bronze Age Chapter Author(s): M. Pilar Prieto-Martínez and  Mikel Díaz-Rodríguez",
+        "author": "Settlements and Houses in Galicia in the Middle and Late Bronze Age Chapter Author(s): M. Pilar Prieto-Martínez and  Mikel Díaz-Rodríguez",
+        "doi": NaN,
+        "language": "en",
+        "weight": 0.9794411173435379
+      },
+      {
+        "filename": "969_PatriciaSaragoça_2016.pdf",
+        "title": "Stable isotope and multi-analytical investigation of Monte da Cegonha: A Late Antiquity population in southern Portugal",
+        "author": "Patrícia Saragoça",
+        "doi": "10.1016/j.jasrep.2016.07.010",
+        "language": "en",
+        "weight": 0.952378773933462
+      },
+      {
+        "filename": "970_NeolothicNecropolis_2016.pdf",
+        "title": "The Neolithic Necropolis of La Feixa del Moro (Juberri, Andorra): New data on the first farming communities in the Pyrenees",
+        "author": "Gerard Remolins",
+        "doi": "10.1016/j.crpv.2015.11.005",
+        "language": "ca",
+        "weight": 0.9482142850426943
+      },
+      {
+        "filename": "971_agriculture-in-south-western-europe-new-isotopic-insights-from-portugals-atlantic-coast_2016.pdf",
+        "title": "## **The transition to agriculture in south-western Europe: new isotopic insights from Portugal’s Atlantic coast**",
+        "author": NaN,
+        "doi": "10.15184/aqy.2016.34",
+        "language": "en",
+        "weight": 0.9063946092237741
+      },
+      {
+        "filename": "972_TossaldelaVila_2016.pdf",
+        "title": "QUAD. PREH. ARQ. CAST. 34, 2016",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9622267035952221
+      },
+      {
+        "filename": "973_Isotope_2017.pdf",
+        "title": "Isotope analyses to explore diet and mobility in a medieval Muslim population at Tauste (NE Spain)",
+        "author": "Iranzu Guede, Luis Angel Ortega, Maria Cruz Zuluaga, Ainhoa Alonso-Olazabal, Xabier Murelaga, Miriam Pina, Francisco Javier Gutierrez, Paola Iacumin",
+        "doi": "10.1371/journal.pone.0176572",
+        "language": "en",
+        "weight": 0.9249968750573916
+      },
+      {
+        "filename": "975_AcronologiaderadiocarbonoparaaIdadedoFerroOrientalizantenoterritrioportugus_2016.pdf",
+        "title": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/321836529",
+        "author": "Igor Bogdanovic",
+        "doi": "10.1016/j.quaint.2009.10.012",
+        "language": "pt",
+        "weight": 0.9010830347753082
+      },
+      {
+        "filename": "977_UnexpectedCase_2017.pdf",
+        "title": "An unexpected case in the prehistory of the Iberian Peninsula_ Biogeographical origin analysis through mitochondrial DNA",
+        "author": "Sara Palomo-Díez",
+        "doi": "10.1016/j.fsigss.2017.09.080",
+        "language": "en",
+        "weight": 0.9242921389341919
+      },
+      {
+        "filename": "978_BobilaMadurell_2017.pdf",
+        "title": "**==> picture [164 x 39] intentionally omitted <==**",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.4897707967584454
+      },
+      {
+        "filename": "982_Cronometria_2016.pdf",
+        "title": "## **Cronometría del proceso de neolitización en los Campos de Hellín y la cuenca baja del río Mundo (Albacete)**",
+        "author": "Valeria",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.948665057946425
+      },
+      {
+        "filename": "983_Inhumacion_2017.pdf",
+        "title": "# **De la inhumación a la cremación en el nordeste peninsular: cronología y sociedad**",
+        "author": "Paz Caldentey",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.934533781061215
+      },
+      {
+        "filename": "984_DemografiayPoblamiento_2016.pdf",
+        "title": "## UNIVERSIDAD AUTÓNOMA DE MADRID",
+        "author": NaN,
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.8970154770709968
+      },
+      {
+        "filename": "985_DinamicaUso_2016.pdf",
+        "title": "# **Dinámica de uso y amortización de la cabaña epicardial del yacimiento de** _**Reina Amàlia**_ **31-33 (Barcelona) a través de modelos Bayesianos**",
+        "author": "Igor Bogdanovic",
+        "doi": NaN,
+        "language": "es",
+        "weight": 0.9326371917311748
+      }
+    ]
+  }
+]

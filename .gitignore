@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.local
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env_rag/
+
+# Weaviate data (GBs)
+weaviate_data/
+
+# IDE outputs
+.ipynb_checkpoints/
+*.Zone.Identifier
+
+# Source data (large PDFs — 4GB+)
+data/ingesta/
+
+# Results (large)
+data/results/*.csv
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store

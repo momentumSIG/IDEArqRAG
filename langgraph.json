@@ -1,0 +1,18 @@
+{
+  "graphs": {
+    "rag_eval": "./src/graph_eval.py:graph"
+  },
+  "env": ".env",
+  "python_version": "3.12",
+  "dependencies": [
+    "langgraph",
+    "langchain-core",
+    "langchain-ollama",
+    "langchain-weaviate",
+    "langchain-huggingface",
+    "langchain-mistralai",
+    "sentence-transformers",
+    "weaviate-client",
+    "ragas"
+  ]
+}
