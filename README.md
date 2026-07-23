@@ -7,12 +7,9 @@
 ![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 [![LLMs](https://img.shields.io/badge/LLMs-3%20models-purple)]
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-Transformers-FFD21E?logo=huggingface&logoColor=black)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-Transformers-FFD21E?logo=huggingface&logoColor=yellow)
 ![Archaeology](https://img.shields.io/badge/Domain-Archaeology-brown)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/usuario/repositorio)
-![GitHub release](https://img.shields.io/github/v/release/usuario/repositorio)
-![GitHub issues](https://img.shields.io/github/issues/usuario/repositorio)
 ---
 Retrieval-Augmented Generation sobre documentación arqueológica de IDEArq
 (http://www.idearqueologia.org). Evalúa modelos pequeños (Phi-3.5-mini,
