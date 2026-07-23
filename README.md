@@ -12,9 +12,9 @@
 
 ---
 Retrieval-Augmented Generation sobre documentación arqueológica de IDEArq
-(http://www.idearqueologia.org). Evalúa modelos pequeños (Phi-3.5-mini,
-Qwen3-4B, Llama-3.2-3B) con embeddings pequeños (MiniLM-L6-v2,
-GTE-multilingual-base) y RAGAS con juez Mistral.
+(http://www.idearqueologia.org). Evalúa modelos pequeños (Phi-4-mini,
+Qwen3-4B, Llama-3.2-3B) con embeddings pequeños (AllMiniLM-L6-v2,
+GTE-multilingual-base y e5-multilingual) y RAGAS con juez Mistral.
 
 ---
 
