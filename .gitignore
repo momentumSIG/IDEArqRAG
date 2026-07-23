@@ -12,6 +12,11 @@ data/ingesta/
 # Results (large)
 data/results/*.csv
 
+# LDA generated artifacts (large parquet/CSV outputs)
+lda/data/*.parquet
+lda/outputs/papers_topics.csv
+lda/outputs/papers_topics_v2.csv
+
 # Logs
 logs/
 *.log
