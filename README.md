@@ -6,7 +6,7 @@
 ![Weaviate](https://img.shields.io/badge/Vector_DB-Weaviate-00C7B7)
 ![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-[![LLMs](https://img.shields.io/badge/LLMs-3%20models-purple)]
+![LLMs](https://img.shields.io/badge/LLMs-3%20models-purple)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-Transformers-FFD21E?logo=huggingface&logoColor=yellow)
 ![Archaeology](https://img.shields.io/badge/Domain-Archaeology-brown)
 
