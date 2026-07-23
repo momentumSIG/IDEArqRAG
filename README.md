@@ -1,8 +1,18 @@
 # RAG-IDEArq — Sistema de Evaluación 
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=FFD43B)
-[![LLMs](https://img.shields.io/badge/LLMs-3%20models-purple)](ontologies_generated/README.md)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey)
+![LangChain](https://img.shields.io/badge/LangChain-Latest-1C3C3C?logo=langchain)
+![Weaviate](https://img.shields.io/badge/Vector_DB-Weaviate-00C7B7)
+![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-success)
+[![LLMs](https://img.shields.io/badge/LLMs-3%20models-purple)]
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-Transformers-FFD21E?logo=huggingface&logoColor=black)
+![Archaeology](https://img.shields.io/badge/Domain-Archaeology-brown)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/usuario/repositorio)
+![GitHub release](https://img.shields.io/github/v/release/usuario/repositorio)
+![GitHub issues](https://img.shields.io/github/issues/usuario/repositorio)
 ---
 Retrieval-Augmented Generation sobre documentación arqueológica de IDEArq
 (http://www.idearqueologia.org). Evalúa modelos pequeños (Phi-3.5-mini,
