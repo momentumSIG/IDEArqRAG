@@ -1,7 +1,7 @@
 # RAG-IDEArq — Sistema de Evaluación 
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)]
 ![LangChain](https://img.shields.io/badge/LangChain-Latest-1C3C3C?logo=langchain)
 ![Weaviate](https://img.shields.io/badge/Vector_DB-Weaviate-00C7B7)
 ![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
