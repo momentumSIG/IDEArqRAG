@@ -1,4 +1,4 @@
-# RAG-IDEArq — Sistema de Evaluación 
+# RAG de recursos arqueológicos 
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
