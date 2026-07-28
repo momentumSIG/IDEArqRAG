@@ -1,7 +1,7 @@
 # RAG-IDEArq — Sistema de Evaluación 
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 ![LangChain](https://img.shields.io/badge/LangChain-Latest-1C3C3C?logo=langchain)
 ![Weaviate](https://img.shields.io/badge/Vector_DB-Weaviate-00C7B7)
 ![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
@@ -18,7 +18,7 @@ GTE-multilingual-base y e5-multilingual) y RAGAS.
 
 ---
 
-## Dataset RAG-IDEArq-eval-v3
+## Dataset de evaluación
 
 30 preguntas de evaluación sobre arqueología ibéricadivididas en **15 simples** (1 artículo) y **15 complejas** (2+ artículos).
 
@@ -55,3 +55,7 @@ RAG/
 ├── deploy/docker/                ← Docker Compose (Weaviate)
 └── weaviate_data/                ← Datos de Weaviate
 ```
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
