@@ -312,3 +312,33 @@ END
 | `rdflib` | Cargar grafo RDF | `pip install rdflib` |
 
 Ambos ya están disponibles en `env_rag`.
+
+---
+
+## Phase 1 & 2 — Results Summary (July 2026)
+
+> Full analysis: `docs/phase1-phase2-results.md`
+
+### Baseline (54 combos, 30 questions, no rerank)
+
+| Metric | Value |
+|---|---|
+| Faithfulness | 0.479 |
+| Context Precision | 0.364 |
+| Context Recall | 0.213 |
+| Answer Correctness | 0.177 |
+
+### Key Findings
+
+1. **LLM dominates**: Qwen3-4B > Llama-3.2-3B >> Phi-4-mini (fails on non-Spanish, ac=0.102)
+2. **Embedding**: GTE > MiniLM for answer_correctness (0.190 vs 0.163)
+3. **Prompt & temperature**: negligible impact (<0.01)
+4. **Reranking (BGE, k=10→top_n=5)**: **no net benefit**; context_recall **−7.9% (p<0.001)**
+5. **Best combo**: GTE + Qwen3-4B + one_shot + t0.5 (ac=0.309)
+6. **Languages**: ES best (0.194), CA/FR worst (0.031/0.077)
+
+### Next Phase 3
+
+- [ ] Evaluate e5-large-instruct (1024D) — see `notebooks/evaluation/rag-evaluacion-con-chonkie.ipynb` Cell 12
+- [ ] Reranking with k_retrieval=20→top_n=10 (gentler pruning)
+- [ ] Hybrid search BM25+vector (see `docs/future-work-hybrid-search.md`)
