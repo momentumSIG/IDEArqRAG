@@ -1,23 +1,30 @@
-sjr_slug,sjr_materia
-1204_archeology_arts_and_humanities_3302_archeology,1204|Archeology (arts and Humanities); 3302|Archeology
-1204_archeology_arts_and_humanities_1901_earth_and_planetary,1204|Archeology (arts and Humanities); 1901|Earth and Planetary Sciences (miscellaneous)
-1101_agricultural_and_biological_sciences_miscellaneous,1101|Agricultural and Biological Sciences (miscellaneous)
-1105_ecology_evolution_behavior_and_systematics,"1105|Ecology, Evolution, Behavior and Systematics"
-1202_history_1204_archeology_arts_and_humanities_3302_archeo,1202|History; 1204|Archeology (arts and Humanities); 3302|Archeology
-1912_space_and_planetary_science_1913_stratigraphy,1912|Space and Planetary Science; 1913|Stratigraphy
-1904_earth_surface_processes_1201_arts_and_humanities_miscel,1904|Earth-surface Processes; 1201|Arts and Humanities (miscellaneous); 1901|Earth and Planetary Sciences (miscellaneous)
-1204_archeology_arts_and_humanities_3302_archeology_3316_cul,1204|Archeology (arts and Humanities); 3302|Archeology; 3316|Cultural Studies
-1904_earth_surface_processes,1904|Earth-surface Processes
-1201_arts_and_humanities_miscellaneous_1904_earth_surface_pr,1201|Arts and Humanities (miscellaneous); 1904|Earth-Surface Processes; 1901|Earth and Planetary Sciences (miscellaneous)
-1204_archeology_arts_and_humanities_3302_archeology_3314_ant,1204|Archeology (arts and Humanities); 3302|Archeology; 3314|Anthropology
-1311_genetics_1312_molecular_biology_1105_ecology_evolution_,"1311|Genetics; 1312|Molecular Biology; 1105|Ecology, Evolution, Behavior and Systematics"
-1207_history_and_philosophy_of_science_3314_anthropology,1207|History and Philosophy of Science; 3314|Anthropology
-2701_medicine_miscellaneous_1301_biochemistry_genetics_and_m,"2701|Medicine (miscellaneous); 1301|Biochemistry, Genetics and Molecular Biology (miscellaneous); 1101|Agricultural and Biological Sciences (miscellaneous)"
-1911_paleontology,1911|Paleontology
-1701_computer_science_miscellaneous,1701|Computer Science (miscellaneous)
-1000_multidisciplinary,1000|Multidisciplinary
-1201_arts_and_humanities_miscellaneous_3302_archeology,1201|Arts and Humanities (miscellaneous); 3302|Archeology
-1105_ecology_evolution_behavior_and_systematics_2701_medicin,"1105|Ecology, Evolution, Behavior and Systematics; 2701|Medicine (miscellaneous)"
-1202_history_1204_archeology_arts_and_humanities_1206_conser,1202|History; 1204|Archeology (arts and Humanities); 1206|Conservation; 3302|Archeology; 3314|Anthropology
-1907_geology_2306_global_and_planetary_change_1204_archeolog,"1907|Geology; 2306|Global and Planetary Change; 1204|Archeology (arts and Humanities); 1105|Ecology, Evolution, Behavior and Systematics; 3302|Archeology"
-10_multidisciplinary,10|Multidisciplinary
+topic_slug,topic_label
+archaeology_and_cultural_heritage,Archaeology and Cultural Heritage
+archaeological_and_geological_studies,Archaeological and Geological Studies
+archaeological_and_historical_studies,Archaeological and Historical Studies
+ancient_and_medieval_archaeology_studies,Ancient and Medieval Archaeology Studies
+archaeological_research_and_protection,Archaeological Research and Protection
+cultural_heritage_management_and_preservation,Cultural Heritage Management and Preservation
+archaeology_and_ancient_environmental_studies,Archaeology and ancient environmental studies
+forensic_anthropology_and_bioarchaeology_studies,Forensic Anthropology and Bioarchaeology Studies
+soil_and_environmental_studies,Soil and Environmental Studies
+pleistocene_era_hominins_and_archaeology,Pleistocene-Era Hominins and Archaeology
+archaeology_and_rock_art_studies,Archaeology and Rock Art Studies
+geology_and_paleoclimatology_research,Geology and Paleoclimatology Research
+marine_and_environmental_studies,Marine and environmental studies
+maritime_and_coastal_archaeology,Maritime and Coastal Archaeology
+fire_effects_on_ecosystems,Fire effects on ecosystems
+cultural_heritage_materials_analysis,Cultural Heritage Materials Analysis
+metallurgy_and_cultural_artifacts,Metallurgy and Cultural Artifacts
+human_animal_interaction_studies,Human-Animal Interaction Studies
+mineralogy_and_gemology_studies,Mineralogy and Gemology Studies
+medieval_architecture_and_archaeology,Medieval Architecture and Archaeology
+historical_and_architectural_studies,Historical and Architectural Studies
+isotope_analysis_in_ecology,Isotope Analysis in Ecology
+forensic_and_genetic_research,Forensic and Genetic Research
+genetic_diversity_and_population_structure,Genetic diversity and population structure
+ancient_mediterranean_archaeology_and_history,Ancient Mediterranean Archaeology and History
+paleopathology_and_ancient_diseases,Paleopathology and ancient diseases
+animal_ecology_and_behavior_studies,Animal Ecology and Behavior Studies
+evolution_and_paleontology_studies,Evolution and Paleontology Studies
+genetic_and_phenotypic_traits_in_livestock,Genetic and phenotypic traits in livestock

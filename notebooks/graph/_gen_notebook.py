@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate the notebook rag-graph-ontologia-mapeo.ipynb"""
 import json
+from pathlib import Path
 
 def mk_md(source):
     return {"cell_type": "markdown", "metadata": {}, "source": source.split("\n")}
@@ -35,12 +36,12 @@ Generación de un grafo RDF a partir de `referencias_clean.csv` usando la ontolo
 - Documentos (`bibo:AcademicArticle`, `bibo:Book`, `bibo:Series`, `bibo:Proceedings`, `bibo:Document`)
 - Autores (`foaf:Person`) — extraídos del campo `autores` (formato `1|Name; 2|Name`)
 - Revistas (`bibo:Journal`) — deduplicadas por ISSN
-- Temas (`skos:Concept`) — desde `sjr_materia`
+- Temas (`skos:Concept`) — desde `topics_openalex` (hasta 3 por artículo)
 
 **Salida**:
 - `data/biblio-graph/idearq-graph-instances.ttl` (Turtle)
 - `data/biblio-graph/idearq-graph-instances.nt` (N-Triples)
-- `data/biblio-graph/_derived/{docs,authors,journals,subjects}.csv` (intermedios)"""),
+- `data/biblio-graph/_derived/{docs,authors,journals,subjects,doc_topics}.csv` (intermedios)"""),
 
 mk_code("""import os, sys, re, json, textwrap
 from pathlib import Path
@@ -201,23 +202,80 @@ df["year_str"] = df["year"].apply(lambda x: str(int(x)) if pd.notna(x) else None
 df[["uri_base", "rdf_type"]] = df["tipo_fuente"].apply(
     lambda x: pd.Series(get_uri_parts(x))
 )
-df["doc_uri"] = BASE_URI + df["uri_base"] + "/" + df["doc_id"].astype(str)
+def _texto(v):
+    # pandas devuelve NaN (float) en las celdas vacias, y NaN es truthy en Python:
+    # `v or ""` no sirve, hay que preguntar por pd.isna().
+    return "" if pd.isna(v) else str(v).strip()
+
+def normalize_title(t):
+    t = unicodedata.normalize("NFKD", _texto(t)).encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+
+def _contiene_tokens(t1, t2):
+    # True si los tokens de t1 forman una secuencia contigua dentro de t2.
+    # Por tokens, no por subcadena: "dates vii" NO esta contenido en "dates viii".
+    a, b = normalize_title(t1).split(), normalize_title(t2).split()
+    if not a or len(a) > len(b):
+        return False
+    return any(b[i:i + len(a)] == a for i in range(len(b) - len(a) + 1))
+
+def misma_obra(t1, a1, t2, a2):
+    # Dos filas con el mismo (tipo_fuente, id) son la misma obra si los titulos
+    # normalizados coinciden, si uno contiene al otro token a token (titulo
+    # truncado) o si comparten abstract no vacio. En otro caso son obras distintas.
+    n1, n2 = normalize_title(t1), normalize_title(t2)
+    if n1 and n1 == n2:
+        return True
+    if _contiene_tokens(t1, t2) or _contiene_tokens(t2, t1):
+        return True
+    a1, a2 = _texto(a1), _texto(a2)
+    return bool(a1) and a1 == a2
+
+df["doc_key"] = df["doc_id"].astype(str)
+df["doc_uri"] = BASE_URI + df["uri_base"] + "/" + df["doc_key"]
+
+# --- Desambiguación de doc_key ---
+# Dos filas que comparten (uri_base, doc_id) son el mismo nodo RDF. Si además son
+# obras distintas (mismo id reutilizado), la segunda recibe su propia clave. La
+# columna `id` no se toca: el discriminante se añade solo a doc_key y doc_uri.
+# El YARRRML sigue construyendo el IRI con la plantilla $(uri_base)/$(doc_key),
+# no con el IRI completo, para no cambiar el escapado de morph-kgc.
+_grupos = {}
+_reasignados = 0
+for _idx in df.index:
+    _clave = (df.at[_idx, "uri_base"], str(df.at[_idx, "doc_id"]))
+    _previos = _grupos.setdefault(_clave, [])
+    if _previos and not any(
+        misma_obra(df.at[_idx, "title"], df.at[_idx, "abstract"],
+                   df.at[_j, "title"], df.at[_j, "abstract"])
+        for _j in _previos
+    ):
+        df.at[_idx, "doc_key"] = df.at[_idx, "doc_key"] + "-" + str(len(_previos) + 1)
+        df.at[_idx, "doc_uri"] = BASE_URI + df.at[_idx, "uri_base"] + "/" + df.at[_idx, "doc_key"]
+        _reasignados += 1
+    _previos.append(_idx)
+print(f"doc_key desambiguados (mismo id, obra distinta): {_reasignados}")
 
 df["journal_iri"] = df["issn_clean"].apply(
     lambda x: f"{BASE_URI}journal/{x}" if pd.notna(x) else None
 )
-df["sjr_slug"] = df["sjr_materia"].apply(
-    lambda x: slugify(str(x)) if pd.notna(x) else None
-)
-df["subject_iri"] = df["sjr_slug"].apply(
-    lambda x: f"{BASE_URI}subject/{x}" if pd.notna(x) else None
-)
+# --- Temas OpenAlex: multivaluados (hasta 3 por articulo, separados por ";") ---
+TOPIC_SEP = ";"
+
+def parse_topics(topics_str):
+    if pd.isna(topics_str):
+        return []
+    return [t.strip() for t in str(topics_str).split(TOPIC_SEP) if t.strip()]
+
+def topic_iri(label):
+    slug = slugify(label)
+    return f"{BASE_URI}subject/{slug}" if slug else None
 
 # --- docs.csv ---
 docs_cols = [
-    "doc_id", "doc_uri", "uri_base", "rdf_type", "title", "year_str",
+    "doc_id", "doc_key", "doc_uri", "uri_base", "rdf_type", "title", "year_str",
     "doi_clean", "issn_clean", "abstract", "url_publicacion",
-    "journal_iri", "subject_iri", "sjr_slug", "sjr_materia",
+    "journal_iri",
 ]
 docs_df = df[docs_cols].copy()
 docs_df.to_csv(DERIVED_DIR / "docs.csv", index=False)
@@ -246,9 +304,25 @@ journals_df["fuente"] = journals_df["fuente"].fillna("Unknown Journal")
 journals_df.to_csv(DERIVED_DIR / "journals.csv", index=False)
 print(f"journals.csv: {len(journals_df)} revistas únicas")
 
-# --- subjects.csv ---
-subjects_df = df[df["sjr_slug"].notna()][["sjr_slug", "sjr_materia"]].copy()
-subjects_df = subjects_df.drop_duplicates(subset="sjr_slug")
+# --- doc_topics.csv (relacion N:N documento -> tema) ---
+doc_topic_rows = []
+for _, row in df.iterrows():
+    for label in parse_topics(row["topics_openalex"]):
+        iri = topic_iri(label)
+        if iri:
+            doc_topic_rows.append({"doc_uri": row["doc_uri"], "subject_iri": iri})
+doc_topics_df = pd.DataFrame(doc_topic_rows).drop_duplicates(subset=["doc_uri", "subject_iri"])
+doc_topics_df.to_csv(DERIVED_DIR / "doc_topics.csv", index=False)
+print(f"doc_topics.csv: {len(doc_topics_df)} pares (documento, tema)")
+
+# --- subjects.csv (catalogo de temas) ---
+subject_rows = []
+for _, row in df.iterrows():
+    for label in parse_topics(row["topics_openalex"]):
+        slug = slugify(label)
+        if slug:
+            subject_rows.append({"topic_slug": slug, "topic_label": label})
+subjects_df = pd.DataFrame(subject_rows).drop_duplicates(subset="topic_slug")
 subjects_df.to_csv(DERIVED_DIR / "subjects.csv", index=False)
 print(f"subjects.csv: {len(subjects_df)} temas únicos")
 
@@ -288,10 +362,13 @@ sources:
   subjects:
     access: {DERIVED_DIR / 'subjects.csv'}
     referenceForm: csv
+  doc_topics:
+    access: {DERIVED_DIR / 'doc_topics.csv'}
+    referenceForm: csv
 mappings:
   documents:
     sources: docs
-    s: http://idearq.org/resource/$(uri_base)/$(doc_id)
+    s: http://idearq.org/resource/$(uri_base)/$(doc_key)
     po:
       - [a, $(rdf_type)~iri]
       - [dc:title, $(title)]
@@ -302,6 +379,10 @@ mappings:
       - [bibo:uri, $(url_publicacion)]
       - [dc:identifier, $(doc_id)]
       - [dc:isPartOf, $(journal_iri)~iri]
+  document_topics:
+    sources: doc_topics
+    s: $(doc_uri)
+    po:
       - [dc:subject, $(subject_iri)~iri]
   article_authors:
     sources: authors
@@ -323,10 +404,10 @@ mappings:
       - [bibo:issn, $(issn)]
   subjects:
     sources: subjects
-    s: http://idearq.org/resource/subject/$(sjr_slug)
+    s: http://idearq.org/resource/subject/$(topic_slug)
     po:
       - [a, skos:Concept]
-      - [skos:prefLabel, $(sjr_materia)]
+      - [skos:prefLabel, $(topic_label)]
 \"\"\").strip()
 
 with open(yarrrml_file, "w") as f:
@@ -486,7 +567,7 @@ print(f"  CSVs derivados: {DERIVED_DIR}/")"""),
     ]
 }
 
-output_path = "/home/raglinux/RAG/notebooks/graph/rag-graph-ontologia-mapeo.ipynb"
+output_path = Path(__file__).resolve().parent / "rag-graph-ontologia-mapeo.ipynb"
 with open(output_path, "w") as f:
     json.dump(nb, f, indent=1)
 print(f"Notebook written to {output_path}")

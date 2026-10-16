@@ -7,21 +7,24 @@ prefixes:
   idearq: http://idearq.org/resource/
 sources:
   docs:
-    access: /home/raglinux/RAG/data/biblio-graph/_derived/docs.csv
+    access: /mnt/netapp1/Store_CSIC/home/csic/usi/eag/idearq-rag/data/biblio-graph/_derived/docs.csv
     referenceForm: csv
   authors:
-    access: /home/raglinux/RAG/data/biblio-graph/_derived/authors.csv
+    access: /mnt/netapp1/Store_CSIC/home/csic/usi/eag/idearq-rag/data/biblio-graph/_derived/authors.csv
     referenceForm: csv
   journals:
-    access: /home/raglinux/RAG/data/biblio-graph/_derived/journals.csv
+    access: /mnt/netapp1/Store_CSIC/home/csic/usi/eag/idearq-rag/data/biblio-graph/_derived/journals.csv
     referenceForm: csv
   subjects:
-    access: /home/raglinux/RAG/data/biblio-graph/_derived/subjects.csv
+    access: /mnt/netapp1/Store_CSIC/home/csic/usi/eag/idearq-rag/data/biblio-graph/_derived/subjects.csv
+    referenceForm: csv
+  doc_topics:
+    access: /mnt/netapp1/Store_CSIC/home/csic/usi/eag/idearq-rag/data/biblio-graph/_derived/doc_topics.csv
     referenceForm: csv
 mappings:
   documents:
     sources: docs
-    s: http://idearq.org/resource/$(uri_base)/$(doc_id)
+    s: http://idearq.org/resource/$(uri_base)/$(doc_key)
     po:
       - [a, $(rdf_type)~iri]
       - [dc:title, $(title)]
@@ -32,6 +35,10 @@ mappings:
       - [bibo:uri, $(url_publicacion)]
       - [dc:identifier, $(doc_id)]
       - [dc:isPartOf, $(journal_iri)~iri]
+  document_topics:
+    sources: doc_topics
+    s: $(doc_uri)
+    po:
       - [dc:subject, $(subject_iri)~iri]
   article_authors:
     sources: authors
@@ -53,7 +60,7 @@ mappings:
       - [bibo:issn, $(issn)]
   subjects:
     sources: subjects
-    s: http://idearq.org/resource/subject/$(sjr_slug)
+    s: http://idearq.org/resource/subject/$(topic_slug)
     po:
       - [a, skos:Concept]
-      - [skos:prefLabel, $(sjr_materia)]
+      - [skos:prefLabel, $(topic_label)]

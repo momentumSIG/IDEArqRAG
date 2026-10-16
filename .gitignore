@@ -156,6 +156,7 @@ activemq-data/
 # Environments
 .envrc
 .venv
+.venv-graph
 env/
 venv/
 ENV/
@@ -209,3 +210,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Gentle AI
+.atl/
