@@ -1,0 +1,349 @@
+{
+  "graph": "/mnt/netapp1/Store_CSIC/home/csic/usi/eag/idearq-rag/data/biblio-graph/idearq-graph-instances-dedup-v2.nt",
+  "triples": 16357,
+  "collection": "IdearqMiniLM_800_50_v2",
+  "embedding": "all-MiniLM-L6-v2",
+  "alpha": 0.5,
+  "k": 10,
+  "llm": "Qwen3-4B-Instruct-2507",
+  "temperature": 0.5,
+  "weaviate_url": "http://c201-20:8080",
+  "ollama_url": "http://c201-20:11434",
+  "probe_self_check": {
+    "ok": true,
+    "detail": "window='Reunión Científica Arqueología Albacete Científica Arqueología' -> ['AND: 50 returned, 50 hold it']"
+  },
+  "corpus": "/mnt/lustre/scratch/nlsas/home/csic/usi/eag/idearq-rag/pdftext",
+  "corpus_hits": {
+    "0066-6742": 0,
+    "00666742": 0,
+    "10.1201/b16983-12": 0,
+    "10.34780/mm.v57i0.1003": 0,
+    "2003": 11064,
+    "Anne Meulengracht": 0,
+    "Barbara Lawn": 0,
+    "Book": 701,
+    "Patrick McGovern": 0,
+    "Secuencias de cambio social en una región mediterránea": 0
+  },
+  "elapsed_s": 451.37,
+  "summary": {
+    "graph_passed": 5,
+    "graph_total": 5,
+    "literal_in_index": 2,
+    "literal_in_context": 0,
+    "literal_in_answer": 0,
+    "questions": 5
+  },
+  "rows": [
+    {
+      "id": "Q1",
+      "topic": "authorship",
+      "question": "Who are the authors recorded by the graph for 'University of Pennsylvania radiocarbon dates XXI'?",
+      "expected": [
+        "Anne Meulengracht",
+        "Barbara Lawn",
+        "Patrick McGovern"
+      ],
+      "graph_ok": true,
+      "graph_got": [
+        "Anne Meulengracht",
+        "Barbara Lawn",
+        "Patrick McGovern"
+      ],
+      "literals": [
+        {
+          "literal": "Anne Meulengracht",
+          "found": false,
+          "hits": [],
+          "attempts": [
+            "AND: 0 returned, 0 hold it",
+            "OR: 8 returned, 0 hold it"
+          ],
+          "in_context": false,
+          "in_answer": false,
+          "corpus_hits": 0
+        },
+        {
+          "literal": "Barbara Lawn",
+          "found": false,
+          "hits": [],
+          "attempts": [
+            "AND: 0 returned, 0 hold it",
+            "OR: 25 returned, 0 hold it"
+          ],
+          "in_context": false,
+          "in_answer": false,
+          "corpus_hits": 0
+        },
+        {
+          "literal": "Patrick McGovern",
+          "found": false,
+          "hits": [],
+          "attempts": [
+            "AND: 0 returned, 0 hold it",
+            "OR: 13 returned, 0 hold it"
+          ],
+          "in_context": false,
+          "in_answer": false,
+          "corpus_hits": 0
+        }
+      ],
+      "n_docs": 10,
+      "filenames": [
+        "1002_gibaja2016.pdf",
+        "1117_nueva serie de dataciones_2020.pdf",
+        "799_2012.pdf",
+        "984_DemografiayPoblamiento_2016.pdf",
+        "1035_Chronological reassessment of the middle to upper paleolithic_2018.pdf",
+        "1059_Archaeometry - Higham - Radiocarbon Dates from the Oxford AMS System  Archaeometry Datelist 36_2018.pdf",
+        "750_2011.pdf",
+        "947_Baylissetal2016Montelirio.pdf",
+        "1058_Nuevos datos cronologicos cueva sepulcral neolotica_2018.pdf",
+        "703_2009.pdf"
+      ],
+      "answer": "No consta en el contexto.",
+      "error": null,
+      "any_in_context": false,
+      "any_in_answer": false,
+      "any_in_index": false
+    },
+    {
+      "id": "Q2",
+      "topic": "publication-year",
+      "question": "In which year was the book 'Secuencias de cambio social en una región mediterránea...' published?",
+      "expected": [
+        "2003"
+      ],
+      "graph_ok": true,
+      "graph_got": [
+        "2003"
+      ],
+      "literals": [
+        {
+          "literal": "2003",
+          "found": true,
+          "hits": [
+            {
+              "filename": "759_2011.pdf",
+              "score": 2.3559861183166504
+            },
+            {
+              "filename": "727_2010_TIT_Velasquez.pdf",
+              "score": 2.293353796005249
+            },
+            {
+              "filename": "727_2010_TIT_Velasquez.pdf",
+              "score": 2.2198569774627686
+            }
+          ],
+          "attempts": [
+            "AND: 50 returned, 50 hold it"
+          ],
+          "in_context": false,
+          "in_answer": false,
+          "corpus_hits": 11064
+        },
+        {
+          "literal": "Secuencias de cambio social en una región mediterránea",
+          "found": false,
+          "hits": [],
+          "attempts": [
+            "AND: 0 returned, 0 hold it",
+            "OR: 50 returned, 0 hold it"
+          ],
+          "in_context": false,
+          "in_answer": false,
+          "corpus_hits": 0
+        }
+      ],
+      "n_docs": 10,
+      "filenames": [
+        "793_2012.pdf",
+        "1120_Prospecciones arqueologicas_2020.pdf",
+        "586_2005.pdf",
+        "654_2008.pdf",
+        "675_2008.pdf",
+        "695_2009.pdf",
+        "852_2014.pdf",
+        "1144_Secuencias cronologicas_2021.pdf",
+        "684_2009.pdf",
+        "1174_Aproximaciones bayesianas_2023.pdf"
+      ],
+      "answer": "No consta en el contexto.",
+      "error": null,
+      "any_in_context": false,
+      "any_in_answer": false,
+      "any_in_index": true
+    },
+    {
+      "id": "Q3",
+      "topic": "journal-ISSN",
+      "question": "What is the ISSN of the journal that published 'El Sistema Defensivo del Castro de La Ulaña'?",
+      "expected": [
+        "0066-6742"
+      ],
+      "graph_ok": true,
+      "graph_got": [
+        "0066-6742"
+      ],
+      "literals": [
+        {
+          "literal": "0066-6742",
+          "found": false,
+          "hits": [],
+          "attempts": [
+            "AND: 21 returned, 0 hold it",
+            "OR: 24 returned, 0 hold it"
+          ],
+          "in_context": false,
+          "in_answer": false,
+          "corpus_hits": 0
+        },
+        {
+          "literal": "00666742",
+          "found": false,
+          "hits": [],
+          "attempts": [
+            "AND: 0 returned, 0 hold it",
+            "OR: 0 returned, 0 hold it"
+          ],
+          "in_context": false,
+          "in_answer": false,
+          "corpus_hits": 0
+        }
+      ],
+      "n_docs": 10,
+      "filenames": [
+        "c14_v2.geojson",
+        "c14_v2.geojson",
+        "651_2008.pdf",
+        "c14_v2.geojson",
+        "c14_v2.geojson",
+        "935_Acequion_2016.pdf",
+        "898_Yacimiento de Santa Comba _2015.pdf",
+        "935_Acequion_2016.pdf",
+        "817_2013.pdf",
+        "935_Acequion_2016.pdf"
+      ],
+      "answer": "No consta en el contexto.",
+      "error": null,
+      "any_in_context": false,
+      "any_in_answer": false,
+      "any_in_index": false
+    },
+    {
+      "id": "Q4",
+      "topic": "DOI",
+      "question": "What is the DOI of 'Elfenbeinwerkstätten in Huelva und La Rebanadilla (Málaga)...'?",
+      "expected": [
+        "10.34780/mm.v57i0.1003"
+      ],
+      "graph_ok": true,
+      "graph_got": [
+        "10.34780/mm.v57i0.1003"
+      ],
+      "literals": [
+        {
+          "literal": "10.34780/mm.v57i0.1003",
+          "found": false,
+          "hits": [],
+          "attempts": [
+            "AND: 0 returned, 0 hold it",
+            "OR: 50 returned, 0 hold it"
+          ],
+          "in_context": false,
+          "in_answer": false,
+          "corpus_hits": 0
+        }
+      ],
+      "n_docs": 10,
+      "filenames": [
+        "c14_v2.geojson",
+        "c14_v2.geojson",
+        "1108_Cronologia fundacional Malaka fenicia_2020.pdf",
+        "945_ColonizacionFenicia_LopezCastro_2016.pdf",
+        "604_2005.pdf",
+        "819_2013.pdf",
+        "c14_v2.geojson",
+        "c14_v2.geojson",
+        "c14_v2.geojson",
+        "c14_v2.geojson"
+      ],
+      "answer": "No consta en el contexto.",
+      "error": null,
+      "any_in_context": false,
+      "any_in_answer": false,
+      "any_in_index": false
+    },
+    {
+      "id": "Q5",
+      "topic": "instance-type",
+      "question": "Which BIBO type does the graph assign to 'A Neolithic Case of Cranial Trepanation (Eira Pedrinha, Portugal)'?",
+      "expected": [
+        "Book"
+      ],
+      "graph_ok": true,
+      "graph_got": [
+        "http://purl.org/ontology/bibo/Book"
+      ],
+      "literals": [
+        {
+          "literal": "Book",
+          "found": true,
+          "hits": [
+            {
+              "filename": "967_PrietoMartinez_2016.pdf",
+              "score": 4.937390327453613
+            },
+            {
+              "filename": "1090_Case Asturias_2019.pdf",
+              "score": 4.609085559844971
+            },
+            {
+              "filename": "586_2005.pdf",
+              "score": 4.60575532913208
+            }
+          ],
+          "attempts": [
+            "AND: 50 returned, 50 hold it"
+          ],
+          "in_context": false,
+          "in_answer": false,
+          "corpus_hits": 701
+        },
+        {
+          "literal": "10.1201/b16983-12",
+          "found": false,
+          "hits": [],
+          "attempts": [
+            "AND: 0 returned, 0 hold it",
+            "OR: 50 returned, 0 hold it"
+          ],
+          "in_context": false,
+          "in_answer": false,
+          "corpus_hits": 0
+        }
+      ],
+      "n_docs": 10,
+      "filenames": [
+        "1058_Nuevos datos cronologicos cueva sepulcral neolotica_2018.pdf",
+        "c14_v2.geojson",
+        "c14_v2.geojson",
+        "1011_Neolothic ditched_2017.pdf",
+        "1168_The mesolithic of atlantic coastal spain_2022.pdf",
+        "1063_Tracing the chronology_2018.pdf",
+        "680_2009.pdf",
+        "678_2009_1.pdf",
+        "744_2010_Llorente2010-TheharesfromCovaFosca-.pdf",
+        "1168_The mesolithic of atlantic coastal spain_2022.pdf"
+      ],
+      "answer": "No consta en el contexto.",
+      "error": null,
+      "any_in_context": false,
+      "any_in_answer": false,
+      "any_in_index": true
+    }
+  ],
+  "errors": []
+}
