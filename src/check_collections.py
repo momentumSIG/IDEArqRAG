@@ -14,10 +14,11 @@ load_dotenv(PROJECT_ROOT / ".env", override=True)
 
 import weaviate
 from src.config import WEAVIATE_URL, EMBEDDINGS, collection_name
+from src.weaviate_conn import connect_weaviate
 
 # Conectar a Weaviate
 host = WEAVIATE_URL.replace("http://", "").replace("https://", "").split(":")[0]
-w_client = weaviate.connect_to_local(host=host, port=8080, grpc_port=50051)
+w_client = connect_weaviate()
 
 print("="*60)
 print("Colecciones en Weaviate")

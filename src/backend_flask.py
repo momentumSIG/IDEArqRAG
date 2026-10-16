@@ -38,6 +38,8 @@ from ragas import metrics
 
 # Import shared config
 from src.config import WEAVIATE_URL, collection_name, RESULTS_DIR
+from src.prompts_loader import load_prompts
+from src.weaviate_conn import connect_weaviate
 
 # Load environment variables
 load_dotenv(override=True)
@@ -72,81 +74,8 @@ class Config:
         'gte-multilingual-base': collection_name('gte-multilingual-base'),
     }
     
-    # Prompt templates
-    PROMPTS = {
-        'prompt_zero_shot': ChatPromptTemplate.from_template(
-            """Eres un asistente experto en arqueología, historia y sistemas de información geográfica. Responde la pregunta usando los contextos proporcionados, que pueden estar en español, inglés, francés, catalán o portugués.
-Sintetiza información de todos los contextos relevantes independientemente de su idioma. Si encuentras información relevante en cualquier idioma, úsala para construir tu respuesta en el mismo idioma en el que se realiza la pregunta.
-
-Contexto: {context}
-
-Pregunta: {question}
-
-Instrucciones:
-- Si encuentras información parcial en el contexto, intégrala en la respuesta aunque no sea completa.
-- Si no hay absolutamente nada relevante, responde claramente: "No hay información suficiente en el contexto".
-- NO INVENTES NI ALUCINES INFORMACIÓN.
-- Cuando sea posible, cita explícitamente los puntos clave del contexto (ej. autores, años, títulos de publicaciones, yacimientos, cronologías, dataciones, coordenadas).
-- Haz cálculos utilizando la distancia euclidiana, después transforma los grados a kilómetros y proporciona los nombres de los yacimientos.
-- Responde siempre de forma clara, estructurada y útil para un investigador.
-
-Basándote en la información anterior y en tu conocimiento sobre arqueología y sistemas de información geográfica, responde: 
-
-Respuesta:"""
-        ),
-
-        'prompt_one_shot': ChatPromptTemplate.from_template(
-            """Eres un asistente experto en arqueología, historia y sistemas de información geográfica. Responde la pregunta usando los contextos proporcionados, que pueden estar en español, inglés, francés, catalán o portugués.
-Sintetiza información de todos los contextos relevantes independientemente de su idioma. Si encuentras información relevante en cualquier idioma, úsala para construir tu respuesta en el mismo idioma en el que se realiza la pregunta.
-
-Contexto: {context}
-
-Pregunta: {question}
-
-Instrucciones:
-- Si encuentras información parcial en el contexto, intégrala en la respuesta aunque no sea completa.
-- Si no hay absolutamente nada relevante, responde claramente: "No hay información suficiente en el contexto".
-- NO INVENTES NI ALUCINES INFORMACIÓN.
-- Cuando sea posible, cita explícitamente los puntos clave del contexto (ej. autores, años, títulos de publicaciones, yacimientos, cronologías, dataciones, coordenadas).
-- Haz cálculos utilizando la distancia euclidiana, después transforma los grados a kilómetros y proporciona los nombres de los yacimientos.
-- Responde siempre de forma clara, estructurada y útil para un investigador.
-
-Ejemplo:
-Q: ¿Cuál es la utilidad de los análisis de isótopos de estroncio en Arqueología?
-A: El tema del desplazamiento, la movilidad y la migración ha sido altamente destacado como uno de los cinco grandes retos de la investigación arqueológica contemporánea. El uso del análisis de isótopos de estroncio es hoy en día uno de los métodos más eficaces para afrontar este reto, ofreciendo un enfoque sistemático, cuantitativo y comparable a la movilidad de las poblaciones humanas y animales del pasado (Larsen 2018).
-
-Basándote en la información anterior y en tu conocimiento sobre arqueología y sistemas de información geográfica, responde: 
-
-Respuesta:"""
-        ),
-
-        'prompt_few_shot': ChatPromptTemplate.from_template(
-            """Eres un asistente experto en arqueología, historia y sistemas de información geográfica. Responde la pregunta usando los contextos proporcionados, que pueden estar en español, inglés, francés, catalán o portugués.
-Sintetiza información de todos los contextos relevantes independientemente de su idioma. Si encuentras información relevante en cualquier idioma, úsala para construir tu respuesta en el mismo idioma en el que se realiza la pregunta.
-Contexto: {context}
-
-Pregunta: {question}
-
-Instrucciones:
-- Si encuentras información parcial en el contexto, intégrala en la respuesta aunque no sea completa.
-- Si no hay absolutamente nada relevante, responde claramente: "No hay información suficiente en el contexto".
-- NO INVENTES NI ALUCINES INFORMACIÓN.
-- Cuando sea posible, cita explícitamente los puntos clave del contexto (ej. autores, años, títulos de publicaciones, yacimientos, cronologías, dataciones, coordenadas).
-- Haz cálculos utilizando la distancia euclidiana, después transforma los grados a kilómetros y proporciona los nombres de los yacimientos.
-- Responde siempre de forma clara, estructurada y útil para un investigador.
-
-Ejemplos:
-Q: ¿Cuál es la utilidad de los análisis de isótopos de estroncio en Arqueología?
-A: El tema del desplazamiento, la movilidad y la migración ha sido altamente destacado como uno de los cinco grandes retos de la investigación arqueológica contemporánea. El uso del análisis de isótopos de estroncio es hoy en día uno de los métodos más eficaces para afrontar este reto, ofreciendo un enfoque sistemático, cuantitativo y comparable a la movilidad de las poblaciones humanas y animales del pasado (Larsen 2018).
-
-Q: ¿Cuáles son las características de la distribución geográfica de la muestra disponible de análisis de isótopos de estroncio en la Península Ibérica?
-A: La distribución de la muestra es variable y discontinua, con concentraciones asociadas a focos de investigación específicos (p. ej., Lisboa, valle del Ebro). La cobertura es irregular tanto geográfica como cronológicamente, lo que dificulta los estudios a escala ibérica para la mayoría de los periodos, a excepción de la Edad del Cobre (764 muestras). La escasez de datos es crítica en algunas épocas, como el Mesolítico, que cuenta con una única muestra. 
-
-Basándote en la información anterior y en tu conocimiento sobre arqueología y sistemas de información geográfica, responde: 
-
-Respuesta:"""
-        ),
-    }
+    # Prompt templates (frozen single source of truth: data/prompts.json)
+    PROMPTS = load_prompts()
     
     def __init__(self):
         """Initialize configuration and create necessary directories."""
@@ -290,26 +219,13 @@ class ModelManager:
     def _initialize_weaviate_client(self) -> None:
         """Initialize Weaviate vector database client."""
         try:
-            # Use Weaviate v4 client
+            # Use Weaviate v4 client via the host-agnostic connector
             if config.WEAVIATE_API_KEY:
-                self.weaviate_client = weaviate.connect_to_local(
-                    host=config.WEAVIATE_URL.replace('http://', '').replace('https://', ''),
+                self.weaviate_client = connect_weaviate(
                     headers={"X-Weaviate-Api-Key": config.WEAVIATE_API_KEY}
                 )
             else:
-                # Extract host from URL for v4 client
-                host = config.WEAVIATE_URL.replace('http://', '').replace('https://', '')
-                if ':' in host:
-                    host_part, port_part = host.split(':')
-                    port = int(port_part)
-                else:
-                    host_part = host
-                    port = 8080
-
-                self.weaviate_client = weaviate.connect_to_local(
-                    host=host_part,
-                    port=port
-                )
+                self.weaviate_client = connect_weaviate()
             logging.info(f"Weaviate client connected to {config.WEAVIATE_URL}")
         except Exception as e:
             logging.error(f"Failed to initialize Weaviate client: {e}")

@@ -41,7 +41,7 @@ def collection_name(embedding_key: str) -> str:
     key_map = {
         "all-MiniLM-L6-v2": "MiniLM",
         "gte-multilingual-base": "GTE",
-        "e5-large-instruct": "E5",
+        #"e5-large-instruct": "e5largeinstruct",
     }
     key = key_map.get(embedding_key, embedding_key.replace("-", ""))
     return f"Idearq{key}_{CHUNK_SIZE}_{CHUNK_OVERLAP}_v2"
@@ -65,6 +65,19 @@ INDEX_PROPERTIES = [
 
 # ── Full schema (PDFs + GeoJSON in same collection) ──────────────────────────
 # GeoJSON docs have these extra props; PDFs leave them null.
+#
+# bp_values / dataciones_c_14 close the "filter by a concrete C14 date" gap
+# (e.g. "does Valencina hold 1377±23?"). bp_max alone cannot answer that: it
+# holds only the OLDEST date of the site.
+#
+# Re-vectorization risk: none. IdearqMiniLM_800_50_v2 (and every other Idearq
+# collection) runs with `vectorizer: none`, so Weaviate never embeds anything;
+# vectors are supplied by the client and a property PATCH leaves them untouched
+# (verified before/after backfill, see docs/dataciones-property.md).
+#
+# BM25 risk: dataciones_c_14 is declared with indexSearchable=False on purpose,
+# so the extra text never enters the lexical index and hybrid/BM25 ranking is
+# bit-for-bit unchanged. It stays filterable (Equal/Like) via indexFilterable.
 INDEX_PROPERTIES_FULL = INDEX_PROPERTIES + [
     ("lat", "NUMBER"),
     ("lon", "NUMBER"),
@@ -77,18 +90,20 @@ INDEX_PROPERTIES_FULL = INDEX_PROPERTIES + [
     ("yacimiento_id", "INT"),
     ("yacimiento_nombre", "TEXT"),
     ("unidad_territorial", "TEXT"),
+    ("bp_values", "NUMBER_ARRAY"),       # every B.P. age of the site (filterable)
+    ("dataciones_c_14", "TEXT"),         # raw date strings (filterable, not BM25)
 ]
 
 # ── LLMs (3 modelos small via Ollama) ────────────────────────────────────────
 LLMS = {
-    "Phi-3.5-mini": "hf.co/unsloth/Phi-4-mini-instruct-GGUF:Q8_0",
+    "Phi-4-mini": "hf.co/unsloth/Phi-4-mini-instruct-GGUF:Q8_0",
     "Qwen3-4B-Instruct-2507": "hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF:Q8_0",
     "Llama-3.2-3B-Instruct": "hf.co/unsloth/Llama-3.2-3B-Instruct-GGUF:Q8_0",
 }
 LLM_TEMPERATURES = [0.3, 0.5, 0.7]
 
 # ── Langfuse ─────────────────────────────────────────────────────────────────
-LANGFUSE_DATASET_NAME = "RAG-IDEArq-eval-v3-SIMPLE"
+LANGFUSE_DATASET_NAME = "RAG-IDEArq-eval-v3-COMPLEX"
 LANGFUSE_BASE_URL = os.getenv("LANGFUSE_BASE_URL", "http://localhost:4000")
 PROMPT_NAMES = {
     "zero_shot": "prompt_zero_shot",
@@ -97,12 +112,12 @@ PROMPT_NAMES = {
 }
 
 # ── RAGAS ────────────────────────────────────────────────────────────────────
-RAGAS_JUDGE = "mistral-small-latest"
+RAGAS_JUDGE = "hf.co/unsloth/Qwen3-14B-GGUF:Q6_K"  # local Ollama judge (Qwen3-14B Q6_K)
 RAGAS_METRICS = ["faithfulness", "context_precision", "context_recall", "answer_correctness"]
 
 # ── Reranking ─────────────────────────────────────────────────────────────────
 RERANKING_CONFIG = {
-    "enabled": False,  # Empezar en False para ver baseline
+    "enabled": True,  # Phase 2: reranking activado
     "model": "BAAI/bge-reranker-v2-m3",  # Multilingüe (100+ idiomas)
     "k_retrieval": 10,  # Docs a traer antes de rerank
     "top_n": 5,  # Docs a quedarse después de rerank

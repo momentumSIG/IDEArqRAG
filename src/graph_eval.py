@@ -13,7 +13,7 @@ Usage from notebook:
     result = graph.invoke({
         "question": "...",
         "embedding_key": "all-MiniLM-L6-v2",
-        "llm_name": "Phi-3.5-mini",
+        "llm_name": "Phi-4-mini",
         "prompt_key": "zero_shot",
         ...
     })
@@ -45,6 +45,7 @@ from src.config import (
 )
 from src.reranker import rerank_documents
 from src.langfuse_monitor import get_callback, get_prompt, score_trace
+from src.weaviate_conn import connect_weaviate
 
 import torch
 import weaviate
@@ -62,7 +63,7 @@ class EvalState(TypedDict, total=False):
     # Inputs (parámetros dinámicos)
     question: str
     embedding_key: str        # "all-MiniLM-L6-v2", "gte-multilingual-base", "e5-large-instruct"
-    llm_name: str             # "Phi-3.5-mini", "Qwen3-4B-Instruct-2507", "Llama-3.2-3B-Instruct"
+    llm_name: str             # "Phi-4-mini", "Qwen3-4B-Instruct-2507", "Llama-3.2-3B-Instruct"
     prompt_key: str           # "zero_shot", "one_shot", "few_shot"
     temperature: float        # 0.3, 0.5, 0.7
     use_rerank: bool          # True/False
@@ -92,10 +93,7 @@ def _ensure_resources():
     _RESOURCES_LOADED = True
 
     # Weaviate client
-    host = WEAVIATE_URL.replace("http://", "").replace("https://", "").split(":")[0]
-    _RESOURCES["w_client"] = weaviate.connect_to_local(
-        host=host, port=8080, grpc_port=50051,
-    )
+    _RESOURCES["w_client"] = connect_weaviate()
     logging.info("Weaviate client connected")
 
     # Embedding models
@@ -196,7 +194,7 @@ def node_generate(state: EvalState) -> dict:
     prompt_key = state.get("prompt_key", "zero_shot")
     prompt_template = get_prompt(prompt_key)
 
-    llm_name = state.get("llm_name", "Phi-3.5-mini")
+    llm_name = state.get("llm_name", "Phi-4-mini")
     temp = state.get("temperature", 0.3)
     llm_key = f"{llm_name}_t{temp}"
 

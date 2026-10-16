@@ -10,21 +10,99 @@ from langfuse.langchain import CallbackHandler
 
 load_dotenv()
 
+# Prompt source: "local" (default, frozen data/prompts.json) or "langfuse".
+# Any other value behaves as "local".
+PROMPT_SOURCE = os.getenv("PROMPT_SOURCE", "local").strip().lower()
+
 _LANGFUSE_URL = os.getenv("LANGFUSE_BASE_URL", "http://localhost:4000")
 _LANGFUSE_PUBLIC_KEY = os.getenv("LANGFUSE_PUBLIC_KEY")
 _LANGFUSE_SECRET_KEY = os.getenv("LANGFUSE_SECRET_KEY")
 
 _auth = HTTPBasicAuth(_LANGFUSE_PUBLIC_KEY, _LANGFUSE_SECRET_KEY)
 
-# Langfuse client
-langfuse_client = Langfuse(
-    secret_key=_LANGFUSE_SECRET_KEY,
-    public_key=_LANGFUSE_PUBLIC_KEY,
-    host=_LANGFUSE_URL,
-)
+# Module-level cache so the Langfuse health probe runs at most once per process.
+_langfuse_reachable_cached = None
 
-# Global CallbackHandler for automatic LangChain tracing
-langfuse_handler = CallbackHandler()
+
+def _langfuse_reachable(timeout: float = 1.5) -> bool:
+    """Return True if the Langfuse health endpoint answers 2xx.
+
+    The first probe result is cached at module level. Any exception or
+    non-2xx response counts as unreachable (returns False).
+    """
+    global _langfuse_reachable_cached
+    if _langfuse_reachable_cached is not None:
+        return _langfuse_reachable_cached
+    try:
+        from src import config
+
+        base = str(config.LANGFUSE_BASE_URL).rstrip("/")
+        resp = requests.get(f"{base}/api/public/health", timeout=timeout)
+        reachable = 200 <= resp.status_code < 300
+    except Exception:
+        reachable = False
+    _langfuse_reachable_cached = reachable
+    return reachable
+
+
+try:
+    from langchain_core.callbacks.base import BaseCallbackHandler
+
+    class _NoopCallback(BaseCallbackHandler):
+        """No-op LangChain callback handler used when Langfuse is unavailable."""
+
+except Exception:  # langchain_core unavailable: never fail the import
+
+    class _NoopCallback:
+        """Fallback no-op handler when langchain_core is unavailable."""
+
+        def on_llm_start(self, *args, **kwargs):
+            return None
+
+        def on_llm_new_token(self, *args, **kwargs):
+            return None
+
+        def on_llm_end(self, *args, **kwargs):
+            return None
+
+        def on_llm_error(self, *args, **kwargs):
+            return None
+
+        def on_chain_start(self, *args, **kwargs):
+            return None
+
+        def on_chain_end(self, *args, **kwargs):
+            return None
+
+        def on_chain_error(self, *args, **kwargs):
+            return None
+
+        def on_tool_start(self, *args, **kwargs):
+            return None
+
+        def on_tool_end(self, *args, **kwargs):
+            return None
+
+        def on_tool_error(self, *args, **kwargs):
+            return None
+
+
+# Langfuse client: None when Langfuse is unreachable or construction fails.
+try:
+    langfuse_client = Langfuse(
+        secret_key=_LANGFUSE_SECRET_KEY,
+        public_key=_LANGFUSE_PUBLIC_KEY,
+        host=_LANGFUSE_URL,
+    ) if _langfuse_reachable() else None
+except Exception:
+    langfuse_client = None
+
+# Global CallbackHandler for automatic LangChain tracing.
+# Falls back to a no-op handler so importing this module never fails.
+try:
+    langfuse_handler = CallbackHandler() if _langfuse_reachable() else _NoopCallback()
+except Exception:
+    langfuse_handler = _NoopCallback()
 
 
 def get_callback(session_id=None, tags=None, trace_id=None, input_data=None, output_data=None):
@@ -145,10 +223,22 @@ def score_trace(trace_id, name, value):
 
 
 def get_prompt(prompt_key: str):
-    """Read prompt from Langfuse SDK (still works for prompts)."""
+    """Return the prompt template for ``prompt_key``.
+
+    With PROMPT_SOURCE=local (default, or any other unrecognized value) the
+    frozen template from data/prompts.json is returned with no network call.
+    With PROMPT_SOURCE=langfuse the prompt is fetched from Langfuse; if the
+    fetch fails, one warning is logged and the local template is returned.
+    """
     from src.config import PROMPT_NAMES
-    
-    name = PROMPT_NAMES[prompt_key]
+    from src.prompts_loader import get_local_prompt
+
+    # Accept both short keys ("zero_shot") and full artifact names.
+    name = PROMPT_NAMES.get(prompt_key, prompt_key)
+
+    if PROMPT_SOURCE != "langfuse":
+        return get_local_prompt(name)
+
     try:
         prompt = langfuse_client.get_prompt(name=name, type="chat")
         return prompt
@@ -156,8 +246,12 @@ def get_prompt(prompt_key: str):
         try:
             prompt = langfuse_client.get_prompt(name=name, type="text")
             return prompt
-        except Exception:
-            raise
+        except Exception as exc:
+            print(
+                f"[Langfuse] Warning: prompt fetch failed for {name!r}; "
+                f"falling back to local prompt: {exc}"
+            )
+            return get_local_prompt(name)
 
 
 def get_or_create_dataset_v3(questions, ground_truths, sources=None):
@@ -183,7 +277,7 @@ def get_or_create_dataset_v3(questions, ground_truths, sources=None):
             auth=_auth,
             json={
                 "name": LANGFUSE_DATASET_NAME,
-                "description": "IDEArq RAG eval v3 — 30 preguntas (15 simples + 15 complejas)",
+                "description": "IDEArq RAG eval v3 — 32 preguntas (17 simples + 15 complejas)",
             },
             timeout=10,
         )

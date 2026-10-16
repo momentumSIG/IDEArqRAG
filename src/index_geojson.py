@@ -23,6 +23,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.config import EMBEDDINGS, collection_name, GEOJSON_DIR, INDEX_PROPERTIES_FULL
+from src.weaviate_conn import connect_weaviate
 
 import torch
 import weaviate
@@ -296,11 +297,7 @@ def main():
     print("="*60)
 
     # Connect to Weaviate
-    w_client = weaviate.connect_to_local(
-        host="localhost",
-        port=8080,
-        grpc_port=50051,
-    )
+    w_client = connect_weaviate()
     print(f"\nWeaviate: {w_client.is_ready()}")
     print(f"Existing collections: {list(w_client.collections.list_all().keys())}")
 

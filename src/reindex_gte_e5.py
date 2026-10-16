@@ -24,6 +24,7 @@ from src.config import (
     WEAVIATE_URL, EMBEDDINGS, collection_name, INDEX_PROPERTIES_FULL,
     INGESTA_DIR,
 )
+from src.weaviate_conn import connect_weaviate
 
 import torch
 import weaviate
@@ -61,17 +62,39 @@ def safe_empty_cache():
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
 
-def extract_year(text: str) -> Optional[int]:
-    match = re.search(r'\b(19|20)\d{2}\b', text[:3000])
+def _strip_rg_cover(text: str) -> str:
+    """Drop the ResearchGate cover sheet glued to the front of many PDFs.
+
+    It is English boilerplate and is what put year=1990 / language='en' on
+    Spanish papers: the first 3000 chars are the cover, not the article.
+    """
+    marker = "All content following this page"
+    pos = text.find(marker)
+    if pos != -1:
+        return text[pos + len(marker):]
+    return text
+
+
+def extract_year(text: str, filename: str = "") -> Optional[int]:
+    """Publication year. The corpus filename convention (_YYYY) wins, because
+    the first year found in the text is usually a citation or the cover date."""
+    if filename:
+        m = re.search(r'_(\d{4})(?:\D|$)', filename)
+        if m:
+            return int(m.group(1))
+    body = _strip_rg_cover(text)
+    match = re.search(r'\b(19|20)\d{2}\b', body[:6000])
     return int(match.group()) if match else None
+
 
 def extract_doi(text: str) -> Optional[str]:
     match = re.search(r'10\.\d{4,9}/[-._;()/:A-Z0-9]+', text[:3000], re.IGNORECASE)
     return match.group() if match else None
 
 def detect_language(text: str) -> str:
+    body = _strip_rg_cover(text)
     try:
-        return detect(text[:1000])
+        return detect(body[:4000])
     except Exception:
         return "unknown"
 
@@ -120,7 +143,7 @@ def extract_metadata(pdf_path: Path, page_text: str, fitz_doc) -> Dict[str, Any]
 
     return {
         'title': doc_title,
-        'year': extract_year(page_text),
+        'year': extract_year(page_text, pdf_path.name),
         'doi': extract_doi(page_text),
         'authors': extract_authors_heuristic(page_text),
         'language': detect_language(page_text),
@@ -220,6 +243,7 @@ DATA_TYPE_MAP = {
     "INT": DataType.INT,
     "NUMBER": DataType.NUMBER,
     "BOOL": DataType.BOOL,
+    "NUMBER_ARRAY": DataType.NUMBER_ARRAY,   # bp_values: number[] filter column
 }
 
 def create_collection(w_client, name: str) -> None:
@@ -280,8 +304,7 @@ def main():
     print("="*60)
 
     # Connect to Weaviate
-    host = WEAVIATE_URL.replace("http://", "").replace("https://", "").split(":")[0]
-    w_client = weaviate.connect_to_local(host=host, port=8080, grpc_port=50051)
+    w_client = connect_weaviate()
     print(f"\nWeaviate connected: {w_client.is_ready()}")
     print(f"Existing collections: {list(w_client.collections.list_all().keys())}")
 
