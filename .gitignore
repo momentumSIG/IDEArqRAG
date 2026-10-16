@@ -21,6 +21,26 @@ lda/outputs/papers_topics_v2.csv
 logs/
 *.log
 
+# Datos y entornos locales del despliegue (GBs, no versionados)
+ollama/
+huggingface/
+vectordb/
+node_modules/
+.engram/
+
+# Estado local de Weaviate (schema, modulos, raft, marcadores de migracion)
+data/*.db
+data/raft/
+data/migration1.*
+
+# Paquetes y contenedores descargados
+*.sif
+*.tar
+*.tar.gz
+
+# Backups locales de datos (p.ej. referencias_clean.csv.bak-20261016-125925)
+*.bak-*
+
 # OS
 .DS_Store
 *.Zone.Identifier
